@@ -32,7 +32,7 @@
           <div class="card-body">
             <h2 class="mb-5 text-center">Register Here</h2>
             <div class="mb-3">
-              <label class="form-label">Name</label>
+              <label class="form-label">Full Name :</label>
                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" placeholder="Enter Name" value="{{ old('name') }}" required autocomplete="name" autofocus>
                 @error('name')
                     <span class="invalid-feedback" role="alert">
@@ -41,9 +41,23 @@
                 @enderror
             </div>
             <div class="mb-3">
-              <label class="form-label">City</label>
+              <label class="form-label">Your City :</label>
                 <input id="city" type="text" class="form-control @error('city') is-invalid @enderror" name="city" placeholder="Enter City" value="{{ old('city') }}" required autocomplete="city" autofocus>
                 @error('city')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Select Gender :</label>
+              <select class="form-label form-control">
+                <option class="form-control" value="">-- Select gender --</option>
+                <option class="form-control" value="1">Male</option>
+                <option class="form-control" value="2">Female</option>
+                <option class="form-control" value="0">Others</option>
+              </select>
+                @error('gender')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>

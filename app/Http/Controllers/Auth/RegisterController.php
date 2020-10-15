@@ -8,6 +8,7 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
@@ -29,7 +30,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo;
 
     /**
      * Create a new controller instance.
@@ -38,6 +39,18 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
+        if(Auth::check() && Auth::user()->role->id == 1)
+        {
+            $this->redirectTo = route('admin.dashboard');
+        } elseif(Auth::check() && Auth::user()->role->id == 2)
+        {
+            $this->redirectTo = route('doctor.dashboard');
+        } elseif(Auth::check() && Auth::user()->role->id == 3)
+        {
+            $this->redirectTo = route('hospital.dashboard');
+        } else {
+            $this->redirectTo = route('user.dashboard');
+        }
         $this->middleware('guest');
     }
 
