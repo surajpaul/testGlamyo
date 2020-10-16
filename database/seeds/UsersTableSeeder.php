@@ -20,7 +20,6 @@ class UsersTableSeeder extends Seeder
                     [
                     	'role_id' => 1,
                         'name' => 'Admin',
-                        'gender'=> 1,
                         'city' => 'New Delhi',
                         'email' => 'admin@glamyo.in',
                         'phone' => '1234567890',
@@ -31,7 +30,6 @@ class UsersTableSeeder extends Seeder
                     [
                     	'role_id' => 2,
                         'name' => 'Doctor',
-                        'gender'=> 1,
                         'city' => 'New Delhi',
                         'email' => 'doctor@glamyo.in',
                         'phone' => '1234567891',
@@ -42,7 +40,6 @@ class UsersTableSeeder extends Seeder
                     [
                     	'role_id' => 3,
                         'name' => 'Hospital',
-                        'gender'=> 1,
                         'city' => 'New Delhi',
                         'email' => 'hospital@glamyo.in',
                         'phone' => '1234567892',
@@ -53,7 +50,6 @@ class UsersTableSeeder extends Seeder
                     [
                     	'role_id' => 4,
                         'name' => 'User',
-                        'gender'=> 1,
                         'city' => 'New Delhi',
                         'email' => 'user@glamyo.in',
                         'phone' => '1234567893',

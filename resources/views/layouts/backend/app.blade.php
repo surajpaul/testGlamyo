@@ -30,6 +30,13 @@
         @include('layouts.backend.partial.menu')
         <!-- content -->
         <div class="content">
+              @if(session()->has('success'))
+              <div class="container" style="flex: 0;">
+                <div class="alert alert-success">
+                  {{ session()->get('success') }}
+                </div>
+              </div>
+              @endif
             @yield('content')
             @include('layouts.backend.partial.footer')
         </div>

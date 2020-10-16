@@ -50,20 +50,6 @@
                 @enderror
             </div>
             <div class="mb-3">
-              <label class="form-label">Select Gender :</label>
-              <select class="form-label form-control">
-                <option class="form-control" value="">-- Select gender --</option>
-                <option class="form-control" value="1">Male</option>
-                <option class="form-control" value="2">Female</option>
-                <option class="form-control" value="0">Others</option>
-              </select>
-                @error('gender')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                @enderror
-            </div>
-            <div class="mb-3">
               <label class="form-label">Email address</label>
                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="Enter Email" value="{{ old('email') }}" required autocomplete="email">
                 @error('email')
@@ -80,6 +66,9 @@
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
+            </div>
+            <div class="mb-3 d-none">
+                <input id="role_id" class="form-control @error('role_id') is-invalid @enderror" name="role_id" value="4">
             </div>
             <div class="mb-3">
               <label class="form-label">Password</label>
