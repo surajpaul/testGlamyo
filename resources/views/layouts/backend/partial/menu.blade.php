@@ -13,8 +13,8 @@
                 </span>
               </a>
             </li>
-            <li class="nav-item {{ Request::is('admin/dashboard*') ? 'active' : '' }}">
-              <a class="nav-link" href="{{ route('admin.dashboard') }}" >
+            <li class="nav-item {{ Request::is('admin/user*') ? 'active' : '' }}">
+              <a class="nav-link" href="{{ route('admin.user.index') }}" >
                 <span class="nav-link-icon d-md-none d-lg-inline-block"><i class="icon" data-feather="users"></i>
                 </span>
                 <span class="nav-link-title">
