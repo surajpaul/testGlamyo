@@ -3,7 +3,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="." class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pr-0 pr-md-3">
+    <a href="{{url('/')}}" class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pr-0 pr-md-3">
     <img src="{{asset('assets/backend/img/static/logo.png')}}" class="navbar-brand-image">
     </a>
         <div class="navbar-nav flex-row order-md-last">

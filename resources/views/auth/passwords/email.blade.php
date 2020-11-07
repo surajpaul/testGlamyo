@@ -27,21 +27,34 @@
         <div class="text-center mb-4">
           <img src="{{asset('assets/backend/img/static/logo.png')}}" height="46" alt="">
         </div>
-        <form class="card card-md" method="POST" action="{{ route('password.email') }}">
+        @if(session()->has('success'))
+        <div class="container" style="flex: 0;">
+          <div class="alert alert-success">
+            {{ session()->get('success') }}
+          </div>
+        </div>
+        @elseif(session()->has('failure'))
+        <div class="container" style="flex: 0;">
+          <div class="alert alert-danger">
+            {{ session()->get('failure') }}
+          </div>
+        </div>
+        @endif
+        <form class="card card-md" method="POST" action="{{ route('reset.store') }}">
         @csrf
           <div class="card-body">
             <h2 class="mb-2 text-center">Reset Password</h2>
             <div class="mb-3">
-                <label class="form-label">E-Mail Address</label>
-                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-                @error('email')
+                <label class="form-label">Mobile Number</label>
+                <input id="phone" type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
+                @error('phone')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
                 @enderror
             </div>
             <div class="form-footer mb-2">
-              <button type="submit" class="btn btn-primary btn-block"  name="submit">Send Password Reset Link</button>
+              <button type="submit" class="btn btn-primary btn-block"  name="submit">Send OTP</button>
             </div>
           </div>
         </form>

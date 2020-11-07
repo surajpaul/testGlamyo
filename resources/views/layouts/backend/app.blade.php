@@ -14,8 +14,7 @@
     <meta name="HandheldFriendly" content="True"/>
     <meta name="MobileOptimized" content="320"/>
     <meta name="robots" content="noindex,nofollow,noarchive"/>
-    <link rel="icon" href="../favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{asset('assets/frontend/images/favicon.png')}}">
     <!-- CSS files -->
     <link href="{{asset('assets/backend/libs/jqvmap/dist/jqvmap.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('assets/backend/css/tabler.css')}}" rel="stylesheet"/>
@@ -23,6 +22,30 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
     <link href="https://cdn.datatables.net/1.10.22/css/dataTables.semanticui.min.css"/>
     <link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.semanticui.min.css"/>
+    <style>
+      .paginate_button{
+        border: 1px solid #1175b3;
+        padding: 0px 7px;
+        border-radius: 6px;
+        margin: 0px 2px;
+      }
+      .dataTables_paginate .pagination{
+        display: none;
+      }
+      .pagination{
+        margin-top: -9%;
+      }
+      .dataTables_length{
+        display: none;
+      }
+      .select{
+        border: 1px solid #ccc;
+        padding: 1px 3px;
+        font-family: system-ui;
+        outline: none;
+        cursor: pointer;
+      }
+    </style>
 </head>
 <body class="antialiased">
     <div class="page">
@@ -71,7 +94,7 @@
 
       $('.datepicker').datepicker({
         format: 'd-M-yyyy',
-                startDate: '-7d'
+        startDate: '-7d'
       });
     </script>
       <script type="text/javascript">

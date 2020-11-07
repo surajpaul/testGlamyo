@@ -8,15 +8,13 @@
 </style>
 <div class="container-xl">
 	<div class="page-header">
-	    <div class="row align-items-center">
-	      <div class="col-auto">
-	        <h2 class="page-title">
-	          Users
-	        </h2>
-	      </div>
-	      <div class="col-auto">
-	        <div class="text-muted text-h5 mt-2">{{$users->count()}} peoples</div>
-	      </div>
+	    <div class="row">
+	    	<div class="col-md-6 col-12 col-xs-12 col-sm-12" align="left">
+		    	<h2 class="page-title">Users  <span class="text-muted text-h5 mt-2 pl-2">{{$users->count()}} peoples</span></h2>
+	    	</div>
+	    	<div class="col-md-6 col-12 col-xs-12 col-sm-12" align="right">
+	    		<a class="btn btn-success text-white" href="{{route('admin.user.create')}}">Add New User</a>
+	    	</div>
 	    </div>
 	</div>
 	@if($users->count())
