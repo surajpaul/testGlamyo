@@ -446,10 +446,10 @@ $(function () {
       ================================================ */
   if ($.fn.twentytwenty) {
     $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({
-      default_offset_pct: 0.7,
+      default_offset_pct: 0.5,
     });
     $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({
-      default_offset_pct: 0.3,
+      default_offset_pct: 0.5,
       orientation: "vertical",
     });
   }

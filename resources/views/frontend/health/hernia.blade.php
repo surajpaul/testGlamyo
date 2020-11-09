@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Advanced Laparoscopic Hernia Treatment | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Advanced Laparoscopic Hernia Treatment</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              No Recurrence. Best Quality Mesh & Tacker Used.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -85,14 +85,17 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Hernia </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">A bulging of an organ or tissue through an abnormal opening.
+Typically, a hernia involves the stomach or intestine.
+Symptoms include a bulge, swelling or pain. In some cases, there are no symptoms.
+Treatment includes monitoring the condition. If required, surgery can return tissue to its normal location and close the opening.</p>
                                      
                                 </div>
 
@@ -108,16 +111,21 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
-                                      
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Our doctors treat all types of Hernia</span>
+                   
+                        <div class="service-content">
+                        <ul>
+                            <li> <span>Inguinal Hernia (Unilateral &amp; Bilateral) </span></li> 
+                            <li> <span>Umbilical Hernia </span></li> 
+                               <li><span>Ventral Hernia </span></li> 
+                            <li> <span>Epigastric Hernia  </span></li> 
+                            <li> <span>Incisional Hernia  </span></li> 
+                               <li><span>Hiatus Hernia  </span></li> 
+                           </ul></div>
+                    </div></div></div>
 
-            </div></div>
+            </div>
+
                  <!-- Info and symptoms ends -->    
                  
                    <!-- Why Glamyo -->
@@ -201,7 +209,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-6">
                       <h4>Worried about price?  </h4>
-                        <p>Glamyo has made the latest, laser treatment for piles affordable and accessible to all.</p> 
+                        <p>Glamyo has made the latest, laser treatment for Hernia affordable and accessible to all.</p> 
                         <div class="quote2">
                           <div>
                              
@@ -223,13 +231,13 @@
                     <img src="{{asset('assets/frontend/images/ill.png')}}" width="300" style="margin-bottom: 60px">
                     <div class="row">
                     <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Hernia Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div></div>
                   <div class="show-mobile hide-desktop">
                       <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Hernia Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a  href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-lg btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div>
@@ -238,63 +246,119 @@
     </section>
     <!-- Advantages -->
     <section class="section-margin">
-       <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
-               <ul>
-                   <li class="row">
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary">Laser Treatment</div></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div  class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
-                   </li>
-                   <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimally Invasive</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                     </li>
-                     <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Local Anesthesia</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Day Discharge</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Surgical Pain</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimal</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Quick</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Slow</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recurrence</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
+    <div id="reviews">
+            <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+            <div class="text-left">
+                 <h2 style="color: #0F74B2; font-weight: 600;">Glamyo, India’s Favorite Destination for Hernia Treatment</h2>
+                </div>
+                <div class="testimonials-white">
+                    
+                        <div class="text-left">
+                            <div class="quote2">
+                                <div>
+                                 
+                                    <ul style="margin-top: 20px; margin-bottom: 50px;" class="symptoms-list">
+                                        <li>21+ Years of Experienced Doctors 
+                                        </li>
+                                        <li> Most Advanced Laparoscopic Treatment</li>
+                                            <li>Free Pick-up &amp; Drop Service
+                                            </li>
+                                                <li>Save upto 40% on Surgery Cost</li>
+                                                <li>Free unlimited consultation post-surgery</li>
+                                                <li>All Insurance Accepted (Cashless &amp; Reimbursement)</li>
+                                                <li>Zero Cost EMI</li>
+                                    </ul>
+                                </div>
 
+                                <div>
+                                 
+                                   
+                                </div>
+                            
+                           
+                               
+                            
+                        </div>
+                    </div>
+                </div></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                <section class="margin_top_250 bg-pricing-table">
+                    <h3 style="color: #0F74B2; font-weight: 600;" class="hide-desktop show-mobile">Advantages of Laparoscopic Surgery</h3>
+                 
+                        <div class="Plan_section" style="display: inline-flex; margin-bottom: 50px">
+                        
+                     <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0;">
+                              <div class="plan_wrap odd">
+                              
+                    
+                            <div class="Plan Plan--standard">
+                              <h2 class="Plan-title common-Uppercase" style="color:#666; font-size: 14px; font-weight: 600">Open Surgery</h2>
+                                <ul class="Plan-list">
+                                  <li class="Plan-listItem">
+                                    Long Cuts
+                                  </li>
+                                  <li class="Plan-listItem">
+                                    Multiple Stitches
+                                  </li>
+                                  <li class="Plan-listItem">
+                                        Painful Procedure  
+                                  </li>
+                                     <li class="Plan-listItem">
+                                        Slow Recovery  
+                                  </li>
+                                  <li class="Plan-listItem">
+                                    Long Hospital Stay 
+                                  </li>
+                                  
+                                     <li class="Plan-listItem">
+                                        Reoccurrence  
+                                  </li>
+                                  
+                                </ul>
+                    </div>
+                    
+                        </div></div>
+                        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-right: 0;">
+                  <div class="plan_wrap planmain hovered">
+                  
+      
+              <div class="Plan Plan--standard">
+              <div class="play-table">
+                <h2 class="Plan-title common-Uppercase" style="background-color:#0F74B2; color: #fff">Laparoscopic</h2>
+                  <ul class="Plan-list bullets">
+                    <li class="Plan-listItem">
+                     No Cuts
+                    </li>
+                    <li class="Plan-listItem">
+                        No Stitches
+                       </li>
+                    <li class="Plan-listItem">
+                        Painless Procedure
+                    </li>
+                    <li class="Plan-listItem">
+                        Fast Recovery
+                    </li>
+                   
+                    <li class="Plan-listItem">
+                        1 Day Discharge
+                    </li>
+                    <li class="Plan-listItem">
+                        No Recurrence
+                      </li>
+                     
+                    
                   </ul>
-              </div>
-              </div></div></div>
- 
-            
+                 </div></div></div></div>
+                       
+                    </div></section></div></div>
+               
+
+        </div>
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Hernia Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -306,7 +370,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Hernia Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -558,101 +622,69 @@
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-1">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-2">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>“Eat high-fiber foods. Eat more fruits, vegetables and whole grains. …<br>Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.<br>Soak regularly in a warm bath or sitz bath. …<br>Take oral pain relievers.”</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-3">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-4">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-5">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of piles ?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <ul>
-                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
-                                                      </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-6">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
-                                                      <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
-                                                      <br>
-                                                      Consult our Glamyo expert doctors who will help you with painless laser treatment.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-1">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                        <span class="badge">1</span>How do I know if I have a hernia?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>If you notice a bulge or swelling near your stomach, abdomen or groin, you may have a hernia. You should immediately consult a doctor and get diagnosed.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-2">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                        <span class="badge">2</span> What is the best hernia treatment?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>If your hernia pains, or if it seems to be continuously growing, the doctor may suggest surgery.
+                                                     Most of the hernia surgeries are done on an outpatient basis. The doctor will make an incision and then he’ll either put the tissue back in position or remove it.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-3">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                        <span class="badge">3</span>Can you live with a hernia without surgery?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Hernias don’t go away on their own. Only surgery can repair a hernia. Some people may never need surgery for a small hernia.
+                                                If the hernia is small and you don’t have any symptoms, or if the symptoms don’t bother you much, you and your doctor may simply continue to watch for symptoms to occur.</p>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-4">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                        <span class="badge">4</span> What can make a hernia worse?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>A hernia may, however, be the cause of discomfort and pain, with symptoms often becoming worse when standing, straining, or lifting heavy items.
+                                                    In some cases, a hernia needs immediate surgery, for instance, when part of the gut becomes obstructed or strangulated by an inguinal hernia.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                    </div>
                               </div>
                     </div>
                 </div>
@@ -693,7 +725,7 @@
                 </div>
           <input class="numeric" type='text' style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; padding-left: 30px;' required maxlength='10' minlength='10' name='Mobile' required="true"/></td><td style='width:35%;'></td></tr>
               <tr><td  style='word-break: break-word;text-align:left;font-size:15px;font-family:Verdana;width:30%;'>City<span style='color:#222;'>*</span></td><td style='width:40%;'><select class="form-control" style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; box-shadow: none; text-transform: capitalize'  maxlength='255' name='LEADCF4' required="true"><option value="">Select City</option><option value="Delhi">Delhi</option><option value="Gurgaon">Gurgaon</option><option value="Noida">Noida</option><option value="Faridabad">Faridabad</option><option value="Ghaziabad">Ghaziabad</option><option value="Mumbai">Mumbai</option><option value="Bangalore">Bangalore</option><option value="Hyderabad">Hyderabad</option><option value="Others">Others</option></select></td>
-                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Piles'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
+                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Hernia'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
                       <select style='width:100%;box-sizing:border-box;' name='Lead Status'>
                           <option value='-None-'>-None-</option>
                       <option selected value='New&#x20;Lead'>New Lead</option>

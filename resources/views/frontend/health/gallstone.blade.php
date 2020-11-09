@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Laparoscopic Cholecystectomy for Gallstones | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Laparoscopic Cholecystectomy for Gallstones</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              At Glamyo Health, our expert doctors will take care of gall-bladder stone in a painless one day laser procedure.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -85,14 +85,20 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Gall-Bladder Stone</h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
-                                <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                            <div>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">When the excess cholesterol present in the bile turns into crystals, these are called gallstones.
+
+The gallstones prevent the gallbladder from emptying properly. Gallstones can be of different sizes. Gallstones can cause the inflammation of the gallbladder, which is known as Cholecystitis.
+
+Gallstones often induce unforeseen, acute pain. Pregnant women are more prone to developing gallstones. In some severe and rare cases, gallstones may cause gallbladder cancer. Silent gallstones do not cause any pain.
+
+</p>
                                      
                                 </div>
 
@@ -108,14 +114,24 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Gallstone</span>
                                       
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
+                                      <ul class="symptoms-list mb-50">
+                                      <li>Dark color urine or clay color stools</li>
+                                        <li>High fever with chills</li>
+                                            <li>Severe abdominal pain</li>
+                                            <li>Signs of Jaundice</li>
+                                            <li>Nausea or vomiting</li>
+                                      </ul>
+                                      <span class="author" style="color: #0F74B2; font-weight: 600;">Causes of Gallstones</span>
+                                      
+                                      <ul class="symptoms-list">
+                                      <li> <span>Weak digestive system</span></li> 
+                            <li><span>Diseases like diabetes, sickle cell anemia or cirrhosis</span></li> 
+                                <li> <span>High cholesterol diet</span></li> 
+                                <li> <span>Excess estrogen</span></li> 
+                                      </ul> 
+                                    </div></div>
 
             </div></div>
                  <!-- Info and symptoms ends -->    
@@ -201,7 +217,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-6">
                       <h4>Worried about price?  </h4>
-                        <p>Glamyo has made the latest, laser treatment for piles affordable and accessible to all.</p> 
+                        <p>Glamyo has made the latest, laser treatment for gallstone affordable and accessible to all.</p> 
                         <div class="quote2">
                           <div>
                              
@@ -238,63 +254,18 @@
     </section>
     <!-- Advantages -->
     <section class="section-margin">
-       <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
-               <ul>
-                   <li class="row">
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary">Laser Treatment</div></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div  class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
-                   </li>
-                   <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimally Invasive</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                     </li>
-                     <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Local Anesthesia</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Day Discharge</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Surgical Pain</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimal</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Quick</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Slow</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recurrence</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-
-                  </ul>
-              </div>
-              </div></div></div>
- 
-            
+    <div id="reviews">
+            <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+                    <h5>(Illustration to be added)</h5>
+        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                <h5>(Content)</h5>
+            </div>
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Gallstone Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -306,7 +277,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Gallstone Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -558,103 +529,65 @@
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-1">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-2">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>“Eat high-fiber foods. Eat more fruits, vegetables and whole grains. …<br>Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.<br>Soak regularly in a warm bath or sitz bath. …<br>Take oral pain relievers.”</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-3">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-4">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-5">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of piles ?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <ul>
-                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
-                                                      </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-6">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
-                                                      <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
-                                                      <br>
-                                                      Consult our Glamyo expert doctors who will help you with painless laser treatment.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                    </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-1">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1" aria-expanded="true">
+                                                        <span class="badge">1</span>How to identify the pain caused by Gallstones?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-1" class="collapse in" aria-labelledby="faqHeading-1" data-parent="#accordion" aria-expanded="true">
+                                                <div class="card-body">
+                                                    <p>Gallstones usually cause an unforeseen intense pain in the upper right side of the abdomen. Sometimes, gallstones also cause sudden pain in the middle of the abdomen, slightly below the breast bone.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-2">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                        <span class="badge">2</span> Can we remove gallstones without removing gallbladder?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Stones in the common bile duct can be removed without surgery by using a scope. Removal of the gallbladder requires surgery, which is typically done laparoscopically.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-3">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                        <span class="badge">3</span>Where do we find Gallstones?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>The gallbladder is located in the upper right portion of the abdomen, just under the liver. Gallstones are formed when the excess bile turns into crystals in the gallbladder. Gallstones may cause sudden, acute pain. Whenever such a pain arises, get in touch with a doctor immediately.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-4">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                        <span class="badge">4</span> What are the foods that cause gallstones?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Processed foods high in trans fats, hydrogenated oils, fried foods, and excessive saturated animal fats can overwork the gallbladder. A study from 2008 revealed that men with the highest long-chain saturated fat intake, primarily from red meat, were the most at risk for gallstones.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     
+                                        
+                                    </div>
                 </div>
             </div>
         </div>
