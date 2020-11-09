@@ -245,6 +245,12 @@
           </div>
           <!-- underwork end -->
         </div>
+
+
+
+        <!-- try -->
+
+        <!-- try end -->
 <script>
   // @formatter:off
   document.addEventListener("DOMContentLoaded", function () {
@@ -331,8 +337,8 @@
       fill: {
         opacity: 1,
       },
-      series: [44, 55, 12, 2],
-      labels: ["Direct", "Affilliate", "E-mail", "Other"],
+      series: [5, 5, 2, 2, 5, 5, 2, 2],
+      labels: ["Direct", "Affilliate", "E-mail", "Other", "Direct", "Affilliate", "E-mail1", "Other"],
       grid: {
         strokeDashArray: 4,
       },

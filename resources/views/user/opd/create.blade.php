@@ -48,8 +48,8 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Select Doctor :</label>
 		          <div>
-		            <select class="form-select" name="doctor_id">
-		            	<option class="form-control" value="0">--Select Doctor--</option>
+		            <select class="form-select" name="doctor_id" required>
+		            	<option class="form-control" value="">--Select Doctor--</option>
 		            	@foreach($doctors as $doctor)
 	            		<option value="{{$doctor->id}}">{{$doctor->name}}</option>
 		            	@endforeach
@@ -66,8 +66,8 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Select Hospital :</label>
 		          <div>
-		            <select class="form-select" name="hospital_id">
-		            	<option class="form-control" value="0">--Select Hospital--</option>
+		            <select class="form-select" name="hospital_id" required>
+		            	<option class="form-control" value="">--Select Hospital--</option>
 		            	@foreach($hospitals as $hospital)
 	            		<option value="{{$hospital->id}}">{{$hospital->name}}</option>
 		            	@endforeach
@@ -97,8 +97,8 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Treatment :</label>
 		          <div>
-		            <select class="form-select" name="treatment_id">
-		            	<option value="0">--Select Treatment Type--</option>
+		            <select class="form-select" name="treatment_id" required>
+		            	<option value="">--Select Treatment Type--</option>
 		            	@foreach($treatments as $treatment)
 	            		<option value="{{$treatment->id}}"> {{$treatment->name}} </option>
 	            		@endforeach
@@ -115,7 +115,7 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Consultation Fee :</label>
 		          <div>
-		            <input id="fee" type="tel" class="form-control @error('fee') is-invalid @enderror" name="fee" placeholder="Enter Consultation Fee" value="{{ old('fee') }}" autocomplete="fee" required>
+		            <input id="fee" type="tel" class="form-control @error('fee') is-invalid @enderror" name="fee" placeholder="Enter Consultation Fee" value="{{ old('fee') }}" autocomplete="fee">
 	                @error('fee')
 	                    <span class="invalid-feedback" role="alert">
 	                        <strong>{{ $message }}</strong>

@@ -49,7 +49,7 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Select Doctor :</label>
 		          <div>
-		            <select class="form-select" name="doctor_id">
+		            <select class="form-select" name="doctor_id" required>
 		            	@foreach($doctors as $doctor)
 		            	<?php
 				            $selected = '';
@@ -71,7 +71,7 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Select Hospital :</label>
 		          <div>
-		            <select class="form-select" name="hospital_id">
+		            <select class="form-select" name="hospital_id" required>
 		            	@foreach($hospitals as $hospital)
 		            	<?php
 				            $selected = '';
@@ -93,7 +93,7 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Room Category:</label>
 		          <div>
-		            <select class="form-select" name="room_id">
+		            <select class="form-select" name="room_id" required>
 		            	@foreach($rooms as $room)
 		            	<?php
 				            $selected = '';
@@ -115,7 +115,7 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Treatment :</label>
 		          <div>
-		            <select class="form-select" name="treatment_id">
+		            <select class="form-select" name="treatment_id" required>
 		            	@foreach($treatments as $treatment)
 		            	<?php
 				            $selected = '';
@@ -216,7 +216,7 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Payment Type :</label>
 		          <div>
-		            <select class="form-select" id="select_box" name="payment_id">
+		            <select class="form-select" id="select_box" name="payment_id" required>
 		            	@foreach($payments as $payment)
 		            	<?php
 				            $selected = '';

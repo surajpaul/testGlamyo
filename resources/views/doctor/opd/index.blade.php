@@ -80,6 +80,7 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
+	          	<th class="d-none">created_at</th>
 	            <th>Patient</th>
 	            <th>Phone</th>
 	            <th>user</th>
@@ -95,6 +96,7 @@
 	        <tbody style="padding-bottom: 200px;">
 	        	@foreach($opds as $opd)
 	        	<tr>
+	        		<td class="d-none">{{$opd->created_at}}</td>
 	        		<td>{{$opd->patient}}</td>
 	        		<td>{{$opd->phone}}</td>
 	        		<td>{{$opd->user->name}}</td>

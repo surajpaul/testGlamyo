@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -24,7 +23,6 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/style1.css')}}" />
     <title>Glamyo Health</title>
 </head>
-
 <body>
     <!--==================== Header ====================-->
     <header>

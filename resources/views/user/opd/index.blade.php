@@ -1,8 +1,6 @@
 @extends('layouts.backend.app')
 
 @section('content')
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css"> -->
 <style>
 	strong{
 		font-weight: bold;
@@ -83,6 +81,7 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
+	          	<th class="d-none">created_at</th>
 	            <th>Patient</th>
 	            <th>Phone</th>
 	            <th>Doctor</th>
@@ -98,6 +97,7 @@
 	        <tbody style="padding-bottom: 200px;">
 	        	@foreach($opds as $opd)
 	        	<tr>
+	        		<td class="d-none">{{$opd->created_at}}</td>
 	        		<td>{{$opd->patient}}</td>
 	        		<td>{{$opd->phone}}</td>
 	        		<td>{{$opd->doctor->name}}</td>

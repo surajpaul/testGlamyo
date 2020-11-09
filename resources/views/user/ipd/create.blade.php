@@ -48,8 +48,8 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Select Doctor :</label>
 		          <div>
-		            <select class="form-select" name="doctor_id">
-		            	<option class="form-control" value="0">--Select Doctor--</option>
+		            <select class="form-select" name="doctor_id" required>
+		            	<option class="form-control" value="">--Select Doctor--</option>
 		            	@foreach($doctors as $doctor)
 	            		<option value="{{$doctor->id}}">{{$doctor->name}}</option>
 		            	@endforeach
@@ -66,8 +66,8 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Select Hospital :</label>
 		          <div>
-		            <select class="form-select" name="hospital_id">
-		            	<option class="form-control" value="0">--Select Hospital--</option>
+		            <select class="form-select" name="hospital_id" required>
+		            	<option class="form-control" value="">--Select Hospital--</option>
 		            	@foreach($hospitals as $hospital)
 	            		<option value="{{$hospital->id}}">{{$hospital->name}}</option>
 		            	@endforeach
@@ -97,8 +97,8 @@
       			<div class="form-group mb-3">
 		          <label class="form-label">Room Category:</label>
 		          <div>
-		            <select class="form-select" name="room_id">
-		            	<option value="0">--Select Room Type--</option>
+		            <select class="form-select" name="room_id" required>
+		            	<option value="">--Select Room Type--</option>
 		            	@foreach($rooms as $room)
 	            		<option value="{{$room->id}}"> {{$room->name}} </option>
 	            		@endforeach
@@ -115,8 +115,8 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Treatment :</label>
 		          <div>
-		            <select class="form-select" name="treatment_id">
-		            	<option value="0">--Select Treatment Type--</option>
+		            <select class="form-select" name="treatment_id" required>
+		            	<option value="">--Select Treatment Type--</option>
 		            	@foreach($treatments as $treatment)
 	            		<option value="{{$treatment->id}}"> {{$treatment->name}} </option>
 	            		@endforeach
@@ -211,8 +211,8 @@
       			<div class="form-group mb-3 ">
 		          <label class="form-label">Payment Type :</label>
 		          <div>
-		            <select class="form-select" id="select_box" name="payment_id">
-		            	<option value="0">--Select Payment Type--</option>
+		            <select class="form-select" id="select_box" name="payment_id" required>
+		            	<option value="">--Select Payment Type--</option>
 		            	@foreach($payments as $payment)
 	            		<option value="{{$payment->id}}"> {{$payment->name}} </option>
 	            		@endforeach
