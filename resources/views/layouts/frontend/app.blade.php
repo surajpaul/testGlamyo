@@ -20,8 +20,8 @@
     <!-- Blurp CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/et-blurp.css')}}" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="{{asset('assets/frontend/css/style1.css')}}" />
-    <title>Best Piles Treatment - Glamyo Health</title>
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
+    @yield('title')
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/landing.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/frontend/css/ilmosys-icon.css')}}">
@@ -122,6 +122,11 @@
         fbq('track', 'Call');
       });
     </script>
+        <script>
+      $(window).scroll(function(){
+    	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+      });
+        </script>
     @yield('script')
   </body>
 </html>

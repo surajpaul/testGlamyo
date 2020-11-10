@@ -3,8 +3,8 @@
       <div class="row">
           <div class="col-md-12">
               <!-- Nav menu -->
-              <nav class="navbar navbar-expand-lg navbar-light">
-                  <a class="navbar-brand" href="../../index.php"><img src="{{asset('assets/frontend/images/logo.png')}}" width="150" alt=" " /></a>
+              <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+                  <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('assets/frontend/images/logo.png')}}" width="150" alt=" " /></a>
                   <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse"
                       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                       aria-expanded="false" aria-label="Toggle
@@ -20,17 +20,17 @@
                                   
                                   <ul class="dropdown-menu">
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../health/sports-orthopedic/index.php">Sports Orthopedic</a>
+                                          <a class="dropdown-item" href="{{url('health/sports-orthopedic')}}">Sports Orthopedic</a>
                                       </li>
                                       <li class="dropdown">
                                           <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                               aria-haspopup="true" aria-expanded="false" href="#">Proctology <i class="fas fa-plus"></i></a>
                                           <ul class="dropdown-menu dropdown-menu1">
-                                              <li><a class="dropdown-item" href="../../health/piles/index.php">Piles
+                                              <li><a class="dropdown-item" href="{{url('health/piles')}}">Piles
                                                       </a></li>
-                                              <li><a class="dropdown-item" href="../../health/fistula/index.php">Fistula
+                                              <li><a class="dropdown-item" href="{{url('health/fistula')}}">Fistula
                                                      </a></li>
-                                              <li><a class="dropdown-item" href="../../health/fissure/index.php">Fissure</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/fissure')}}">Fissure</a></li>
                                                      
                                           </ul>
                                       </li>
@@ -39,17 +39,17 @@
                                           <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                               aria-haspopup="true" aria-expanded="false" href="#">Laproscopy <i class="fas fa-plus"></i></a>
                                           <ul class="dropdown-menu dropdown-menu1">
-                                              <li><a class="dropdown-item" href="../../health/hernia/index.php">Hernia</a></li>
-                                              <li><a class="dropdown-item" href="../../health/gallstone/index.php">Gallstone</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/hernia')}}">Hernia</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/gallstone')}}">Gallstone</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown">
                                           <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                               aria-haspopup="true" aria-expanded="false" href="#">Urology <i class="fas fa-plus"></i></a>
                                           <ul class="dropdown-menu dropdown-menu1">
-                                              <li><a class="dropdown-item" href="../../health/phimosis/index.php">Phimosis</a></li>
-                                              <li><a class="dropdown-item" href="../../health/kidney-stone/index.php">Kidney Stone</a></li>
-                                              <li><a class="dropdown-item" href="../../health/hydrocele/index.php">Hydrocele</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/phimosis')}}">Phimosis</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/kidney-stone')}}">Kidney Stone</a></li>
+                                              <li><a class="dropdown-item" href="{{url('health/hydrocele')}}">Hydrocele</a></li>
                                           </ul>
                                       </li>
                                       
@@ -62,7 +62,7 @@
                                   
                                   <ul class="dropdown-menu">
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../beauty/gynecomastia/index.php">Gynecomastia</a>
+                                          <a class="dropdown-item" href="{{url('beauty/gynecomastia')}}">Gynecomastia</a>
                                       </li>
                                       <li class="nav-item">
                                           <a class="dropdown-item" href="../../beauty/hair-transplant/index.php">Hair Transplant</a>

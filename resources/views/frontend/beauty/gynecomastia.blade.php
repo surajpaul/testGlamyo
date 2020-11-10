@@ -1,49 +1,59 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Permanent Treatment for Gynecomastia | Glamyo Health</title>
 @endsection
 
 @section('css')
+    <!-- Before & After CSS -->
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/twentytwenty.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/twentytwenty-no-compass.css')}}">
 @endsection
 
 @section('content')
+
 <div id="home">
+    <div class="container-fluid">
       <div class="row mt-100">
-        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+        <div class="col-md-7 col-lg-7 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Permanent Treatment for Gynecomastia</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              At Glamyo Health, our expert doctors will take care of the procedure to get you a manly and flat chest at affordable rates.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
           <ul class="features-list">  
               <li>
                   <i class="ilmosys-microscope"></i>
-                  <h5>USFDA <br>Approved</h5>
+                  <h5>Desired Result <br>in 1 session</h5>
               </li>
 
               <li>
                   <i class="ilmosys-x-ray"></i>
-                  <h5>No cuts &amp; <br>no stitches</h5>
+                  <h5>Painless &amp; <br>scarless</h5>
               </li>
 
               <li>
                   <i class="ilmosys-clinic"></i>
-                  <h5>30 min <br>procedure</h5>
+                  <h5>45 min <br>procedure</h5>
               </li>
 
               <li>
                   <i class="ilmosys-ambulance"></i>
-                  <h5>1 day <br>discharge</h5>
+                  <h5>No <br>recurrence</h5>
               </li>
           </ul>
         </div>
-        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
-        <div  class="intro intro1" style="background-image: url('{{asset('assets/frontend/images/8596.png')}}')"></div>
+        <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12">
+        <div class="twentytwenty-wrapper twentytwenty-horizontal" style="width: 400px; height: 250px; position: relative; top:40%; transform: translateY(-50%);"><div class="twentytwenty-container pricing-img-wrap">
+                            <img src="{{asset('assets/frontend/images/gyne_before.png')}}" class="img-fluid w-100 twentytwenty-before" alt="#" style="clip: rect(0px, 479.49999999999994px, 456px, 0px);">
+                            <img src="{{asset('assets/frontend/images/gyne_after.png')}}" class="img-fluid w-100 twentytwenty-after" alt="#" style="clip: rect(0px, 685px, 456px, 479.49999999999994px);">
+                          <div class="twentytwenty-overlay"><div class="twentytwenty-before-label" data-content="Before"></div><div class="twentytwenty-after-label" data-content="After"></div></div><div class="twentytwenty-handle" style="left: 479.49999999999994px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div>
+                        <center style="color: #444;">--- Slide to see transformation ---</center>
+                        </div>
         </div>  
-      </div>
+      </div></div>
     <div id="stats2" class="bg-light">
           <div class="container">
               <div class="row">
@@ -85,14 +95,15 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Gynecomastia </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">Swollen male breast tissue caused by a hormone imbalance.
+Male breast tissue swells due to reduced male hormones (testosterone) or increased female hormones (oestrogen). Causes include puberty, ageing, medication and health conditions that affect hormones.</p>
                                      
                                 </div>
 
@@ -108,16 +119,20 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
-                                      
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Gynecomastia</span>
+                   
+                        <div class="service-content">
+                        <ul class="symptoms-list">
+                        <li>Swollen breast tissue</li>
+                                        <li>Breast tenderness</li>
+                                            <li>Nipple discharge in one or both breasts</li>
+                                                <li>Lumps or unusual enlargement</li>
+                                               
+                           </ul></div>
+                        </div></div></div>
 
-            </div></div>
+            </div>
+
                  <!-- Info and symptoms ends -->    
                  
                    <!-- Why Glamyo -->
@@ -201,7 +216,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-6">
                       <h4>Worried about price?  </h4>
-                        <p>Glamyo has made the latest, laser treatment for piles affordable and accessible to all.</p> 
+                        <p>Glamyo has made the latest, laser treatment for Gynecomastia affordable and accessible to all.</p> 
                         <div class="quote2">
                           <div>
                              
@@ -223,13 +238,13 @@
                     <img src="{{asset('assets/frontend/images/ill.png')}}" width="300" style="margin-bottom: 60px">
                     <div class="row">
                     <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Gynecomastia Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div></div>
                   <div class="show-mobile hide-desktop">
                       <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Gynecomastia Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a  href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-lg btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div>
@@ -238,63 +253,57 @@
     </section>
     <!-- Advantages -->
     <section class="section-margin">
-       <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
-               <ul>
-                   <li class="row">
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary">Laser Treatment</div></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div  class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
-                   </li>
-                   <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimally Invasive</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                     </li>
-                     <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Local Anesthesia</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Day Discharge</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Surgical Pain</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimal</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Quick</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Slow</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recurrence</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
+    <div id="reviews">
+            <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="text-center" style="margin-bottom: 40px;">
+         
+                <h2 style="color: rgba(0,122,191,1); font-weight: 600; margin: 60px 0;">Benefits of Advanced Gynecomastia Treatment</h2>
 
-                  </ul>
-              </div>
-              </div></div></div>
- 
-            
+                 <ul>
+                     <li class="row">
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary"> Advanced Surgery</div></div>
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
+                     </li>
+                     <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Incision Size</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1-2 cm</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>5-7 cm</span></div>
+                       </li>
+                    <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Scar</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Big Scar</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Visible Scar</span></div>
+                    </li>
+                    <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery Time </span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>5-6 Days</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Month</span></div>
+                    </li>
+                    <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss </span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Heavy</span></div>
+                    </li>
+                    <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Results</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Uniform</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Non-Uniform </span></div>
+                    </li>
+                    <li class="adv-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Pain </span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Pain</span></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Painful</span></div>
+                    </li>
+                   
+                    </ul>
+                </div>
+                </div>
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Gynecomastia Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -306,7 +315,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Gynecomastia Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -558,103 +567,65 @@
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-1">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-2">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>“Eat high-fiber foods. Eat more fruits, vegetables and whole grains. …<br>Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.<br>Soak regularly in a warm bath or sitz bath. …<br>Take oral pain relievers.”</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-3">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-4">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-5">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of piles ?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <ul>
-                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
-                                                      </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-6">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
-                                                      <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
-                                                      <br>
-                                                      Consult our Glamyo expert doctors who will help you with painless laser treatment.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                    </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-1">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                        <span class="badge">1</span>Does exercise help in gynecomastia?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Exercise can reduce excess stored fat on the chest; however, it has little or no effect on the dense glandular tissue caused by gynecomastia. It may so happen that no matter how hard you exercise, there is no improvement and the breasts do not get smaller.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-2">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                        <span class="badge">2</span>Will there be a scar after the surgery?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Glamyo cosmetic surgeons make the incisions in the natural fold of the skins and as such the scars are barely noticeable.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-3">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                        <span class="badge">3</span>How much time does it take to recover from male breast reduction surgery?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Generally one week is the recovery time for a patient to get back to work. However, the recovery may vary by patient and the kind of procedure. You can start light exercise after 14 days and moderate to heavy &nbsp;exercise four to six weeks after surgery.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-4">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                        <span class="badge">4</span>Will there be a recurrence of the gynecomastia after the surgery?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>The results of gynecomastia surgery are long-term. However, weight gain, steroid or drug use and hormone fluctuations may lead to a recurrence of gynecomastia.
+                                                    At Glamyo, our expert cosmetic surgeons will guide you on the lifestyle changes and diet modifications which may keep the desired results for long after the surgery</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
                 </div>
             </div>
         </div>
@@ -693,7 +664,7 @@
                 </div>
           <input class="numeric" type='text' style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; padding-left: 30px;' required maxlength='10' minlength='10' name='Mobile' required="true"/></td><td style='width:35%;'></td></tr>
               <tr><td  style='word-break: break-word;text-align:left;font-size:15px;font-family:Verdana;width:30%;'>City<span style='color:#222;'>*</span></td><td style='width:40%;'><select class="form-control" style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; box-shadow: none; text-transform: capitalize'  maxlength='255' name='LEADCF4' required="true"><option value="">Select City</option><option value="Delhi">Delhi</option><option value="Gurgaon">Gurgaon</option><option value="Noida">Noida</option><option value="Faridabad">Faridabad</option><option value="Ghaziabad">Ghaziabad</option><option value="Mumbai">Mumbai</option><option value="Bangalore">Bangalore</option><option value="Hyderabad">Hyderabad</option><option value="Others">Others</option></select></td>
-                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Piles'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
+                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Gynecomastia'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
                       <select style='width:100%;box-sizing:border-box;' name='Lead Status'>
                           <option value='-None-'>-None-</option>
                       <option selected value='New&#x20;Lead'>New Lead</option>
@@ -815,4 +786,7 @@
 @endsection
 
 @section('script')
+    <!-- Before & After Js -->
+    <script src="{{asset('assets/frontend/js/jquery.event.move.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.twentytwenty.js')}}"></script>
 @endsection

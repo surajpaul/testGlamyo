@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Painless Fistula Laser Treatment | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Painless Fistula Laser Treatment</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              The permanent solution, no recurrence after the laser procedure.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -85,14 +85,14 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Fistula </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">An anal fistula is an infected tunnel between the skin and the anus, the muscular opening at the end of the digestive tract. Most anal fistulas are the result of an infection in an anal gland that spreads to the skin. It may cause bleeding or discharge of blood or pus from the anus while passing stools which may be extremely painful & if the anal fistula becomes severe, drainage may persist for a long time.</p>
                                      
                                 </div>
 
@@ -108,12 +108,13 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Fistula</span>
                                       
                                       <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
                                           <li>Bright red blood in stools</li>
                                           <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
+                                          <li>Discharge of blood or pus from the anus</li>
+                                              <li>Pain while making bowel movements</li>
                                                   <li>Pain around anus</li>
                                       </ul></div></div>
 
@@ -201,7 +202,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-6">
                       <h4>Worried about price?  </h4>
-                        <p>Glamyo has made the latest, laser treatment for piles affordable and accessible to all.</p> 
+                        <p>Glamyo has made the latest, laser treatment for fistula affordable and accessible to all.</p> 
                         <div class="quote2">
                           <div>
                              
@@ -223,13 +224,13 @@
                     <img src="{{asset('assets/frontend/images/ill.png')}}" width="300" style="margin-bottom: 60px">
                     <div class="row">
                     <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call fistula Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div></div>
                   <div class="show-mobile hide-desktop">
                       <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call fistula Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a  href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-lg btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div>
@@ -242,8 +243,8 @@
                 <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
+               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Anal Fistula</h2>
+               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating fistula using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
                <ul>
                    <li class="row">
                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
@@ -294,7 +295,7 @@
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call fistula Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -306,7 +307,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call fistula Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -558,103 +559,75 @@
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-1">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-2">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>“Eat high-fiber foods. Eat more fruits, vegetables and whole grains. …<br>Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.<br>Soak regularly in a warm bath or sitz bath. …<br>Take oral pain relievers.”</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-3">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-4">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-5">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of piles ?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <ul>
-                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
-                                                      </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-6">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
-                                                      <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
-                                                      <br>
-                                                      Consult our Glamyo expert doctors who will help you with painless laser treatment.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                    </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="faqHeading-1">
+                                                        <div class="mb-0">
+                                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                                <span class="badge">1</span>Which doctor should I consult for Fistula?
+
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                        <div class="card-body">
+                                                            <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="faqHeading-2">
+                                                        <div class="mb-0">
+                                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                                <span class="badge">2</span> When should I visit the doctor?  
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                        <div class="card-body">
+                                                            <p>If you are facing..
+                                                                </p><ul class="bullet">
+                                                                   <li>Discomfort while sitting or passing stools</li> 
+                                                                   <li>Pain while making bowel movements  </li> 
+                                                                   <li> Swelling around anal region </li>
+                                                                   <li>Discharge of pus and blood from the anus</li> 
+                                                                    
+                                                                </ul>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="faqHeading-3">
+                                                        <div class="mb-0">
+                                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                                <span class="badge">3</span>What are the complications of Fistula?  
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                        <div class="card-body">
+                                                            <p>Fistula , if untreated for long, can lead to serious complications including an infection and subsequent sepsis - a dangerous condition resulting in organ damage and possible death.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="faqHeading-4">
+                                                        <div class="mb-0">
+                                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                                <span class="badge">4</span> What is the permanent treatment of fistula?
+
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                        <div class="card-body">
+                                                            <p>The permanent treatment of fistula is laser surgery.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              
+                                            </div>
                 </div>
             </div>
         </div>
@@ -693,7 +666,7 @@
                 </div>
           <input class="numeric" type='text' style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; padding-left: 30px;' required maxlength='10' minlength='10' name='Mobile' required="true"/></td><td style='width:35%;'></td></tr>
               <tr><td  style='word-break: break-word;text-align:left;font-size:15px;font-family:Verdana;width:30%;'>City<span style='color:#222;'>*</span></td><td style='width:40%;'><select class="form-control" style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; box-shadow: none; text-transform: capitalize'  maxlength='255' name='LEADCF4' required="true"><option value="">Select City</option><option value="Delhi">Delhi</option><option value="Gurgaon">Gurgaon</option><option value="Noida">Noida</option><option value="Faridabad">Faridabad</option><option value="Ghaziabad">Ghaziabad</option><option value="Mumbai">Mumbai</option><option value="Bangalore">Bangalore</option><option value="Hyderabad">Hyderabad</option><option value="Others">Others</option></select></td>
-                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Piles'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
+                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='fistula'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
                       <select style='width:100%;box-sizing:border-box;' name='Lead Status'>
                           <option value='-None-'>-None-</option>
                       <option selected value='New&#x20;Lead'>New Lead</option>

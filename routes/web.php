@@ -26,6 +26,16 @@ Route::resource('/reset','ResetPasswordController');
 
 // Frontend pages
 Route::get('/health/piles', function () { return view('frontend.health.piles');});
+Route::get('/health/hernia', function () { return view('frontend.health.hernia');});
+Route::get('/health/fistula', function () { return view('frontend.health.fistula');});
+Route::get('/health/fissure', function () { return view('frontend.health.fissure');});
+Route::get('/health/gynecomastia', function () { return view('frontend.health.gynecomastia');});
+Route::get('/health/gallstone', function () { return view('frontend.health.gallstone');});
+Route::get('/health/sports-orthopedic', function () { return view('frontend.health.sports-orthopedic');});
+Route::get('/health/phimosis', function () { return view('frontend.health.phimosis');});
+Route::get('/health/kidney-stone', function () { return view('frontend.health.kidney-stone');});
+Route::get('/health/hydrocele', function () { return view('frontend.health.hydrocele');});
+Route::get('/beauty/gynecomastia', function () { return view('frontend.beauty.gynecomastia');});
 
 
 

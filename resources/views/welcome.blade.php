@@ -20,7 +20,7 @@
     <!-- Blurp CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/et-blurp.css')}}" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="{{asset('assets/frontend/css/style1.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
     <title>Glamyo Health</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <!-- Nav menu -->
-                            <nav class="navbar navbar-expand-lg navbar-light">
+                            <nav class="navbar navbar-expand-lg fixed-top navbar-light">
                                 <a class="navbar-brand" href="index.php"><img src="{{asset('assets/frontend/images/logo.png')}}" width="150" alt=" " /></a>
                                 <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -55,7 +55,7 @@
                                                         <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                                             aria-haspopup="true" aria-expanded="false" href="#">Proctology <i class="fas fa-plus"></i></a>
                                                         <ul class="dropdown-menu dropdown-menu1">
-                                                            <li><a class="dropdown-item" href="health/piles/index.php">Piles
+                                                            <li><a class="dropdown-item" href="{{url('health/piles')}}">Piles
                                                                     </a></li>
                                                             <li><a class="dropdown-item" href="health/fistula/index.php">Fistula
                                                                    </a></li>
@@ -68,7 +68,7 @@
                                                         <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                                             aria-haspopup="true" aria-expanded="false" href="#">Laproscopy <i class="fas fa-plus"></i></a>
                                                         <ul class="dropdown-menu dropdown-menu1">
-                                                            <li><a class="dropdown-item" href="health/hernia/index.php">Hernia</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/hernia')}}">Hernia</a></li>
                                                             <li><a class="dropdown-item" href="health/gallstone/index.php">Gallstone</a></li>
                                                         </ul>
                                                     </li>
@@ -507,14 +507,6 @@
             <div class="et_pb_text_inner"><h3>Talk to our Expert Surgeons.</h3>
 <p>Get the most advanced surgical procedures done through our renowned surgeons.</p></div>
         </div> <!-- .et_pb_text -->
-        </div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_2_5 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
-            
-            
-            <div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_right et_pb_bg_layout_light">
-            
-            
-            <div class="et_pb_text_inner"><h3><a href="index.html">EXPLORE <strong><span style="color: #00ccff;">&gt;</span></strong></a></h3></div>
-        </div> <!-- .et_pb_text -->
         </div> <!-- .et_pb_column -->
             
             
@@ -675,14 +667,6 @@
             <div class="et_pb_text_inner"><h3>Celebrate the beauty you deserve.</h3>
 <p>Choose from our extensive array of body procedures performed by attentive compassionate cosmetic surgeons and cosmetologists.</div>
         </div> <!-- .et_pb_text -->
-        </div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_2_5 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
-            
-            
-            <div class="et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_right et_pb_bg_layout_light">
-            
-            
-            <div class="et_pb_text_inner"><h3><a href="cosmetic-procedures/index.html">EXPLORE</a> <strong><span style="color: #00ccff;">&gt;</span></strong></h3></div>
-        </div> <!-- .et_pb_text -->
         </div> <!-- .et_pb_column -->
             
             
@@ -842,14 +826,6 @@
             
             <div class="et_pb_text_inner"><h3>Take care of your Health.</h3>
 <p>Talk to our General Physicians for Diagnostic Tests and Health Checkup.</p></div>
-        </div> <!-- .et_pb_text -->
-        </div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_2_5 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et-last-child">
-            
-            
-            <div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_right et_pb_bg_layout_light">
-            
-            
-            <div class="et_pb_text_inner"><h3><a href="cosmetic-procedures/index.html">EXPLORE</a> <strong><span style="color: #00ccff;">&gt;</span></strong></h3></div>
         </div> <!-- .et_pb_text -->
         </div> <!-- .et_pb_column -->
             
@@ -1940,14 +1916,14 @@ I loved it!
     </div>
   </div>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script>
-  $(document).ready(function(){
-    $("#location").modal("show");
-  });
-</script>
-        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <!-- location popup modal -->
+  <!-- <script>
+    $(document).ready(function() {
+        $("#location").modal("show");
+        });
+    </script> -->
     <script src="{{asset('assets/frontend/js/jquery-3.5.1.min.js')}}"></script>
     <script src="{{asset('assets/frontend/js/popper.min.js')}}"></script>
     <script src="{{asset('assets/frontend/js/bootstrap.min.js')}}"></script>
@@ -1960,14 +1936,6 @@ I loved it!
     <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-        // location popup modal
-        $(window).load(function() {
-        $("#location").modal("show");
-        alert("hy");
-        });
-    </script>
-    <script>
         const $input = document.querySelector(".numeric");
         const BIRTHNUMBER_ALLOWED_CHARS_REGEXP = /[0-9\/]+/;
         $input.addEventListener("keypress", e => {
@@ -1980,5 +1948,10 @@ I loved it!
     <script>
        feather.replace()
     </script>
+    <script>
+      $(window).scroll(function(){
+    	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+      });
+        </script>
   </body>
 </html>

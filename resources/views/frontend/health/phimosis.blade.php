@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Painless Laser Circumcision | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Painless Laser Circumcision</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              At Glamyo Health, our expert doctors will take care of phimosis in a painless one day laser procedure.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -85,16 +85,23 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600; font-size: 22px">Phimosis | Paraphimosis | Balanitis | Frenuloplasty</h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
-                                <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
-                                     
-                                </div>
+                            <div>
+                                    <p class="mt-50" style="margin-bottom: 40px;"><strong class="author">PHIMOSIS</strong><br>
+                                        Phimosis is a condition in which the foreskin can’t be retracted (pulled back) from around the tip of the penis.</p>
+                                        <p style="margin-top: 10px; margin-bottom: 40px;"><strong class="author">PARAPHIMOSIS</strong><br>
+                                            A condition called paraphimosis can also result when the foreskin is retracted, but can’t be moved back into its normal position. This may require emergency medical attention.</p>
+                                            <p style="margin-top: 10px; margin-bottom: 40px;"><strong class="author">BALANITIS</strong><br>
+                                                Balanitis is inflammation of the glans penis and is a common condition affecting an estimated 3-11% of males. Balanitis can occur in males at any age.</p>
+                                                
+                                                <p style="margin-top: 10px; margin-bottom: 40px;"><strong class="author">FRENULOPLASTY</strong><br>
+                                                    A foreskin that is tight enough to restrict movement is commonly known as a frenulum breve. While Phimosis can help this condition, frenuloplasty is a specialized technique that seeks to treat solely this condition while preserving the foreskin.</p>
+                                          </div>
 
                                 <div>
                                  
@@ -108,14 +115,22 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Phimosis</span>
                                       
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
+                                      <ul class="symptoms-list mb-50">
+                                      <li>Redness &amp; Swelling</li>
+                                        <li> Lack of Sensation</li>
+                                            <li>Pain During Intercourse</li>
+                                      </ul>
+                                      <span class="author" style="color: #0F74B2; font-weight: 600;">Benefits of Laser Phimosis</span>
+                                      
+                                      <ul class="symptoms-list">
+                                      <li> <span>Permanent solution for all foreskin issues</span></li> 
+                            <li><span>No Affect on Fertility</span></li> 
+                                <li> <span>Fit to resume your normal lifestyle after the next day</span></li> 
+                                <li> <span>No wound or scar after the procedure</span></li> 
+                                      </ul> 
+                                    </div></div>
 
             </div></div>
                  <!-- Info and symptoms ends -->    
@@ -238,63 +253,112 @@
     </section>
     <!-- Advantages -->
     <section class="section-margin">
-       <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
-               <ul>
-                   <li class="row">
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary">Laser Treatment</div></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div  class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
-                   </li>
-                   <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimally Invasive</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                     </li>
-                     <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Local Anesthesia</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Day Discharge</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Surgical Pain</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimal</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Quick</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Slow</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recurrence</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
+    <div id="reviews">
+            <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+            <div class="text-left">
+                 <h2 style="color: #0F74B2; font-weight: 600;">Glamyo, India’s Favorite Destination for Phimosis Treatment</h2>
+                </div>
+                <div class="testimonials-white">
+                    
+                        <div class="text-left">
+                            <div class="quote2">
+                                <div>
+                                 
+                                    <ul style="margin-top: 20px; margin-bottom: 50px;" class="symptoms-list">
+                                        <li>21+ Years of Experienced Doctors 
+                                        </li>
+                                        <li> Most Advanced Laparoscopic Treatment</li>
+                                            <li>Free Pick-up &amp; Drop Service
+                                            </li>
+                                                <li>Save upto 40% on Surgery Cost</li>
+                                                <li>Free unlimited consultation post-surgery</li>
+                                                <li>All Insurance Accepted (Cashless &amp; Reimbursement)</li>
+                                                <li>Zero Cost EMI</li>
+                                    </ul>
+                                </div>
 
+                                <div>
+                                 
+                                   
+                                </div>
+                            
+                           
+                               
+                            
+                        </div>
+                    </div>
+                </div></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
+                <section class="margin_top_250 bg-pricing-table">
+                    <h3 style="color: #0F74B2; font-weight: 600;" class="hide-desktop show-mobile">Advantages of Laser Surgery</h3>
+                 
+                        <div class="Plan_section" style="display: inline-flex; margin-bottom:50px">
+                         <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-left: 0;">
+                              <div class="plan_wrap odd">
+                              
+                    
+                            <div class="Plan Plan--standard">
+                              <h2 class="Plan-title common-Uppercase" style="color:#666; font-size: 14px; font-weight: 600">Open Surgery</h2>
+                                <ul class="Plan-list">
+                                 
+                                     <li class="Plan-listItem">
+                                        Cuts &amp; Wounds
+                                  </li>
+                                     <li class="Plan-listItem">
+                                        Painful
+                                  </li>
+                                  <li class="Plan-listItem">
+                                    Stitches
+                                  </li>
+                                  <li class="Plan-listItem">
+                                    One Week Recovery Time 
+                                  </li>
+                                     <li class="Plan-listItem">
+                                        Follow-Up Required
+                                  </li>
+                                  
+                                  
+                                </ul>
+                    </div>
+                    
+                        </div></div>
+                        <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" style="padding-right: 0;">
+                  <div class="plan_wrap planmain hovered">
+                  
+      
+              <div class="Plan Plan--standard">
+              <div class="play-table">
+                <h2 class="Plan-title common-Uppercase" style="background-color:#0F74B2; color: #fff">Laser Surgery</h2>
+                  <ul class="Plan-list bullets">
+                   
+                   
+                    <li class="Plan-listItem">
+                        No Cuts &amp; Wounds
+                    </li>
+                    <li class="Plan-listItem">
+                        Painless
+                    </li>
+                   
+                    <li class="Plan-listItem">
+                        No Stitches
+                    </li>
+                    <li class="Plan-listItem">
+                        Can Resume in 24 Hours
+                      </li>
+                      <li class="Plan-listItem">
+                        No Follow-Up
+                          </li>
+                         
+                    
                   </ul>
-              </div>
-              </div></div></div>
- 
-            
+                 </div></div></div></div>
+                       
+                    </div></section></div>
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Phimosis Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -306,7 +370,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Phimosis Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -558,103 +622,78 @@
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-1">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Either a general surgeon or a proctologist is the most appropriate doctor for you to consult.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-2">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>“Eat high-fiber foods. Eat more fruits, vegetables and whole grains. …<br>Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.<br>Soak regularly in a warm bath or sitz bath. …<br>Take oral pain relievers.”</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-3">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-4">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-5">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of piles ?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <ul>
-                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
-                                                      </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="card">
-                                          <div class="card-header" id="faqHeading-6">
-                                              <div class="mb-0">
-                                                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Piles?
-                                                  </h5>
-                                              </div>
-                                          </div>
-                                          <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                              <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
-                                                      <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
-                                                      <br>
-                                                      Consult our Glamyo expert doctors who will help you with painless laser treatment.
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                    </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-1">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1" aria-expanded="true">
+                                                        <span class="badge">1</span>Does Insurance cover Circumcision?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-1" class="collapse in" aria-labelledby="faqHeading-1" data-parent="#accordion" aria-expanded="true" style="">
+                                                <div class="card-body">
+                                                    <p>If you have a medical problem with your foreskin, insurance may cover the cost of circumcision surgery. Call today for a consultation. Our team of experts will work with you to help determine if you have a medical condition that may qualify for insurance-covered circumcision surgery.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-2">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                        <span class="badge">2</span> Are there any side effects of Circumcision?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Laser circumcision ensures no risk of infection, haemorrhage, or other common side effects associated with conventional circumcision.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-3">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                        <span class="badge">3</span>What is the recovery time after Circumcision?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Circumcision is a day care procedure. You can go home same day after couple of hours. You can return to normal work routine in 24 hours.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-4">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                        <span class="badge">4</span> Can Circumcision be performed under local anesthesia?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Both normal circumcision and laser circumcision may be performed under local, regional or general anesthesia. No overnight hospital stay is required for circumcision.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqHeading-5">
+                                                <div class="mb-0">
+                                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                                        <span class="badge">5</span> Intercourse after Circumcision procedure?
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p>Wait for atleast three weeks is advised after the procedure.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
                 </div>
             </div>
         </div>

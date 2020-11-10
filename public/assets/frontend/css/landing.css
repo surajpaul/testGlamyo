@@ -258,9 +258,7 @@ padding-left: 100px;
 	border-bottom: none;
 }
 
-.dropdown-menu > li > a {
-	text-transform: uppercase;
-}
+
 
 .section-head {
 	position: relative;
@@ -4022,6 +4020,7 @@ margin: 20px 0;
 li.adv-row{
 	margin: 0px 100px;
 	padding: 20px 0px;
+	display: flex;
 	border-bottom: 1px solid #eee;
 }
 li.adv-row:first-child{
@@ -4175,8 +4174,8 @@ hr{
 
 .faq .card .card-header .faq-title::after {
 	position: absolute;
-	right: 40px;
-	background-color: #eeeeee;
+	right: 15px;
+	background-color:  #d0eafb;
 	padding: 5px 10px;
 	border-radius: 100%;
 	content:'+';
@@ -7917,11 +7916,7 @@ h2.dad-text{
 	font-weight: 600;
 }
 
-.dad-content{
-	margin: 0 auto;
-	display: inline-block;
-	padding: 30px 100px 80px 100px;
-}
+
 
 @media only screen and (max-width: 768px) {
 .parallax-content h4 {
