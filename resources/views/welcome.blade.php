@@ -1940,7 +1940,12 @@ I loved it!
     </div>
   </div>
 </div>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#location").modal("show");
+  });
+</script>
         <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="{{asset('assets/frontend/js/jquery-3.5.1.min.js')}}"></script>
@@ -1958,7 +1963,8 @@ I loved it!
     <script>
         // location popup modal
         $(window).load(function() {
-        $("#popupSubscriber").modal("show");
+        $("#location").modal("show");
+        alert("hy");
         });
     </script>
     <script>
