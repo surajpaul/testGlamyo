@@ -57,9 +57,9 @@
                                                         <ul class="dropdown-menu dropdown-menu1">
                                                             <li><a class="dropdown-item" href="{{url('health/piles')}}">Piles
                                                                     </a></li>
-                                                            <li><a class="dropdown-item" href="health/fistula/index.php">Fistula
+                                                            <li><a class="dropdown-item" href="{{url('health/fistula')}}">Fistula
                                                                    </a></li>
-                                                            <li><a class="dropdown-item" href="health/fissure/index.php">Fissure</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/fissure')}}">Fissure</a></li>
                                                                    
                                                         </ul>
                                                     </li>
@@ -69,16 +69,16 @@
                                                             aria-haspopup="true" aria-expanded="false" href="#">Laproscopy <i class="fas fa-plus"></i></a>
                                                         <ul class="dropdown-menu dropdown-menu1">
                                                             <li><a class="dropdown-item" href="{{url('health/hernia')}}">Hernia</a></li>
-                                                            <li><a class="dropdown-item" href="health/gallstone/index.php">Gallstone</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/gallstone')}}">Gallstone</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown">
                                                         <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                                             aria-haspopup="true" aria-expanded="false" href="#">Urology <i class="fas fa-plus"></i></a>
                                                         <ul class="dropdown-menu dropdown-menu1">
-                                                            <li><a class="dropdown-item" href="health/phimosis/index.php">Phimosis</a></li>
-                                                            <li><a class="dropdown-item" href="health/kidney-stone/index.php">Kidney Stone</a></li>
-                                                            <li><a class="dropdown-item" href="health/hydrocele/index.php">Hydrocele</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/phimosis')}}">Phimosis</a></li>
+                                                            <li><a class="dropdown-item" href="">Kidney Stone</a></li>
+                                                            <li><a class="dropdown-item" href="">Hydrocele</a></li>
                                                         </ul>
                                                     </li>
                                                     
@@ -91,13 +91,13 @@
                                                 
                                                 <ul class="dropdown-menu">
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="beauty/gynecomastia/index.php">Gynecomastia</a>
+                                                        <a class="dropdown-item" href="{{url('beauty/gynaecomastia')}}">Gynecomastia</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="beauty/hair-transplant/index.php">Hair Transplant</a>
+                                                        <a class="dropdown-item" href="">Hair Transplant</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="beauty/liposuction/index.php">Liposuction</a>
+                                                        <a class="dropdown-item" href="">Liposuction</a>
                                                     </li>
                                                  
                                                     
@@ -111,13 +111,13 @@
                                                 
                                                 <ul class="dropdown-menu">
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="care/hair-care/index.php">Hair Care</a>
+                                                        <a class="dropdown-item" href="">Hair Care</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="care/covid-19/index.php">Covid 19</a>
+                                                        <a class="dropdown-item" href="">Covid 19</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="appointment.html">Masks & Sanitizers</a>
+                                                        <a class="dropdown-item" href="">Masks & Sanitizers</a>
                                                     </li>
                                                  
                                                     
@@ -1936,6 +1936,7 @@ I loved it!
     <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <script>
         const $input = document.querySelector(".numeric");
         const BIRTHNUMBER_ALLOWED_CHARS_REGEXP = /[0-9\/]+/;
         $input.addEventListener("keypress", e => {
