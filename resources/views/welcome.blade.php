@@ -1916,8 +1916,6 @@ I loved it!
     </div>
   </div>
 </div>
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <!-- location popup modal -->
@@ -1938,7 +1936,6 @@ I loved it!
     <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-     <script>
         const $input = document.querySelector(".numeric");
         const BIRTHNUMBER_ALLOWED_CHARS_REGEXP = /[0-9\/]+/;
         $input.addEventListener("keypress", e => {

@@ -171,6 +171,12 @@
                       </td>
                     </tr>
                     @endforeach
+                    <tr class="box overall">
+                      <th></th>
+                      <th>Total</th>
+                      <td><span class="text-success bold"><?php echo $ipd->count(); ?></span> IPDs</td>
+                      <td><span class="text-success bold"><?php echo $opd->count(); ?></span> OPDs</td>
+                    </tr>
 
                     @foreach($users as $user)
                     <tr class="box month">
@@ -224,6 +230,13 @@
                       </td>
                     </tr>
                     @endforeach
+                    <tr class="box month">
+                      <th></th>
+                      <th>Total</th>
+                      <td><span class="text-success bold"><?php echo $ipdThisMonth->count(); ?></span> IPDs</td>
+                      <td><span class="text-success bold"><?php echo $opdThisMonth->count(); ?></span> OPDs</td>
+                    </tr>
+
                   </tbody>
                 </table>
               </div>
@@ -245,12 +258,6 @@
           </div>
           <!-- underwork end -->
         </div>
-
-
-
-        <!-- try -->
-
-        <!-- try end -->
 <script>
   // @formatter:off
   document.addEventListener("DOMContentLoaded", function () {
