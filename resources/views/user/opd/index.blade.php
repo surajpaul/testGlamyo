@@ -81,7 +81,7 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
-	          	<th class="d-none">created_at</th>
+	          	<th class="d-none">id</th>
 	            <th>Patient</th>
 	            <th>Phone</th>
 	            <th>Doctor</th>
@@ -90,6 +90,7 @@
 	            <th>treatment</th>
 	            <th>appointment_date</th>
 	            <th>appointment_time</th>
+	            <th>Prescription</th>
 	            <th>status</th>
 	            <th>Action</th>
 	          </tr>
@@ -97,7 +98,7 @@
 	        <tbody style="padding-bottom: 200px;">
 	        	@foreach($opds as $opd)
 	        	<tr>
-	        		<td class="d-none">{{$opd->created_at}}</td>
+	        		<td class="d-none">{{$opd->id}}</td>
 	        		<td>{{$opd->patient}}</td>
 	        		<td>{{$opd->phone}}</td>
 	        		<td>{{$opd->doctor->name}}</td>
@@ -108,6 +109,11 @@
 	        		<td>
 	        			<?php $appointment_time = $opd->appointment_time; echo date('h:i a', strtotime($appointment_time)); ?>
 	        		</td>
+	        		@if(isset($opd->prescription))
+	        		<td><img src="{{env('APP_URL')}}prescription/{{$opd->prescription}}" width="80px" class="d-block mx-auto"></td>
+	        		@else
+	        		<td>Not Uploaded</td>
+	        		@endif
 	        		@if($opd->status == NULL)
 	        		<td class="badge bg-info" style="margin: 10px auto;display: block;">Active</td>
 	        		@elseif($opd->status == 1)

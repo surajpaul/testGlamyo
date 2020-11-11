@@ -117,44 +117,44 @@
     		</div>
     	</div>
     </div>
-<div style="position: absolute;left: -20%;">
+<div style="position: absolute;left: -100%;">
     <textarea type="text" id="myInput">
-    *IPD Schedule :*
+*IPD Schedule :*
 
-    *Patient Name :* {{$ipd->patient}}
+*Patient Name :* {{$ipd->patient}}
 
-    *Glamyo Buddy :* {{$ipd->user->name}}
+*Glamyo Buddy :* {{$ipd->user->name}}
 
-    *Doctor Name :* {{$ipd->doctor->name}}
+*Doctor Name :* {{$ipd->doctor->name}}
 
-    *Treatment :* {{$ipd->treatment->name}}
+*Treatment :* {{$ipd->treatment->name}}
 
-    *Hospital Name :* {{$ipd->hospital->name}}
+*Hospital Name :* {{$ipd->hospital->name}}
 
-    *Hospital Room Category :* {{$ipd->room->name}}
+*Hospital Room Category :* {{$ipd->room->name}}
 
-    *Address :* {{$hospital->address}}
+*Address :* {{$hospital->address}}
 
-    *Location :* {{$hospital->location}}
+*Location :* {{$hospital->location}}
 
-    *Surgery Date :* <?php $date = date('d-M-Y', strtotime($ipd->surgery_date)); echo $date; ?>
-
-
-    *Arrival Time :* <?php $arrival_time = $ipd->arrival_time; echo date('h:i a', strtotime($arrival_time)); ?>
+*Surgery Date :* <?php $date = date('d-M-Y', strtotime($ipd->surgery_date)); echo $date; ?>
 
 
-    *Treatment Time :* <?php $treatment_time = $ipd->treatment_time; echo date('h:i a', strtotime($treatment_time)); ?>
+*Arrival Time :* <?php $arrival_time = $ipd->arrival_time; echo date('h:i a', strtotime($arrival_time)); ?>
 
 
-    *Test :* {{$ipd->test}}
-    
-    *Attendant :* {{$ipd->attendant}}
-    
-    *Payment Type :* {{$ipd->payment->name}}
-    
+*Treatment Time :* <?php $treatment_time = $ipd->treatment_time; echo date('h:i a', strtotime($treatment_time)); ?>
 
-    Regards
-    Glamyo Health
+
+*Test :* {{$ipd->test}}
+
+*Attendant :* {{$ipd->attendant}}
+
+*Payment Type :* {{$ipd->payment->name}}
+
+
+Regards
+Glamyo Health
     </textarea>
 </div>
 

@@ -94,4 +94,37 @@ class ipdController extends Controller
     {
         //
     }
+
+    // Active
+    public function active(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'nullable',
+        ]);
+        ipd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/ipd')->with('success', 'IPD status is successfully updated.');
+    }
+
+    // Complete
+    public function complete(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'required|integer',
+        ]);
+        ipd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/ipd')->with('success', 'IPD status is successfully updated.');
+    }
+
+    // Cancel
+    public function cancel(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'required|integer',
+        ]);
+        ipd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/ipd')->with('success', 'IPD status is successfully updated.');
+    }
 }

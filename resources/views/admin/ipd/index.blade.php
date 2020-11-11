@@ -81,7 +81,7 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
-	          	<th class="d-none">created_at</th>
+	          	<th class="d-none">id</th>
 	            <th>Patient</th>
 	            <th>Phone</th>
 	            <th>user</th>
@@ -96,10 +96,13 @@
 	            <th>aadhar</th>
 	            <th>insurance</th>
 	            <th>payment type</th>
+	            <th>On admission</th>
+	            <th>on discharge</th>
 	            <th>billed amt</th>
 	            <th>settled amt</th>
 	            <th>hospital share</th>
 	            <th>glamyo share</th>
+	            <th>doctor share</th>
 	            <th>status</th>
 	            <th>Action</th>
 	          </tr>
@@ -107,7 +110,7 @@
 	        <tbody id="dataTables" style="padding-bottom: 200px;">
 	        	@foreach($ipds as $ipd)
 	        	<tr>
-	        		<td class="d-none">{{$ipd->created_at}}</td>
+	        		<td class="d-none">{{$ipd->id}}</td>
 	        		<td>{{$ipd->patient}}</td>
 	        		<td>{{$ipd->phone}}</td>
 	        		<td>{{$ipd->user->name}}</td>
@@ -134,10 +137,13 @@
 	        		</td>
 	        		@endif
 	        		<td>{{$ipd->payment->name}}</td>
+	        		<td>{{$ipd->on_admission}}</td>
+	        		<td>{{$ipd->on_discharge}}</td>
 	        		<td>{{$ipd->billed_amt}}</td>
 	        		<td>{{$ipd->settled_amt}}</td>
 	        		<td>{{$ipd->hospital_share}}</td>
 	        		<td>{{$ipd->glamyo_share}}</td>
+	        		<td>{{$ipd->doctor_share}}</td>
 	        		@if($ipd->status == NULL)
 	        		<td class="badge bg-info" style="margin: 10px auto;display: block;">Active</td>
 	        		@elseif($ipd->status == 1)

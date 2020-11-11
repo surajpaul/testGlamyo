@@ -61,7 +61,20 @@ class opdController extends Controller
             'hospital_share' => 'nullable',
             'glamyo_share' => 'nullable',
             'status' => 'nullable',
+            'prescription' => 'nullable|mimes:jpg,png,jpeg,pdf|max:204800',
         ]);
+        // upload prescription
+        $prescription_name = $request->prescription;
+        $prescription = $request->file('prescription');
+        if($prescription != '')
+        {
+            $request->validate([
+                'prescription' => 'required'
+            ]);
+            $prescription_name = rand() . '.' . $prescription->getClientOriginalExtension();
+            $prescription->move(public_path('prescription'), $prescription_name);
+        }
+
         $opd = new opd([
             'patient' => $request->get('patient'),
             'phone' => $request->get('phone'),
@@ -76,6 +89,7 @@ class opdController extends Controller
             'hospital_share' => $request->get('hospital_share'),
             'glamyo_share' => $request->get('glamyo_share'),
             'status' => $request->get('status'),
+            'prescription' => $prescription_name,
         ]);
         $opd->save();
 
@@ -168,6 +182,14 @@ class opdController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $prescription_name = $request->prescription_hide_user;
+        $prescription = $request->file('prescription');
+        if($prescription != ''){
+            $prescription_name = rand() . '.' . $prescription->getClientOriginalExtension();
+            $prescription->move(public_path('prescription'), $prescription_name);
+        }else{
+        }
+
         $form_data = array(
             'patient' => $request->patient,
             'phone' => $request->phone,
@@ -182,6 +204,7 @@ class opdController extends Controller
             'hospital_share' => $request->hospital_share,
             'glamyo_share' => $request->glamyo_share,
             'status' => $request->status,
+            'prescription' => $prescription_name,
         );
 
         opd::whereId($id)->update($form_data);

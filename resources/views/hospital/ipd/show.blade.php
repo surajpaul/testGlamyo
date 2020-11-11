@@ -123,45 +123,45 @@
     		</div>
     	</div>
     </div>
-<div style="position: absolute;left: -20%;">
+<div style="position: absolute;left: -100%;">
     <textarea type="text" id="myInput">
-    *IPD Schedule :*
-    
+*IPD Schedule :*
 
-    *Patient Name :* {{$ipd->patient}}
-    
-    *Glamyo Buddy :* {{$ipd->user->name}}
-    
-    *Doctor Name :* {{$ipd->doctor->name}}
-    
-    *Treatment :* {{$ipd->treatment->name}}
-    
-    *Hospital Name :* {{$ipd->hospital->name}}
-    
-    *Hospital Room Category :* {{$ipd->room->name}}
-    
-    *Address :* {{$hospital->address}}
-    
-    *Location :* {{$hospital->location}}
-    
-    *Surgery Date :* <?php $date = date('d-M-Y', strtotime($ipd->surgery_date)); echo $date; ?>
-    
 
-    *Arrival Time :* <?php $arrival_time = $ipd->arrival_time; echo date('h:i a', strtotime($arrival_time)); ?>
-    
+*Patient Name :* {{$ipd->patient}}
 
-    *Treatment Time :* <?php $treatment_time = $ipd->treatment_time; echo date('h:i a', strtotime($treatment_time)); ?>
-    
+*Glamyo Buddy :* {{$ipd->user->name}}
 
-    *Test :* {{$ipd->test}}
-    
-    *Attendant :* {{$ipd->attendant}}
-    
-    *Payment Type :* {{$ipd->payment->name}}
-    
+*Doctor Name :* {{$ipd->doctor->name}}
 
-    Regards
-    Glamyo Health
+*Treatment :* {{$ipd->treatment->name}}
+
+*Hospital Name :* {{$ipd->hospital->name}}
+
+*Hospital Room Category :* {{$ipd->room->name}}
+
+*Address :* {{$hospital->address}}
+
+*Location :* {{$hospital->location}}
+
+*Surgery Date :* <?php $date = date('d-M-Y', strtotime($ipd->surgery_date)); echo $date; ?>
+
+
+*Arrival Time :* <?php $arrival_time = $ipd->arrival_time; echo date('h:i a', strtotime($arrival_time)); ?>
+
+
+*Treatment Time :* <?php $treatment_time = $ipd->treatment_time; echo date('h:i a', strtotime($treatment_time)); ?>
+
+
+*Test :* {{$ipd->test}}
+
+*Attendant :* {{$ipd->attendant}}
+
+*Payment Type :* {{$ipd->payment->name}}
+
+
+Regards
+Glamyo Health
     </textarea>
 </div>
 

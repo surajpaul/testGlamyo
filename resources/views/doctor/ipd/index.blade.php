@@ -78,9 +78,8 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
-	          	<th class="d-none">created_at</th>
+	          	<th class="d-none">id</th>
 	            <th>Patient</th>
-	            <th>Phone</th>
 	            <th>User</th>
 	            <th>Hospital</th>
 	            <th>Room</th>
@@ -99,9 +98,8 @@
 	        <tbody style="padding-bottom: 200px;">
 	        	@foreach($ipds as $ipd)
 	        	<tr>
-	        		<td class="d-none">{{$ipd->created_at}}</td>
+	        		<td class="d-none">{{$ipd->id}}</td>
 	        		<td>{{$ipd->patient}}</td>
-	        		<td>{{$ipd->phone}}</td>
 	        		<td>{{$ipd->user->name}}</td>
 	        		<td>{{$ipd->hospital->name}}</td>
 	        		<td>{{$ipd->room->name}}</td>
@@ -132,12 +130,64 @@
 	        		@elseif($ipd->status == 2)
 	        		<td class="badge bg-danger" style="margin: 10px auto;display: block;">Cancelled</td>
 	        		@endif
-	        		<td class="text-center">
+	                <td class="text-center">
 	                    <div class="dropdown">
 						  <a type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    <i class="icon" data-feather="more-vertical"></i>
 						  </a>
 						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						  	@if($ipd->status == NULL)
+				            <form method="post" action="{{ route('doctor.ipd.complete', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="1"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Complete IPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.ipd.complete', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="2"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="x"></i> Cancel IPD
+				              	</button>
+				            </form>
+				            @elseif($ipd->status == 1)
+				            <form method="post" action="{{ route('doctor.ipd.active', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value=""/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Active IPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.ipd.complete', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="2"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="x"></i> Cancel IPD
+				              	</button>
+				            </form>
+				            @elseif($ipd->status == 2)
+				            <form method="post" action="{{ route('doctor.ipd.active', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value=""/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Active IPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.ipd.complete', $ipd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="1"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Complete IPD
+				              	</button>
+				            </form>
+				            @endif
 				            <a class="dropdown-item" href="{{ route('doctor.ipd.show', $ipd->id)}}">
 						    	<i class="icon mr-2" data-feather="edit"></i> View
 						    </a>

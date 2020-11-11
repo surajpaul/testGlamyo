@@ -68,6 +68,14 @@
     				<div class="col-md-9">
     					{{$opd->fee}}
     				</div>
+                    @if(isset($opd->prescription))
+                    <div class="col-md-3">
+                        <strong>Prescription -</strong>
+                    </div>
+                    <div class="col-md-9">
+                        <img src="{{env('APP_URL')}}prescription/{{$opd->prescription}}" width="100px">
+                    </div>
+                    @endif
     				<div class="col-md-3 my-4">    					
     				</div>
     				<div class="col-md-9 my-4">
@@ -82,36 +90,36 @@
     		</div>
     	</div>
     </div>
-<div style="position: absolute;left: -20%;">
+<div style="position: absolute;left: -100%;">
     <textarea type="text" id="myInput">
-    *OPD Schedule :*
+*OPD Schedule :*
 
 
-    *Patient Name :* {{$opd->patient}}
+*Patient Name :* {{$opd->patient}}
 
-    *Glamyo Buddy :* {{$opd->user->name}}
+*Glamyo Buddy :* {{$opd->user->name}}
 
-    *Doctor Name :* {{$opd->doctor->name}}
+*Doctor Name :* {{$opd->doctor->name}}
 
-    *Treatment :* {{$opd->treatment->name}}
+*Treatment :* {{$opd->treatment->name}}
 
-    *Hospital Name :* {{$opd->hospital->name}}
+*Hospital Name :* {{$opd->hospital->name}}
 
-    *Address :* {{$hospital->address}}
+*Address :* {{$hospital->address}}
 
-    *Location :* {{$hospital->location}}
+*Location :* {{$hospital->location}}
 
-    *Appointment Date :* <?php $date = date('d-M-Y', strtotime($opd->appointment_date)); echo $date; ?>
-
-
-    *Appointment Time :* <?php $appointment_time = $opd->appointment_time; echo date('h:i a', strtotime($appointment_time)); ?>
+*Appointment Date :* <?php $date = date('d-M-Y', strtotime($opd->appointment_date)); echo $date; ?>
 
 
-    *Fee :* {{$opd->fee}}
-    
+*Appointment Time :* <?php $appointment_time = $opd->appointment_time; echo date('h:i a', strtotime($appointment_time)); ?>
 
-    Regards
-    Glamyo Health
+
+*Fee :* {{$opd->fee}}
+
+
+Regards
+Glamyo Health
     </textarea>
 </div>
 <script>

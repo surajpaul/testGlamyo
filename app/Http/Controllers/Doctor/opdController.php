@@ -69,7 +69,8 @@ class opdController extends Controller
      */
     public function edit($id)
     {
-        //
+        $opd = opd::findOrFail($id);
+        return view('doctor.opd.edit', compact('opd'));
     }
 
     /**
@@ -81,7 +82,20 @@ class opdController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $prescription_name = $request->prescription_hide_user;
+        $prescription = $request->file('prescription');
+        if($prescription != ''){
+            $prescription_name = rand() . '.' . $prescription->getClientOriginalExtension();
+            $prescription->move(public_path('prescription'), $prescription_name);
+        }else{
+        }
+
+        $form_data = array(
+            'prescription' => $prescription_name,
+        );
+
+        opd::whereId($id)->update($form_data);
+        return redirect('/doctor/opd')->with('success', 'Prescription has been successfully updated.');
     }
 
     /**
@@ -93,5 +107,35 @@ class opdController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function active(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'nullable',
+        ]);
+        opd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/opd')->with('success', 'OPD status is successfully updated.');
+    }
+
+    public function complete(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'required|integer',
+        ]);
+        opd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/opd')->with('success', 'OPD status is successfully updated.');
+    }
+
+    public function cancel(Request $request, $id)
+    {
+        $validatedData = $request->validate([
+            'status' => 'required|integer',
+        ]);
+        opd::whereId($id)->update($validatedData);
+
+        return redirect('/doctor/opd')->with('success', 'OPD status is successfully updated.');
     }
 }

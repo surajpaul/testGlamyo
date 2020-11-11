@@ -64,7 +64,13 @@ Route::group(['as'=>'admin.','prefix'=>'admin','namespace'=>'Admin','middleware'
 Route::group(['as'=>'doctor.','prefix'=>'doctor','namespace'=>'Doctor','middleware'=>['auth','doctor']], function(){
 	Route::get('/dashboard','DashboardController@index')->name('dashboard');
 	Route::resource('/profile','ProfileController');
+	Route::post('/ipd/{id}/active','ipdController@active')->name('ipd.active');
+	Route::post('/ipd/{id}/complete','ipdController@complete')->name('ipd.complete');
+	Route::post('/ipd/{id}/cancel','ipdController@cancel')->name('ipd.cancel');
 	Route::resource('/ipd','ipdController');
+	Route::post('/opd/{id}/active','opdController@active')->name('opd.active');
+	Route::post('/opd/{id}/complete','opdController@complete')->name('opd.complete');
+	Route::post('/opd/{id}/cancel','opdController@cancel')->name('opd.cancel');
 	Route::resource('/opd','opdController');
 });
 

@@ -1,8 +1,6 @@
 @extends('layouts.backend.app')
 
 @section('content')
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css"> -->
 <style>
 	strong{
 		font-weight: bold;
@@ -80,15 +78,15 @@
 	      <table class="table table-bordered table-hover">
 	        <thead>
 	          <tr>
-	          	<th class="d-none">created_at</th>
+	          	<th class="d-none">id</th>
 	            <th>Patient</th>
-	            <th>Phone</th>
 	            <th>user</th>
 	            <th>Hospital</th>
 	            <th>Fee</th>
 	            <th>treatment</th>
 	            <th>appointment_date</th>
 	            <th>appointment_time</th>
+	            <th>Prescription</th>
 	            <th>status</th>
 	            <th>Action</th>
 	          </tr>
@@ -96,9 +94,8 @@
 	        <tbody style="padding-bottom: 200px;">
 	        	@foreach($opds as $opd)
 	        	<tr>
-	        		<td class="d-none">{{$opd->created_at}}</td>
+	        		<td class="d-none">{{$opd->id}}</td>
 	        		<td>{{$opd->patient}}</td>
-	        		<td>{{$opd->phone}}</td>
 	        		<td>{{$opd->user->name}}</td>
 	        		<td>{{$opd->hospital->name}}</td>
 	        		<td>{{$opd->fee}}</td>
@@ -107,6 +104,11 @@
 	        		<td>
 	        			<?php $appointment_time = $opd->appointment_time; echo date('h:i a', strtotime($appointment_time)); ?>
 	        		</td>
+	        		@if(isset($opd->prescription))
+	        		<td><img src="{{env('APP_URL')}}prescription/{{$opd->prescription}}" width="80px" class="d-block mx-auto"></td>
+	        		@else
+	        		<td>Not Uploaded</td>
+	        		@endif
 	        		@if($opd->status == NULL)
 	        		<td class="badge bg-info" style="margin: 10px auto;display: block;">Active</td>
 	        		@elseif($opd->status == 1)
@@ -114,14 +116,69 @@
 	        		@elseif($opd->status == 2)
 	        		<td class="badge bg-danger" style="margin: 10px auto;display: block;">Cancelled</td>
 	        		@endif
-	        		<td class="text-center">
+	                <td class="text-center">
 	                    <div class="dropdown">
 						  <a type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    <i class="icon" data-feather="more-vertical"></i>
 						  </a>
 						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						  	@if($opd->status == NULL)
+				            <form method="post" action="{{ route('doctor.opd.complete', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="1"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Complete OPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.opd.complete', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="2"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="x"></i> Cancel OPD
+				              	</button>
+				            </form>
+				            @elseif($opd->status == 1)
+				            <form method="post" action="{{ route('doctor.opd.active', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value=""/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Active OPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.opd.complete', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="2"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="x"></i> Cancel OPD
+				              	</button>
+				            </form>
+				            @elseif($opd->status == 2)
+				            <form method="post" action="{{ route('doctor.opd.active', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value=""/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Active OPD
+				              	</button>
+				            </form>
+				            <form method="post" action="{{ route('doctor.opd.complete', $opd->id) }}">
+				                @csrf
+				                @method('POST')
+				                <input type="hidden" class="form-control" name="status" value="1"/>
+				                <button class="dropdown-item" type="submit">
+				                  	<i class="icon mr-2" data-feather="check"></i> Complete OPD
+				              	</button>
+				            </form>
+				            @endif
 				            <a class="dropdown-item" href="{{ route('doctor.opd.show', $opd->id)}}">
 						    	<i class="icon mr-2" data-feather="edit"></i> View
+						    </a>
+						    <a class="dropdown-item" href="{{ route('doctor.opd.edit', $opd->id)}}">
+						    	<i class="icon mr-2" data-feather="edit"></i> Upload Prescription
 						    </a>
 						  </div>
 						</div>

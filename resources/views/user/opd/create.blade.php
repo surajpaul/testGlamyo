@@ -15,7 +15,7 @@
       <h3 class="card-title">Book OPD</h3>
     </div>
     <div class="card-body">
-      <form method="post" action="{{ route('user.opd.store') }}">
+      <form method="post" action="{{ route('user.opd.store') }}" enctype="multipart/form-data">
         @csrf
       	<div class="row">
       		<div class="col-md-3">
@@ -143,6 +143,19 @@
 		          <div>
 		            <input id="appointment_time" type="time" class="form-control @error('appointment_time') is-invalid @enderror" name="appointment_time" placeholder="Enter Arrival Time" value="{{ old('appointment_time') }}" autocomplete="appointment_time" required>
 	                @error('appointment_time')
+	                    <span class="invalid-feedback" role="alert">
+	                        <strong>{{ $message }}</strong>
+	                    </span>
+	                @enderror
+		          </div>
+		        </div>
+      		</div>
+      		<div class="col-md-12">
+      			<div class="form-group mb-3 ">
+		          <label class="form-label">Upload Prescription :</label>
+		          <div>
+		            <input id="prescription" type="file" class="form-control @error('prescription') is-invalid @enderror" name="prescription" placeholder="Upload Prescription">
+	                @error('prescription')
 	                    <span class="invalid-feedback" role="alert">
 	                        <strong>{{ $message }}</strong>
 	                    </span>

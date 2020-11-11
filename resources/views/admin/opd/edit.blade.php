@@ -205,6 +205,20 @@
 		          </div>
 		        </div>
       		</div>
+      		<div class="col-md-3">
+      			<div class="form-group mb-3">
+		          <label class="form-label">Upload Prescription :</label>
+		          <div>
+		            <input id="prescription" type="file" class="form-control @error('prescription') is-invalid @enderror" name="prescription" value="{{$opd->prescription}}">
+		            <input type="text" name="prescription_hide_user" class="d-none" value="{{$opd->prescription}}">
+	                @error('prescription')
+	                    <span class="invalid-feedback" role="alert">
+	                        <strong>{{ $message }}</strong>
+	                    </span>
+	                @enderror
+		          </div>
+		        </div>
+      		</div>
       	</div>
 
         <div class="form-footer">
