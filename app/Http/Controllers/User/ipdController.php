@@ -67,11 +67,11 @@ class ipdController extends Controller
             'treatment_time' => 'required',
             'test' => 'nullable',
             'attendant' => 'required',
-            'aadhar.*' => 'required|file|mimes:jpg,png,jpeg,pdf|max:204800',
+            'aadhar.*' => 'required|mimes:jpg,png,jpeg,pdf|max:204800',
             'payment_id' => 'required|integer',
             'admission_amt' => 'nullable',
             'discharge_amt'=> 'nullable',
-            'insurance.*'=> 'nullable|file|mimes:jpg,png,jpeg,pdf|max:204800',
+            'insurance.*'=> 'nullable|mimes:jpg,png,jpeg,pdf|max:204800',
             'billed_amt'=> 'nullable',
             'settled_amt'=> 'nullable',
             'hospital_share'=> 'nullable',
@@ -84,7 +84,7 @@ class ipdController extends Controller
         if($aadhar != '')
         {
             $request->validate([
-                'aadhar' => 'required|image'
+                'aadhar' => 'required|mimes:jpg,png,jpeg,pdf|max:204800'
             ]);
             $aadhar_name = rand() . '.' . $aadhar->getClientOriginalExtension();
             $aadhar->move(public_path('aadhar'), $aadhar_name);
@@ -95,7 +95,7 @@ class ipdController extends Controller
         if($insurance != '')
         {
             $request->validate([
-                'insurance' => 'required|image'
+                'insurance' => 'required|mimes:jpg,png,jpeg,pdf|max:204800'
             ]);
             $insurance_name = rand() . '.' . $insurance->getClientOriginalExtension();
             $insurance->move(public_path('insurance'), $insurance_name);

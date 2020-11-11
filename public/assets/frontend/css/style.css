@@ -4350,3 +4350,119 @@ URL: https://themeforest.net/user/surjithctly/
       font-size: 13px;
       margin: 0;
     }
+
+    .img-block {
+      width: 85%;
+      height: 100%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      background: rgb(238, 238, 238);
+      border-radius: 10px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(221, 221, 221);
+      border-image: initial;
+  }
+  .img-block img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.doc-info-cont {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.doc-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.doc-department {
+  color: rgb(15, 116, 178);
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+span.doc-exp {
+  font-size: 14px;
+}
+
+.rating {
+  width: 100%;
+  list-style: none;
+  margin: 0px 0px 7px;
+  padding: 0px;
+}
+.rating i.filled {
+  color: rgb(244, 193, 80);
+}
+span.average-rating {
+  font-size: 13px;
+  font-weight: 500;
+}
+.rating i {
+  color: rgb(222, 223, 224);
+}
+span.average-rating {
+  font-size: 13px;
+  font-weight: 500;
+}
+.doc-location {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.doc-speciality {
+  font-size: 14px;
+  color: rgb(117, 117, 117);
+  margin-bottom: 5px;
+}
+.doc-speciality h4 {
+  font-size: 15px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+}
+.doc-speciality ul li {
+  display: inline-flex;
+  margin: 10px 0px;
+}
+.doc-speciality ul li span::before {
+  content: url(../images/check.png);
+  margin: 0px 10px;
+}
+.doc-location i {
+  color: #0F74B2;
+}
+
+.doctor-section .card {
+  padding: 15px;
+  background: #fff !important;
+}
+.clinic-booking a.apt-btn {
+  background-color: rgb(15, 116, 178);
+  color: rgb(255, 255, 255);
+}
+
+.clinic-booking a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 116, 178);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(15, 116, 178);
+  border-image: initial;
+  border-radius: 4px;
+  padding: 10px;
+}

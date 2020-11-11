@@ -36,6 +36,8 @@ Route::get('/health/phimosis', function () { return view('frontend.health.phimos
 Route::get('/health/kidney-stone', function () { return view('frontend.health.kidney-stone');});
 Route::get('/health/hydrocele', function () { return view('frontend.health.hydrocele');});
 Route::get('/beauty/gynecomastia', function () { return view('frontend.beauty.gynecomastia');});
+Route::get('/our-doctors', function () { return view('frontend.doctors');});
+Route::get('/thank-you', function () { return view('frontend.thank-you');});
 
 
 
