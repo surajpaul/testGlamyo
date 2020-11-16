@@ -22,8 +22,18 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
     <title>Glamyo Health</title>
+    <!-- try -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet prefetch" href="{{asset('css/app.css')}}">
+    <!-- try ends -->
 </head>
 <body>
+<!-- try -->
+<div class="pt-5 mt-5" id="app">
+    <app/>
+</div>
+<script src="{{asset('js/app.js')}}"></script>
+<!-- try end -->
     <!--==================== Header ====================-->
     <header>
         <div class="banner--wrap"  style="background: url('{{asset('assets/frontend/images/banner-bg.jpg')}}') center no-repeat;">

@@ -21,7 +21,7 @@ class ipdController extends Controller
      */
     public function index()
     {
-        $ipds = ipd::latest()->paginate(10);
+        $ipds = ipd::latest()->paginate(25);
         return view('admin.ipd.index', compact('ipds'));
     }
 
