@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/et-blurp.css')}}" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
- 
     <title>Glamyo Health</title>
 </head>
 <body>
@@ -82,17 +81,6 @@
                                                             <li><a class="dropdown-item" href="">Hydrocele</a></li>
                                                         </ul>
                                                     </li>
-
-                                                    <li class="dropdown">
-                                                     <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                          aria-haspopup="true" aria-expanded="false" href="#">Vascular <i class="fas fa-plus"></i></a>
-                                                     <ul class="dropdown-menu dropdown-menu1">
-                                                        <li><a class="dropdown-item" href="{{url('health/pilonidal-sinus')}}">Pilonidal Sinus</a></li>
-                                                        <li><a class="dropdown-item" href="{{url('health/varicose-veins')}}">Varicose Veins</a></li>
-                                                        <li><a class="dropdown-item" href="{{url('health/varicocele')}}">Varicocele</a></li>
-                                                   </ul>
-                                               </li>
-
                                                     
                                                 </ul>
                                         </li>
@@ -315,10 +303,7 @@
             <!-- // end .container -->
         </div>
         <!-- // end .bannerwrap -->
-    </header>
-
-
-      
+    </header>      
 
     <!--//End Header -->
     <!--==================== About Section ====================-->
@@ -370,9 +355,9 @@
                         <li>
                             <select class="custom-select form-control" id='LEADCF1' name='LEADCF1'>
                                 <option>Select a Treatment</option>
-                                <option value="Piles">Piles</option><option value="Hernia">Hernia</option><option value="Gallstone">Gallstone</option><option value="Gynaecomastia">Gynaecomastia</option><option value="Circumcision">Circumcision</option><option value="Hydrocele">Hydrocele</option><option value="Varicocele">Varicocele</option><option value="Prostate">Prostate</option><option value="Lasik">Lasik</option><option value="Botox">Botox</option><option value="Laser Hair Removal">Laser Hair Removal</option><option value="IVF">IVF</option><option value="Rhinoplasty">Rhinoplasty</option><option value="Abdominoplasty">Abdominoplasty</option><option value="Blephroplasty">Blephroplasty</option><option value="Kidney Stone">Kidney Stone</option><option value="Varicose Veins">Varicose Veins</option><option value="Fissure">Fissure</option><option value="Fistula">Fistula</option><option value="Pilonidal sinus">Pilonidal sinus</option><option value="Knee replacement">Knee replacement</option></select>
+                                <option value="Piles">Piles</option><option value="Hernia">Hernia</option><option value="Gallstone">Gallstone</option><option value="Gynaecomastia">Gynaecomastia</option><option value="Circumcision">Circumcision</option><option value="Hydrocele">Hydrocele</option><option value="Varicocele">Varicocele</option><option value="Prostate">Prostate</option><option value="Lasik">Lasik</option><option value="Botox">Botox</option><option value="Laser Hair Removal">Laser Hair Removal</option><option value="IVF">IVF</option><option value="Rhinoplasty">Rhinoplasty</option><option value="Abdominoplasty">Abdominoplasty</option><option value="Blephroplasty">Blephroplasty</option><option value="Kidney Stone">Kidney Stone</option><option value="Varicose Veins">Varicose Veins</option><option value="Fissure">Fissure</option><option value="Fistula">Fistula</option><option value="Pilonidal sinus">Pilonidal sinus</option><option value="Knee replacement">Knee replacement</option>
+                            </select>
                         </li>
-
 
                         <li class="form-btn">
                             <input type='submit' value="Submit" title='Submit' id='formsubmit'  class="btn btn-success"/>
@@ -426,8 +411,6 @@
             </div>
         </div>
     </section>
-
-    
             <!-- <div class="row">
                 <div class="col-md-12">
                     <div class="about-video_block">
@@ -496,18 +479,6 @@
     <!--//End About Section -->
 
     
-    <!-- Floating Button -->
-    <div class="fabs">
-  <a href="https://glamyohealth.in/request-call-back" target="_blank" class="fabz green" tooltip="Book Appointment"><i class="fa fa-notes-medical"></i></a>
-
-  <a href="https://glamyohealth.in/consult-now" target="_blank" class="fabz light-blue" style="color: #0F74B2" tooltip="Consult Doctor"><i class="fa fa-user-md"></i></a>
-
-  <a href="tel:+91 97111 44 230" class="fabz dark-blue" tooltip="Call Us"><i class="fa fa-phone"></i></a>
-  
-  <a target="_blank" class="fabz blue"></a>
-    </div>
-
-
     <!-- .et_pb_section -->
             <div class="container-custom et_pb_section et_pb_section_3 et_section_regular" >
                 

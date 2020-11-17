@@ -22,6 +22,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
     <link href="https://cdn.datatables.net/1.10.22/css/dataTables.semanticui.min.css"/>
     <link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.semanticui.min.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.css"> -->
+
+    @yield('css')
     <style>
       .paginate_button{
         border: 1px solid #1175b3;
@@ -29,15 +32,15 @@
         border-radius: 6px;
         margin: 0px 2px;
       }
-      .dataTables_paginate .pagination{
+      /*.dataTables_paginate .pagination{
         display: none;
-      }
+      }*/
       .pagination{
         margin-top: -9%;
       }
-      .dataTables_length{
+      /*.dataTables_length{
         display: none;
-      }
+      }*/
       .select{
         border: 1px solid #ccc;
         padding: 1px 3px;
@@ -91,15 +94,14 @@
         Main.init();
         FormElements.init();
       });
-
       $('.datepicker').datepicker({
         format: 'd-M-yyyy',
         startDate: '-7d'
       });
     </script>
-      <script type="text/javascript">
-            $('#timepicker1').timepicker();
-        </script>
+    <script type="text/javascript">
+      $('#timepicker1').timepicker();
+    </script>
     <!-- Tabler Core -->
     <script src="{{asset('assets/backend/js/tabler.min.js')}}"></script>
     <script>
@@ -224,24 +226,22 @@
       // @formatter:on
     </script>
     <script>
-  feather.replace()
-</script>
-
-<script>
-   $(document).ready(function() {
-    var table = $('#appointment').DataTable( {
-        lengthChange: true,
-        buttons: ['excel', 'pdf' ]
-  } );
-  $('div.dataTables_filter').addClass('float-right');
-  $('div.dataTables_length').addClass('float-left');
-  $('div.dataTables_filter label').addClass('d-inline-flex text-muted');
-  $('div.dataTables_filter input').addClass('form-control form-control-sm');
-  $('div.dataTables_length label').addClass('d-inline-flex text-muted');
-  $('div.dataTables_length select').addClass('form-control form-control-sm');
-} );
-
-</script>
+      feather.replace()
+    </script>
+    <script>
+      $(document).ready(function() {
+          var table = $('#appointment').DataTable( {
+              lengthChange: true,
+              buttons: ['excel', 'pdf' ]
+        } );
+        $('div.dataTables_filter').addClass('float-right');
+        $('div.dataTables_length').addClass('float-left');
+        $('div.dataTables_filter label').addClass('d-inline-flex text-muted');
+        $('div.dataTables_filter input').addClass('form-control form-control-sm');
+        $('div.dataTables_length label').addClass('d-inline-flex text-muted');
+        $('div.dataTables_length select').addClass('form-control form-control-sm');
+      });
+    </script>
     <script>
       // @formatter:off
       document.addEventListener("DOMContentLoaded", function () {
@@ -564,33 +564,66 @@
     </script>
     <script>
       document.body.style.display = "block"
-  </script>
+    </script>
   
-  <script type="text/javascript">
-    function valid()
-    {
-     if(document.adddoc.npass.value!= document.adddoc.cfpass.value)
-    {
-    alert("Passwords do not match!");
-    document.adddoc.cfpass.focus();
-    return false;
-    }
-    return true;
-    }
-  </script>
+    <script type="text/javascript">
+      function valid()
+      {
+       if(document.adddoc.npass.value!= document.adddoc.cfpass.value)
+      {
+      alert("Passwords do not match!");
+      document.adddoc.cfpass.focus();
+      return false;
+      }
+      return true;
+      }
+    </script>
 
-  <script type="text/javascript">
-    function valid()
-    {
-     if(document.registration.password.value!= document.registration.password_again.value)
-    {
-    alert("Password and Confirm Password Field do not match  !!");
-    document.registration.password_again.focus();
-    return false;
-    }
-    return true;
-    }
-  </script>
+    <script type="text/javascript">
+      function valid()
+      {
+       if(document.registration.password.value!= document.registration.password_again.value)
+      {
+      alert("Password and Confirm Password Field do not match  !!");
+      document.registration.password_again.focus();
+      return false;
+      }
+      return true;
+      }
+    </script>
 
+    @yield('script')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $.getJSON("http://localhost:81/test/public/api/users", function(data){
+      var employee_data = '';
+      $.each(data, function(key, value){
+        employee_data += '<tr>';
+        employee_data += '<td>'+value.id+'</td>';
+        employee_data += '<td>'+value.patient+'</td>';
+        employee_data += '<td>'+value.phone+'</td>';
+        employee_data += '<td>'+value.user.name+'</td>';
+        employee_data += '<td>'+value.doctor.name+'</td>';
+        employee_data += '<td>'+value.hospital.name+'</td>';
+        employee_data += '<td>'+value.room.name+'</td>';
+        employee_data += '<td>'+value.test+'</td>';
+        employee_data += '<td>'+value.aadhar+'</td>';
+        employee_data += '<td>'+value.insurance+'</td>';
+        employee_data += '<td>'+value.payment.name+'</td>';
+        employee_data += '<td>'+value.on_admission+'</td>';
+        employee_data += '<td>'+value.on_discharge+'</td>';
+        employee_data += '<td>'+value.billed_amt+'</td>';
+        employee_data += '<td>'+value.settled_amt+'</td>';
+        employee_data += '<td>'+value.hospital_share+'</td>';
+        employee_data += '<td>'+value.glamyo_share+'</td>';
+        employee_data += '<td>'+value.doctor_share+'</td>';
+        employee_data += '<td>'+value.status+'</td>';
+        employee_data += '<tr>';
+      });
+      $('#ipd').append(employee_data);
+    });
+  });
+</script>
 </body>
 </html>
