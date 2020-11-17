@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/et-blurp.css')}}" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
+ 
     <title>Glamyo Health</title>
 </head>
 <body>
@@ -81,6 +82,17 @@
                                                             <li><a class="dropdown-item" href="">Hydrocele</a></li>
                                                         </ul>
                                                     </li>
+
+                                                    <li class="dropdown">
+                                                     <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
+                                                          aria-haspopup="true" aria-expanded="false" href="#">Vascular <i class="fas fa-plus"></i></a>
+                                                     <ul class="dropdown-menu dropdown-menu1">
+                                                        <li><a class="dropdown-item" href="{{url('health/pilonidal-sinus')}}">Pilonidal Sinus</a></li>
+                                                        <li><a class="dropdown-item" href="{{url('health/varicose-veins')}}">Varicose Veins</a></li>
+                                                        <li><a class="dropdown-item" href="{{url('health/varicocele')}}">Varicocele</a></li>
+                                                   </ul>
+                                               </li>
+
                                                     
                                                 </ul>
                                         </li>
@@ -414,6 +426,8 @@
             </div>
         </div>
     </section>
+
+    
             <!-- <div class="row">
                 <div class="col-md-12">
                     <div class="about-video_block">
@@ -482,6 +496,19 @@
     <!--//End About Section -->
 
     
+    <!-- Floating Button -->
+    <div class="fabs">
+  <a href="https://glamyohealth.in/request-call-back" target="_blank" class="fabz green" tooltip="Book Appointment"><i class="fa fa-notes-medical"></i></a>
+
+  <a href="https://glamyohealth.in/consult-now" target="_blank" class="fabz light-blue" style="color: #0F74B2" tooltip="Consult Doctor"><i class="fa fa-user-md"></i></a>
+
+  <a href="tel:+91 97111 44 230" class="fabz dark-blue" tooltip="Call Us"><i class="fa fa-phone"></i></a>
+
+
+  <a target="_blank" class="fabz blue"></a>
+    </div>
+
+
     <!-- .et_pb_section -->
             <div class="container-custom et_pb_section et_pb_section_3 et_section_regular" >
                 

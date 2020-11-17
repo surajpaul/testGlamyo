@@ -1619,7 +1619,6 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_5.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-206.png');
 	background-color: transparent;
 	flex: 4
 }
@@ -1685,7 +1684,6 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_9.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-188-1.png');
 	background-color: #1f2f49;
 	flex: 4
 }
@@ -1793,8 +1791,8 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 .et_pb_blurb_15.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
-	background-position: bottom center;
-	background-image: url('images/Group-172.png');
+    background-position: bottom;
+    background-image: url('../images/Group-177.jpg');
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1806,13 +1804,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_15.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: bottom center;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('images/Group-172.png');
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-177.jpg');
 	background-color: transparent;
 	flex: 4
 }
 .et_pb_blurb_16.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
-	background-image: url('images/Group-171.jpg');
+	background-image: url('../images/Group-176.jpg');
+	background-position: top;
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1823,13 +1822,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 .et_pb_blurb_16.et_pb_blurb:hover {
 	color: #ffffff!important;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('images/Group-171.jpg');
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-176.jpg');
 	background-color: transparent;
 	flex: 4
 }
 .et_pb_blurb_17.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
-	background-image: url('images/Group-169-2.png');
+	background-image: url('../images/Group-178.jpg');
+	background-position: center;
 	height: 100%;
 	overflow-x: hidden;
 	background-size: cover;
@@ -1840,14 +1840,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 }
 .et_pb_blurb_17.et_pb_blurb:hover {
 	color: #ffffff!important;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-169_2.jpg);
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-178.jpg');
 	background-color: transparent;
 	flex: 4
 }
 .et_pb_blurb_18.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center right;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-174.jpg);
+	background-image: url('../images/Group-179.jpg');
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1859,14 +1859,13 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_18.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center right;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-174.jpg);
 	background-color: transparent;
 	flex: 4
 }
 .et_pb_blurb_19.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center right;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/07/rendered-2.png), linear-gradient(90deg, #3fe7d7 0%, #1fc4e3 100%);
+	background-image: url('../images/rendered-2.png'), linear-gradient(90deg, #3fe7d7 0%, #1fc4e3 100%);
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1878,7 +1877,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_19.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center right;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-190.png);
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/rendered-2.png');
 	background-color: transparent;
 	flex: 4
 }
@@ -1989,7 +1988,6 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_24.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-192.png);
 	background-color: #1bb3ec;
 	flex: 4
 }
@@ -2020,7 +2018,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_25.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-202.png), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
+	background-image: url('../images/Group-202.png'), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
 	height: 100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -2031,15 +2029,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_25.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-202.png);
+	background-image: url('../images/Group-202.png');
 	background-color: #1bb3ec;
 	flex: 4
 }
 .et_pb_blurb_26.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-200.png), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
-	background-color: #c1558b;
+	background-image: url('../images/Group-200.png'), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
 	height: 100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -2050,14 +2047,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_26.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-200-1.png);
+	background-image: url('../images/Group-200-1.png');
 	background-color: #1bb3ec;
 	flex: 4
 }
 .et_pb_blurb_27.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://www.glamyo.in/wp-content/uploads/2020/05/Group-194.jpg);
+	background-image: url('../images/Group-194.jpg');
 	background-color: #1bb3ec;
 	flex: 4
 }
@@ -2449,6 +2446,12 @@ div.et_pb_section.et_pb_section_6 {
 	padding-bottom: 0px!important;
 	margin-top: 0px!important;
 	margin-bottom: 0px!important
+}
+
+@media only screen and (max-width: 600px) {
+	.container-custom{
+		padding: 0 20px;
+	}
 }
 .et_pb_row_18,
 body #page-container .et-db #et-boc .et-l .et_pb_row_18.et_pb_row,

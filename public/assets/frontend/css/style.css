@@ -4466,3 +4466,193 @@ span.average-rating {
   border-radius: 4px;
   padding: 10px;
 }
+
+/* Floating Icon */
+
+.fabs {
+  bottom: 0;  
+  position: fixed;
+  margin: 2em;
+  right: 0;
+}
+
+.fabz {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin: 20px auto 0;
+  box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  position: relative;
+}
+
+.fabz > svg {
+  font-size: 28px;
+  line-height: 60px;
+  transition: all .2s ease-in-out;
+  transition-delay: 2s;
+}
+
+.fabz.red {
+  background: #F44336;
+}
+
+.fabz.pink {
+  background: #E91E63;
+}
+
+.fabz.purple {
+  background: #9C27B0;
+}
+
+.fabz.deep-purple {
+  background: #673AB7;
+}
+
+.fabz.light-blue {
+  background: #e3e9f6;
+}
+
+.fabz.dark-blue {
+  background:#0F74B2;
+}
+.fabz.dark-blue > a > i:hover {
+  color: #ffffff !important;
+}
+
+.fabz.blue {
+  background-image: url(../images/favicon.png);
+  background-position: center;
+  background-size: contain;
+}
+
+
+.fabz.cyan {
+  background: #00BCD4;
+}
+
+.fabz.teal {
+  background: #009688;
+}
+
+.fabz.green {
+  background: #5bc198
+}
+
+
+.fabz.light-green {
+  background: #e4f1f0;
+}
+
+.fabz.lime {
+  background: #CDDC39;
+}
+
+.fabz.yellow {
+  background: #FFEB3B;
+}
+
+.fabz.amber {
+  background: #FFC107;
+}
+
+.fabz.orange {
+  background: #FF9800;
+}
+
+.fabz.deep-orange {
+  background: #FF5722;
+}
+
+.fabz.brown {
+  background: #795548;
+}
+
+.fabz.grey {
+  background: #9E9E9E;
+}
+
+.fabz.blue-grey {
+  background: #607D8B;
+}
+
+.fabz:active,
+.fabz:focus,
+.fabz:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+
+.fabz:not(:last-child) {
+  width: 36px;
+  height: 36px;
+  margin: 20px auto 0;
+  opacity: 0;
+}
+
+.fabz:not(:last-child) > i {
+  font-size: 18px;
+  line-height: 40px;
+  transition: all .3s ease-in-out;
+}
+
+.fabs:hover .fabz:not(:last-child) {
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  margin: 15px auto 0;
+}
+
+.fabz:nth-last-child(1) {
+  -webkit-transition-delay: 25ms;
+  transition-delay: 25ms;
+}
+
+.fabz:not(:last-child):nth-last-child(2) {
+  -webkit-transition-delay: 20ms;
+  transition-delay: 20ms;
+}
+
+.fabz:not(:last-child):nth-last-child(3) {
+  -webkit-transition-delay: 40ms;
+  transition-delay: 40ms;
+}
+
+.fabz:not(:last-child):nth-last-child(4) {
+  -webkit-transition-delay: 60ms;
+  transition-delay: 60ms;
+}
+
+.fabz:not(:last-child):nth-last-child(5) {
+  -webkit-transition-delay: 80ms;
+  transition-delay: 80ms;
+}
+
+.fabz[tooltip]:before {
+  font-weight: 600;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #222222;
+  content: attr(tooltip);
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  padding: 10px 15px;
+  margin-right: 10px;
+  position: absolute;
+  right: 100%;
+  bottom: 5%;
+  white-space: nowrap;
+}
+
+.fabz[tooltip]:hover:before,
+.fabz[tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}

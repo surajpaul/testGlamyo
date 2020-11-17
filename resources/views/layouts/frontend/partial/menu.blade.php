@@ -52,6 +52,15 @@
                                               <li><a class="dropdown-item" href="{{url('health/hydrocele')}}">Hydrocele</a></li>
                                           </ul>
                                       </li>
+                                      <li class="dropdown">
+                                                     <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
+                                                          aria-haspopup="true" aria-expanded="false" href="#">Vascular <i class="fas fa-plus"></i></a>
+                                                     <ul class="dropdown-menu dropdown-menu1">
+                                                        <li><a class="dropdown-item" href="{{url('health/pilonidal-sinus')}}">Pilonidal Sinus</a></li>
+                                                        <li><a class="dropdown-item" href="{{url('health/varicose-veins')}}">Varicose Veins</a></li>
+                                                        <li><a class="dropdown-item" href="{{url('health/varicocele')}}">Varicocele</a></li>
+                                                   </ul>
+                                               </li>
                                       
                                   </ul>
                           </li>
