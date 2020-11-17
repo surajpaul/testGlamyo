@@ -17,6 +17,7 @@ class ApiIpdController extends Controller
     public function index()
     {
         $users = ipd::with('doctor','hospital','user','room','treatment','payment')->get();
+        // return response()->json(['data' => $users->toArray()]);
         return response()->json($users);
     }
 

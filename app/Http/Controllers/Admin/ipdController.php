@@ -21,7 +21,7 @@ class ipdController extends Controller
      */
     public function index()
     {
-        $ipds = ipd::latest()->paginate(25);
+        $ipds = ipd::latest()->paginate(10);
         return view('admin.ipd.index', compact('ipds'));
     }
 
@@ -67,8 +67,8 @@ class ipdController extends Controller
             'attendant' => 'required',
             'aadhar.*' => 'required|mimes:jpg,png,jpeg|max:204800',
             'payment_id' => 'required|integer',
-            'admission_amt' => 'nullable',
-            'discharge_amt'=> 'nullable',
+            'admission_amt' => 'required_if:payment_id,1',
+            'discharge_amt'=> 'required_if:payment_id,1',
             'insurance.*'=> 'nullable|mimes:jpg,png,jpeg|max:204800',
             'billed_amt'=> 'nullable',
             'settled_amt'=> 'nullable',
