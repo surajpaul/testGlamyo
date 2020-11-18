@@ -1,7 +1,7 @@
 @extends('layouts.backend.app')
 
 @section('css')
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
 @endsection
 
 @section('content')
@@ -18,55 +18,60 @@
 	</div>
 	<div class="row">
 	    <div class="col-md-12 col-12" style="overflow-x:auto;">
-			<table id="ipd" class="display">
-		        <tr>
-		        	<th class="">id</th>
-		            <th>Patient</th>
-		            <th>Phone</th>
-		            <th>user</th>
-		            <th>Doctor</th>
-		            <th>Hospital</th>
-		            <th>Room</th>
-		            <th>treatment</th>
-		            <th>surgery_date</th>
-		            <th>arrival time</th>
-		            <th>treatment time</th>
-		            <th>test</th>
-		            <th>aadhar</th>
-		            <th>insurance</th>
-		            <th>payment type</th>
-		            <th>On admission</th>
-		            <th>on discharge</th>
-		            <th>billed amt</th>
-		            <th>settled amt</th>
-		            <th>hospital share</th>
-		            <th>glamyo share</th>
-		            <th>doctor share</th>
-		            <th>status</th>
-		        </tr>
-			</table>
+
+
+
+<!-- try -->
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>patient</th>
+            <th>phone</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    </table>
+<!-- try end -->
 		</div>
 	</div>
 </div>
 @endsection
 
 @section('script')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-   var table = $('#ipd').DataTable({ 
-        select: false,
-        "columnDefs": [{
-            className: "Name", 
-            "targets":[0],
-            "visible": false,
-            "searchable":false
-        }]
-    });
-  $('#ipd').on( 'click', 'tr', function () {
-    alert(table.row( this ).data()[0]);
-} );
-});
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script>
+// $(document).ready(function() {
+//     $('#example').DataTable( {
+//         "ajax": 'http://localhost:81/test/public/api/users'
+//     } );
+// } );
+
+
+$(document).ready(function(){
+    fillTable();
+})
+//fetch api (AJAX) to fill table
+fillTable = () => {
+    fetch('http://localhost:81/test/public/api/users')
+    .then(response => response.json())
+    .then(data => {
+        let html = '';
+        for (i = 0; i < data.length; i++){
+            html += '<tr>'+
+                        '<td class="tdPatient pv3 w-35 pr3 bb b--black-20">'+ data[i].patient + '</td>'+
+                        '<td class="tdPhone pv3 w-35 pr3 bb b--black-20">'+ data[i].phone + '</td>'+
+                        '<td class="pv3 w-30 pr3 bb b--black-20">'+
+                          '<div class="btn-group" role="group" aria-label="Basic example">'+
+                            '<a class="editButton f6 grow no-underline ba bw1 ph3 pv2 mb2 dib black pointer"  data-toggle="modal">EDIT</a>'+
+                            '<a class="deleteButton f6 grow no-underline ba bw1 ph3 pv2 mb2 dib black pointer"  data-toggle="modal">DELETE</a>'+
+                          '</div>'+
+                        '</td>'+
+                    '</tr>'
+        }
+        $('#example').html(html);
+})
+    .catch(err => console.log("ERROR!: ", err))
+}
 </script>
 @endsection
