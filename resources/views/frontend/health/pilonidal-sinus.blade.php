@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Kidney Stone | Glamyo Health</title>
+<title>Painless Laser Treatment For Piles | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -9,10 +9,10 @@
 
 @section('content')
 <div id="home">
-<div class="row mt-100">
+      <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title"> Painless Kidney Stones Removal</h2>
+            <h2 class="product-title">Painless Pilonidal Sinus Laser Treatment</h2>
               <p>
               At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
               </p>
@@ -21,22 +21,22 @@
           <ul class="features-list">  
               <li>
                   <i class="ilmosys-microscope"></i>
-                  <h5>Advanced <br>Treatment</h5>
+                  <h5>USFDA <br>Approved</h5>
               </li>
 
               <li>
                   <i class="ilmosys-x-ray"></i>
-                  <h5>Insurance <br>accepted</h5>
+                  <h5>No cuts &amp; <br>no stitches</h5>
               </li>
 
               <li>
                   <i class="ilmosys-clinic"></i>
-                  <h5>Fast<br> Recovery </h5>
+                  <h5>30 min <br>procedure</h5>
               </li>
 
               <li>
                   <i class="ilmosys-ambulance"></i>
-                  <h5>45 min <br>procedure</h5>
+                  <h5>1 day <br>discharge</h5>
               </li>
           </ul>
         </div>
@@ -85,17 +85,16 @@
                 <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Kidney Stone </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Kidney stones are hard deposits of minerals and acid salts that stick together in concentrated urine. They can be painful when passing through the urinary tract. Diet, excess body weight, some medical conditions, and certain supplements and medications are among the many causes of kidney stones. Kidney stones can affect any part of your urinary tract — from your kidneys to your bladder. Often, stones form when the urine becomes concentrated, allowing minerals to crystallize and stick together. The most common symptom is severe pain, usually in the side of the abdomen, that's often associated with nausea.
- 
-
-
+                               <p style="margin-top: 10px; margin-bottom: 40px;">A pilonidal sinus (PNS) is a small hole or tunnel in the skin. It may fill with fluid or pus, causing the formation of a cyst or abscess. It occurs in the cleft at the top of the buttocks. A pilonidal cyst usually contains hair, dirt, and debris. It can cause severe pain and can often become infected. If it becomes infected, it may ooze pus and blood and have a foul odor.
+<br>
+A PNS is a condition that mostly affects men and is also common in young adults. It’s also more common in people who sit a lot, like cab drivers.
 </p>
                                      
                                 </div>
@@ -112,14 +111,15 @@
                     </div>
                 </div></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Kidney Stone</span>
+                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms</span>
                                       
                                       <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                                  <li>Pain while urinating</li>
-                                                  <li>Blood in your urine</li>
-                                                  <li>Sharp pain in your back or lower abdomen</li>
-                                                  <li>Nausea and vomiting</li>
-                                               
+                                          <li>Pain when sitting or standing</li>
+                                          <li>Swelling of the cyst</li>
+                                              <li>Redness, sore skin around the area</li>
+                                                  <li>Pus or blood draining from the abscess, causing a foul odor</li>
+                                                  <li>Hair protruding from the lesion</li>
+                                                  <li>Formation of more than one sinus tract, or holes in the skin</li>
                                       </ul></div></div>
 
             </div></div>
@@ -206,7 +206,7 @@
               <div class="row">
                   <div class="col-md-6 col-lg-6">
                       <h4>Worried about price?  </h4>
-                        <p>Glamyo has made the latest, laser treatment for Kidney Stone affordable and accessible to all.</p> 
+                        <p>Glamyo has made the latest, laser treatment for piles affordable and accessible to all.</p> 
                         <div class="quote2">
                           <div>
                              
@@ -228,13 +228,13 @@
                     <img src="{{asset('assets/frontend/images/ill.png')}}" width="300" style="margin-bottom: 60px">
                     <div class="row">
                     <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Kidney Stone Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div></div>
                   <div class="show-mobile hide-desktop">
                       <div class="col-md-6 col-lg-6">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Kidney Stone Expert Now</a></div>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">
                               <a  href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-lg btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div>
@@ -247,8 +247,8 @@
                 <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Kidney Stone</h2>
-               <p class="adv-p">Kidney Stone treatment depends on size and location of stone. Please check below for more details.</p>
+               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Pilonidal Sinus</h2>
+               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
                <ul>
                    <li class="row">
                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
@@ -299,7 +299,7 @@
        <div class="container show-desktop hide-mobile mt-50">
                   <div class="row">
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Kidney Stone Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
                  
                           </div>
                   <div class="col-md-6 col-lg-6 text-center">
@@ -311,7 +311,7 @@
                   <div class="container hide-desktop show-mobile mt-50">
                      
                       <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Kidney Stone Expert Now</a>
+                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
                       
                       </div>
                       <div class="col-md-6 col-lg-6 text-center">
@@ -567,7 +567,7 @@
                                           <div class="card-header" id="faqHeading-1">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                      <span class="badge">1</span>Which doctor should I consult for Kidney Stone?
+                                                      <span class="badge">1</span>Which doctor should I consult for Piles?
                                                   </h5>
                                               </div>
                                           </div>
@@ -581,7 +581,7 @@
                                           <div class="card-header" id="faqHeading-2">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                      <span class="badge">2</span>How do you get rid of Kidney Stone?
+                                                      <span class="badge">2</span>How do you get rid of piles?
                                                   </h5>
                                               </div>
                                           </div>
@@ -595,13 +595,13 @@
                                           <div class="card-header" id="faqHeading-3">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                      <span class="badge">3</span>How can I permanently cure Kidney Stone?
+                                                      <span class="badge">3</span>How can I permanently cure piles?
                                                   </h5>
                                               </div>
                                           </div>
                                           <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                               <div class="card-body">
-                                                  <p>The permanent cure to Kidney Stone is laser surgery for Kidney Stone and post op diatary changes.</p>
+                                                  <p>The permanent cure to piles is laser surgery for piles and post op diatary changes.</p>
                                               </div>
                                           </div>
                                       </div>
@@ -609,13 +609,13 @@
                                           <div class="card-header" id="faqHeading-4">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for Kidney Stone?
+                                                      <span class="badge">4</span> I, quite frequently, have to sit long on the toilet while passing stools ? Am I at a risk for piles?
                                                   </h5>
                                               </div>
                                           </div>
                                           <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                               <div class="card-body">
-                                                  <p>Straining during the bowel movements can lead to Kidney Stone. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
+                                                  <p>Straining during the bowel movements can lead to piles. If you are having pain and blood while passing the blood or if you get a feeling of fullness even after passing a stool, you should consult a general surgeon</p>
                                               </div>
                                           </div>
                                       </div>
@@ -623,17 +623,17 @@
                                           <div class="card-header" id="faqHeading-5">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                      <span class="badge">5</span>What are various grades of Kidney Stone ?
+                                                      <span class="badge">5</span>What are various grades of piles ?
                                                   </h5>
                                               </div>
                                           </div>
                                           <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                               <div class="card-body">
                                                   <ul>
-                                                      <li>First-degree hemorrhoids – these Kidney Stone do not prolapse.</li>
-                                                      <li>Second-degree hemorrhoids – these Kidney Stone prolapse on straining.</li>
-                                                      <li>Third-degree hemorrhoids – these Kidney Stone prolapse on straining.</li>
-                                                      <li>Fourth-degree hemorrhoids – these type of Kidney Stone get permanently prolapsed.</li>
+                                                      <li>First-degree hemorrhoids – these piles do not prolapse.</li>
+                                                      <li>Second-degree hemorrhoids – these piles prolapse on straining.</li>
+                                                      <li>Third-degree hemorrhoids – these piles prolapse on straining.</li>
+                                                      <li>Fourth-degree hemorrhoids – these type of piles get permanently prolapsed.</li>
                                                       </ul>
                                               </div>
                                           </div>
@@ -642,15 +642,15 @@
                                           <div class="card-header" id="faqHeading-6">
                                               <div class="mb-0">
                                                   <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                      <span class="badge">6</span>What can be the complications associated with Kidney Stone?
+                                                      <span class="badge">6</span>What can be the complications associated with Piles?
                                                   </h5>
                                               </div>
                                           </div>
                                           <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
                                               <div class="card-body">
-                                                  <p>Some of the patients feel too embarrassed to seek medical help for Kidney Stone. Untreated Kidney Stone can result in serious medical complications.
+                                                  <p>Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications.
                                                       <br>
-                                                      Some of the patients feel too embarrassed to seek medical help for Kidney Stone. Untreated Kidney Stone can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
+                                                      Some of the patients feel too embarrassed to seek medical help for piles. Untreated piles can result in serious medical complications·&nbsp; Infection·&nbsp; Anal fistula·&nbsp; Anaemia due to prolonged blood loss.
                                                       <br>
                                                       Consult our Glamyo expert doctors who will help you with painless laser treatment.
                                                   </p>
@@ -698,7 +698,7 @@
                 </div>
           <input class="numeric" type='text' style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; padding-left: 30px;' required maxlength='10' minlength='10' name='Mobile' required="true"/></td><td style='width:35%;'></td></tr>
               <tr><td  style='word-break: break-word;text-align:left;font-size:15px;font-family:Verdana;width:30%;'>City<span style='color:#222;'>*</span></td><td style='width:40%;'><select class="form-control" style='width:100%;box-sizing:border-box; border-bottom: 1px solid #999!important; border: none; box-shadow: none; text-transform: capitalize'  maxlength='255' name='LEADCF4' required="true"><option value="">Select City</option><option value="Delhi">Delhi</option><option value="Gurgaon">Gurgaon</option><option value="Noida">Noida</option><option value="Faridabad">Faridabad</option><option value="Ghaziabad">Ghaziabad</option><option value="Mumbai">Mumbai</option><option value="Bangalore">Bangalore</option><option value="Hyderabad">Hyderabad</option><option value="Others">Others</option></select></td>
-                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Kidney Stone'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
+                  <td style='width:30%;'></td></tr><tr style="display: none;"><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Treatment</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF1' value='Piles'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Source</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF3' value='Google'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Ad Type</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='255' name='LEADCF2' value='Landing&#x20;page'></input></td><td style='width:30%;'></td></tr><tr style='display:none;' ><td style='word-break: break-word;text-align:left;font-size:15px;font-family:Arial;width:30%'>Lead Status</td><td style='width:40%;'>
                       <select style='width:100%;box-sizing:border-box;' name='Lead Status'>
                           <option value='-None-'>-None-</option>
                       <option selected value='New&#x20;Lead'>New Lead</option>

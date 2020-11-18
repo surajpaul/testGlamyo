@@ -78,8 +78,8 @@
                                                             aria-haspopup="true" aria-expanded="false" href="#">Urology <i class="fas fa-plus"></i></a>
                                                         <ul class="dropdown-menu dropdown-menu1">
                                                             <li><a class="dropdown-item" href="{{url('health/phimosis')}}">Phimosis</a></li>
-                                                            <li><a class="dropdown-item" href="">Kidney Stone</a></li>
-                                                            <li><a class="dropdown-item" href="">Hydrocele</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/kidney-stone')}}">Kidney Stone</a></li>
+                                                            <li><a class="dropdown-item" href="{{url('health/hydrocele')}}">Hydrocele</a></li>
                                                         </ul>
                                                     </li>
 
@@ -503,6 +503,7 @@
   <a href="https://glamyohealth.in/consult-now" target="_blank" class="fabz light-blue" style="color: #0F74B2" tooltip="Consult Doctor"><i class="fa fa-user-md"></i></a>
 
   <a href="tel:+91 97111 44 230" class="fabz dark-blue" tooltip="Call Us"><i class="fa fa-phone"></i></a>
+
   <a target="_blank" class="fabz blue"></a>
     </div>
 
