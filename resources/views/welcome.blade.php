@@ -157,13 +157,13 @@
                                 <div class="main-title">
                                     <span>We are here for you</span>
                                     <h1>
-                                        Healthcare, Simplified.
+                                        Healthcare, Simplified
                                     </h1>
                                     <p>
                                         Glamyo is a multi-specialty healthcare provider delivering a hassle-free experience for all elective surgeries & cosmetic procedures with personalized care.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Book Appointment</a>
-                                    <a href="https://www.youtube.com/embed/kqBvOMzeZUI"
+                                    <a href="https://glamyohealth.in/request-call-back" class="btn btn-primary">Book Appointment</a>
+                                    <a href="https://youtu.be/kqBvOMzeZUI"
                                         class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
                                 </div>
                                 <!--//End Slider Title -->
@@ -185,16 +185,16 @@
 
                                     <ul class="main-slider-social">
                                         <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.facebook.com/Glamyohealth"><i class="fab fa-facebook-f"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.youtube.com/channel/UC1MmglaNEMeKoffCcIsG-Rw"><i class="fab fa-youtube"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="https://www.linkedin.com/company/glamyo"><i class="fab fa-linkedin"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://instagram.com/glamyohealth"><i class="fab fa-instagram"></i></a>
                                         </li>
                                         
                                     </ul>
@@ -203,113 +203,7 @@
                         </div>
                     </div>
 
-                    <div class="banner">
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
-                                <!-- Slider Title -->
-                                <div class="main-title">
-                                    <span>We are here for you</span>
-                                    <h1>
-                                        What Makes Us Better, Makes You Better.
-                                    </h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex.
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                                        ipsum dolor sit amet.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Make Appointment</a>
-                                    <a href="https://www.youtube.com/watch?v=pBFQdxA-apI"
-                                        class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
-                                </div>
-                                <!--//End Slider Title -->
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-7 d-flex align-items-end">
-                                <div class="anim-container flex-fill">
-                                    <svg class="circle-svg" width="100%" height="100%" viewBox="0 0 754 733" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path class="big-circle" opacity="0.071" fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M377 29C563.12 29 714 179.879 714 366C714 552.119 563.12 702.999 377 702.999C190.88 702.999 40 552.119 40 366C40 179.879 190.88 29 377 29Z"
-                                            fill="#4D72D0" />
-                                        <path class="small-circle" opacity="0.051" fill-rule="evenodd"
-                                            clip-rule="evenodd"
-                                            d="M376.471 120.995C512.043 120.995 621.947 230.898 621.947 366.471C621.947 502.043 512.043 611.946 376.471 611.946C240.898 611.946 130.995 502.043 130.995 366.471C130.995 230.898 240.898 120.995 376.471 120.995Z"
-                                            fill="#4D72D0" />
-                                    </svg>
-
-                                    <img src="{{asset('assets/frontend/images/doctors2.png')}}" class="img-fluid animated-hero" alt="hero" />
-
-                                    <ul class="main-slider-social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="banner">
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center">
-                                <!-- Slider Title -->
-                                <div class="main-title">
-                                    <span>We are here for you</span>
-                                    <h1>
-                                        What Makes Us Better, Makes You Better.
-                                    </h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex.
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                                        ipsum dolor sit amet.
-                                    </p>
-                                    <a href="#" class="btn btn-primary">Make Appointment</a>
-                                    <a href="https://www.youtube.com/watch?v=pBFQdxA-apI"
-                                        class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
-                                </div>
-                                <!--//End Slider Title -->
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-7 d-flex align-items-end">
-                                <div class="anim-container flex-fill">
-                                    <svg class="circle-svg" width="100%" height="100%" viewBox="0 0 754 733" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path class="big-circle" opacity="0.071" fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M377 29C563.12 29 714 179.879 714 366C714 552.119 563.12 702.999 377 702.999C190.88 702.999 40 552.119 40 366C40 179.879 190.88 29 377 29Z"
-                                            fill="#4D72D0" />
-                                        <path class="small-circle" opacity="0.051" fill-rule="evenodd"
-                                            clip-rule="evenodd"
-                                            d="M376.471 120.995C512.043 120.995 621.947 230.898 621.947 366.471C621.947 502.043 512.043 611.946 376.471 611.946C240.898 611.946 130.995 502.043 130.995 366.471C130.995 230.898 240.898 120.995 376.471 120.995Z"
-                                            fill="#4D72D0" />
-                                    </svg>
-
-                                    <img src="{{asset('assets/frontend/images/doctors.png')}}" class="img-fluid animated-hero" alt="hero" />
-
-                                    <ul class="main-slider-social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+               
                 </div>
             </div>
             <!-- // end .container -->
@@ -334,7 +228,7 @@
  <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
  <input type='text' style='display:none;' name='xmIwtLD' value='16076923e650cb768373cb673d8a208c6190d38709290526444d7b8822569020'></input> 
  <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
- <input type='text' style='display:none;' name='returnURL' value='https://glamyohealth.in' > </input>
+ <input type='text' style='display:none;' name='returnURL' value='https://glamyohealth.in/thank-you' > </input>
      <!-- Do not remove this code. -->
      <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
      <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
@@ -1227,7 +1121,6 @@
         <i class="fas fa-check"></i>
         <div class="why-choose_list-content">
         <h5>Advanced Care</h5>
-        <span>Lorem ipsum dolor sit</span>
         </div>
         </div>
         </div>
@@ -1236,7 +1129,6 @@
         <i class="fas fa-check"></i>
         <div class="why-choose_list-content">
         <h5>Online Consultation</h5>
-        <span>Lorem ipsum dolor sit</span>
         </div>
         </div>
         </div>
@@ -1248,7 +1140,6 @@
         <i class="fas fa-check"></i>
         <div class="why-choose_list-content">
         <h5>Medical &amp; Surgical</h5>
-        <span>Lorem ipsum dolor sit</span>
         </div>
         </div>
         </div>
@@ -1256,8 +1147,7 @@
         <div class="why-choose_list why-choose_list-br">
         <i class="fas fa-check"></i>
         <div class="why-choose_list-content">
-        <h5>Lab Tests</h5>
-        <span>Lorem ipsum dolor sit</span>
+        <h5>24/7 Discharge</h5>
         </div>
         </div>
         </div>
@@ -1265,14 +1155,14 @@
         <hr>
         <div class="row">
         <div class="col-md-12">
-        <a href="#" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+        <a href="https://glamyohealth.in/request-call-back" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
         </div>
         </div>
         </div>
         <div class="col-md-12 col-lg-6 offset-lg-1">
         <div class="why-choose_right">
         <h2>
-        Covid Symptoms?<br> Contact Us
+        Contact Us
         </h2>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eius mod tempor
@@ -1293,7 +1183,7 @@
         </div>
         <div class="why-choose_list-content">
         <span>Mail us</span>
-        <h3>info@glamyo.in</h3>
+        <a href="mail-to:info@glamyo.in" style="color: #ffffff !important;"><h3>info@glamyo.in</h3></a>
         </div>
         </div>
         </div>
@@ -1324,7 +1214,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1345,7 +1235,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1366,7 +1256,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1387,7 +1277,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1408,7 +1298,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -1576,11 +1466,9 @@ I loved it!
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                         </ul>
-                        <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation.
+                        <p>My uncle got his Hernia treatment done from Glamyo and had a smooth experience. The Doctor was highly experienced and surgery went well. All Insurance paperwork was done by Glamyo team and they provided free pick & drop service. I would totally recommend Glamyo for Hernia treatment.
                         </p>
-                        <span class="testi-name">Mary Jane (ceo)</span>
+                        <span class="testi-name">Harshita Rana</span>
                         <div class="testi-styled-bg">
                             <img src="{{asset('assets/frontend/images/testi-side-img_05.png')}}" class="img-fluid" alt="#" />
                         </div>
@@ -1594,11 +1482,10 @@ I loved it!
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                         </ul>
-                        <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation.
+                        <p>I had a laser procedure for Piles at Glamyo, Dr. Kapil Aggarwal is simply a gem, my problem was resolved completely and procedure was Painless.
+                            The support team of Glamyo is very supportive & helpful, they take care of everything right from home pickup and drop to Insurance formalities.
                         </p>
-                        <span class="testi-name">Mary Jane (ceo)</span>
+                        <span class="testi-name">Rakesh Shukla</span>
                         <div class="testi-styled-bg">
                             <img src="{{asset('assets/frontend/images/testi-side-img_05.png')}}" class="img-fluid" alt="#" />
                         </div>
@@ -1794,23 +1681,23 @@ I loved it!
                         <a href="tel:9711144230">
                             <h4><i class="fas fa-phone"></i>+91 97111 44 230</h4>
                         </a>
-                        <a href="mailto:info@Glamyo.com">
+                        <a href="mailto:info@glamyo.in">
                             <h4><i class="far fa-envelope"></i>info@glamyo.in</h4>
                         </a>
                        </div>
                        <div class="foot-link-box footlink-box_btn">
                         <ul>
                             <li>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/Glamyohealth"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UC1MmglaNEMeKoffCcIsG-Rw"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://instagram.com/glamyohealth"><i class="fab fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/glamyo"><i class="fab fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -1823,47 +1710,42 @@ I loved it!
                         <h4>Quick Links</h4>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
+                                <a href="https://glamyohealth.in/our-treatments"><i class="fas fa-angle-double-right"></i>Our Treatments</a>
+                            </li>
+                          <li>
+                                <a href="https://glamyohealth.in/our-doctors"><i class="fas fa-angle-double-right"></i>Our Doctors</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
+                                <a href="https://glamyohealth.in/request-call-back"><i class="fas fa-angle-double-right"></i>Contact Us</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
+                                <a href="https://glamyohealth.in/terms-conditions"><i class="fas fa-angle-double-right"></i>Terms & Conditions</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>FAQ</a>
+                                <a href="https://glamyohealth.in/privacy-policy"><i class="fas fa-angle-double-right"></i>Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="foot-link-box">
-                        <h4>Our Services</h4>
+                        <h4>Our Procedures</h4>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Covid-19 Test</a>
+                                <a href="https://glamyohealth.in/health/piles"><i class="fas fa-angle-double-right"></i>Laser Piles</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Laser Surgery</a>
+                                <a href="https://glamyohealth.in/health/phimosis"><i class="fas fa-angle-double-right"></i>Phimosis</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Liposuction</a>
+                                <a href="https://glamyohealth.in/health/gynecomastia"><i class="fas fa-angle-double-right"></i>Gynaecomastia</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Sports Orthopedics</a>
+                                <a href="https://glamyohealth.in/health/gallstone"><i class="fas fa-angle-double-right"></i>Gallstone</a>
                             </li>
+                          
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Gynaecomastia</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Online Consultation</a>
+                                <a href="https://glamyohealth.in/request-call-back"><i class="fas fa-angle-double-right"></i>Online Consultation</a>
                             </li>
                         </ul>
                     </div>

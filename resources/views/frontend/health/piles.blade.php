@@ -227,7 +227,7 @@
                           <div class="col-md-6 col-lg-6">
                               <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-light"><i data-feather="calendar"></i>Book Consultation </a></div>
                   </div></div>
-                  <div class="show-mobile hide-desktop">
+                  <div class="show-mobile hide-desktop mx-auto">
                       <div class="col-md-6 col-lg-6">
                           <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-light"><i data-feather="phone"></i>Call Piles Expert Now</a></div>
                           <div class="col-md-6 col-lg-6">

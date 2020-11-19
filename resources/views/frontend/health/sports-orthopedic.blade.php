@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Advanced Painless Orthopaedics Treatment | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Advanced Painless Orthopaedics Treatment</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              At Glamyo Health, our expert doctors will take care of orthopaedic injuries in a painless minimally invasive procedure.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -26,7 +26,7 @@
 
               <li>
                   <i class="ilmosys-x-ray"></i>
-                  <h5>No cuts &amp; <br>no stitches</h5>
+                  <h5>Advanced Treatment</h5>
               </li>
 
               <li>
@@ -83,16 +83,19 @@
     <div id="reviews" style="padding-bottom: 100px">
             <div class="container">
                 <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Sports Orthopaedic </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">The actual surgery time is usually about 30 minutes. If extensive work is needed, the procedure may last up to 45 minutes. Most people “go to sleep completely” during surgery with a general anesthetic. Some have surgery with a spinal anesthetic.
+                            <br><br>
+                            Three or four small incisions are made to allow special instruments, including a fiber-optic camera, to be placed into your knee. Sterile saline (salt water) is brought into the knee joint continuously with tubing to provide a clear view for the surgeon. Torn parts of the meniscus and/or damaged cartilage on the bone surfaces are carefully removed with special arthroscopic instruments. The end result is a knee lined with smooth and stable tissues rather than rough edges.
+                            </p>
                                      
                                 </div>
 
@@ -107,16 +110,41 @@
                         </div>
                     </div>
                 </div></div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
-                                      
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
 
+                <div class="col-md-2 media-col-md-2">
+                    <img src="{{asset('assets/frontend/images/ortho1.png')}}">
+                    <h5 class="ortho-text">Pelvic Acetabular Trauma</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho2.png')}}">
+                    <h5 class="ortho-text">Arthroscopy</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho3.png')}}">
+                    <h5 class="ortho-text">Joint replacement surgery</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho4.png')}}">
+                    <h5 class="ortho-text">Ligament Reconstruction</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho5.png')}}">
+                    <h5 class="ortho-text">Shoulder Replacement Surgery</h5>
+                </div>
+             </div>
+<style>
+    .media-col-md-2{
+        flex: 0 0 20% !important;
+max-width: 20% !important;
+    }
+    .ortho-text{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        color: #0F74B2;
+        font-weight: 600;
+    }
+</style>
             </div></div>
                  <!-- Info and symptoms ends -->    
                  
@@ -206,8 +234,7 @@
                           <div>
                              
                               <ul style="margin-top: 20px; margin-bottom: 20px; text-align: left; color: #fff" class="symptoms-list">
-                                  <li>Save Upto 50% On Surgery Cost</li>
-                                  <li> Save Upto Rs. 5000 On Pre-Surgery Diagnostics</li>
+                            
                                       <li>Interest-Free EMI Facility</li>
                                           <li>Free Followup Consultation</li>
                                           <li>Free Pickup & Drop For Surgery</li>

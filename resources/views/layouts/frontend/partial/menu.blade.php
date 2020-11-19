@@ -91,10 +91,10 @@
                                   
                                   <ul class="dropdown-menu">
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../care/hair-care/index.php">Hair Care</a>
+                                          <a class="dropdown-item" href="{{url('care/hair-care')}}">Hair Care</a>
                                       </li>
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../care/covid-19/index.php">Covid 19</a>
+                                          <a class="dropdown-item" href="{{url('care/covid-19')}}">Covid 19</a>
                                       </li>
                                       <li class="nav-item">
                                           <a class="dropdown-item" href="#">Masks & Sanitizers</a>
