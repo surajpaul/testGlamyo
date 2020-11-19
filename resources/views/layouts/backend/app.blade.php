@@ -22,7 +22,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
     <link href="https://cdn.datatables.net/1.10.22/css/dataTables.semanticui.min.css"/>
     <link href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.semanticui.min.css"/>
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.css"> -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table.min.css">
 
     @yield('css')
     <style>
@@ -32,15 +33,15 @@
         border-radius: 6px;
         margin: 0px 2px;
       }
-      /*.dataTables_paginate .pagination{
+      .dataTables_paginate .pagination{
         display: none;
-      }*/
+      }
       .pagination{
         margin-top: -9%;
       }
-      /*.dataTables_length{
+      .dataTables_length{
         display: none;
-      }*/
+      }
       .select{
         border: 1px solid #ccc;
         padding: 1px 3px;
@@ -593,7 +594,7 @@
     </script>
 
     @yield('script')
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
   $(document).ready(function(){
     $.getJSON("http://localhost:81/test/public/api/users", function(data){
@@ -619,11 +620,12 @@
         employee_data += '<td>'+value.glamyo_share+'</td>';
         employee_data += '<td>'+value.doctor_share+'</td>';
         employee_data += '<td>'+value.status+'</td>';
-        employee_data += '<tr>';
+        employee_data += '</tr>';
       });
       $('#ipd').append(employee_data);
     });
   });
-</script>
+</script> -->
+
 </body>
 </html>
