@@ -273,6 +273,32 @@
 		          </div>
 		        </div>
       		</div>
+      		<!-- <div class="col-md-3 hide 4">
+      			<div class="form-group mb-3 ">
+		          <label class="form-label">Fisrt Settlement :</label>
+		          <div>
+		            <input id="admission_amt" type="number" class="form-control @error('admission_amt') is-invalid @enderror" name="admission_amt" placeholder="Admission Amount">
+	                @error('admission_amt')
+	                    <span class="invalid-feedback" role="alert">
+	                        <strong>{{ $message }}</strong>
+	                    </span>
+	                @enderror
+		          </div>
+		        </div>
+      		</div>
+      		<div class="col-md-3 hide 4">
+      			<div class="form-group mb-3 ">
+		          <label class="form-label">Rest Collection :</label>
+		          <div>
+		            <input id="discharge_amt" type="number" class="form-control @error('discharge_amt') is-invalid @enderror" name="discharge_amt" placeholder="Discharge Amount">
+	                @error('discharge_amt')
+	                    <span class="invalid-feedback" role="alert">
+	                        <strong>{{ $message }}</strong>
+	                    </span>
+	                @enderror
+		          </div>
+		        </div>
+      		</div> -->
       	</div>
 
         <div class="form-footer">

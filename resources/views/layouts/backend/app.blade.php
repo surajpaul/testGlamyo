@@ -33,15 +33,15 @@
         border-radius: 6px;
         margin: 0px 2px;
       }
-      /*.dataTables_paginate .pagination{
+      .dataTables_paginate .pagination{
         display: none;
-      }*/
+      }
       .pagination{
         margin-top: -9%;
       }
-      /*.dataTables_length{
+      .dataTables_length{
         display: none;
-      }*/
+      }
       .select{
         border: 1px solid #ccc;
         padding: 1px 3px;
