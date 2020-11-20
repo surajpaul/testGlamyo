@@ -558,7 +558,7 @@ URL: https://themeforest.net/user/surjithctly/
       padding-top: 0px;
       }
       .main-title {
-        padding: 80px 0 0;
+        padding: 60px 20px 0;
       }
     }
     
@@ -2677,6 +2677,11 @@ URL: https://themeforest.net/user/surjithctly/
       .counter-btn_block {
         margin: 0;
       }
+      .saas-services-area {
+        position: relative;
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
     }
     
     .section-margin{
@@ -2690,7 +2695,13 @@ URL: https://themeforest.net/user/surjithctly/
       background-color: #f8f9fa;
       padding: 70px;
     }
-    
+    @media only screen and (max-width: 600px) {
+    .saas-services-area {
+      position: relative;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+}   
     .saas-services-area.pt-260 {
       padding-top: 260px;
     }
@@ -4474,6 +4485,7 @@ span.average-rating {
   position: fixed;
   margin: 2em;
   right: 0;
+  z-index: 999999;
 }
 
 .fabz {

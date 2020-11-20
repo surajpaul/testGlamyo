@@ -1,7 +1,7 @@
 @extends('layouts.frontend.app')
 
 @section('title')
-<title>Painless Laser Treatment For Piles | Glamyo Health</title>
+<title>Advanced Painless Orthopaedics Treatment | Glamyo Health</title>
 @endsection
 
 @section('css')
@@ -12,9 +12,9 @@
       <div class="row mt-100">
         <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
           <div class="main-title">
-            <h2 class="product-title">Painless Laser Treatment For Piles</h2>
+            <h2 class="product-title">Advanced Painless Orthopaedics Treatment</h2>
               <p>
-              At Glamyo Health, our expert doctors will take care of piles in a painless one day laser procedure.
+              At Glamyo Health, our expert doctors will take care of orthopaedic injuries in a painless minimally invasive procedure.
               </p>
               <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-primary" tabindex="-1">Book Appointment</a>
           </div>
@@ -26,7 +26,7 @@
 
               <li>
                   <i class="ilmosys-x-ray"></i>
-                  <h5>No cuts &amp; <br>no stitches</h5>
+                  <h5>Advanced Treatment</h5>
               </li>
 
               <li>
@@ -83,16 +83,19 @@
     <div id="reviews" style="padding-bottom: 100px">
             <div class="container">
                 <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pull-left">
             <div class="text-left">
-                 <h2 style="color: #0F74B2; font-weight: 600;">Piles </h2>
+                 <h2 style="color: #0F74B2; font-weight: 600;">Sports Orthopaedic </h2>
                 </div>
                 <div class="testimonials-white">
                     
                         <div class="text-left">
                             <div class="quote2">
                                 <div>
-                               <p style="margin-top: 10px; margin-bottom: 40px;">Piles also known as Haemorrhoids (bawaseer in hindi) is the swelling of the blood vessels inside or around the rectum and anus. Piles may vary in size and can be found inside (internal hemorrhoids) or outside (external hemorrhoids) the anus. Piles develop when the tissues protecting the anal region get inflamed and the anal passage becomes thin, stretched and irritated when passing bowel movement.</p>
+                               <p style="margin-top: 10px; margin-bottom: 40px;">The actual surgery time is usually about 30 minutes. If extensive work is needed, the procedure may last up to 45 minutes. Most people “go to sleep completely” during surgery with a general anesthetic. Some have surgery with a spinal anesthetic.
+                            <br><br>
+                            Three or four small incisions are made to allow special instruments, including a fiber-optic camera, to be placed into your knee. Sterile saline (salt water) is brought into the knee joint continuously with tubing to provide a clear view for the surgeon. Torn parts of the meniscus and/or damaged cartilage on the bone surfaces are carefully removed with special arthroscopic instruments. The end result is a knee lined with smooth and stable tissues rather than rough edges.
+                            </p>
                                      
                                 </div>
 
@@ -107,16 +110,41 @@
                         </div>
                     </div>
                 </div></div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-                <span class="author" style="color: #0F74B2; font-weight: 600;">Symptoms of Piles</span>
-                                      
-                                      <ul style="margin-top: 20px; margin-bottom: 20px;" class="symptoms-list">
-                                          <li>Bright red blood in stools</li>
-                                          <li> An itchy Anus</li>
-                                              <li>Painful lump in rectum</li>
-                                                  <li>Pain around anus</li>
-                                      </ul></div></div>
 
+                <div class="col-md-2 media-col-md-2">
+                    <img src="{{asset('assets/frontend/images/ortho1.png')}}">
+                    <h5 class="ortho-text">Pelvic Acetabular Trauma</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho2.png')}}">
+                    <h5 class="ortho-text">Arthroscopy</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho3.png')}}">
+                    <h5 class="ortho-text">Joint replacement surgery</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho4.png')}}">
+                    <h5 class="ortho-text">Ligament Reconstruction</h5>
+                </div>
+                <div class="col-md-2 media-col-md-2">
+                <img src="{{asset('assets/frontend/images/ortho5.png')}}">
+                    <h5 class="ortho-text">Shoulder Replacement Surgery</h5>
+                </div>
+             </div>
+<style>
+    .media-col-md-2{
+        flex: 0 0 20% !important;
+max-width: 20% !important;
+    }
+    .ortho-text{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        color: #0F74B2;
+        font-weight: 600;
+    }
+</style>
             </div></div>
                  <!-- Info and symptoms ends -->    
                  
@@ -206,8 +234,7 @@
                           <div>
                              
                               <ul style="margin-top: 20px; margin-bottom: 20px; text-align: left; color: #fff" class="symptoms-list">
-                                  <li>Save Upto 50% On Surgery Cost</li>
-                                  <li> Save Upto Rs. 5000 On Pre-Surgery Diagnostics</li>
+                            
                                       <li>Interest-Free EMI Facility</li>
                                           <li>Free Followup Consultation</li>
                                           <li>Free Pickup & Drop For Surgery</li>
@@ -236,85 +263,7 @@
               </div>
           </div>
     </section>
-    <!-- Advantages -->
-    <section class="section-margin">
-       <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="text-center" style="margin-bottom: 40px;">
-               <h2 style="color: rgba(0,122,191,1); font-weight: 600;">Advantages of Laser Treatment for Piles</h2>
-               <p class="adv-p">Laser Hemorrhoidectomy is a minimally invasive technique used for treating piles using laser energy.<br> This technique has many advantages over traditional open surgery.</p>
-               <ul>
-                   <li class="row">
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="comparison-text text-primary">Laser Treatment</div></div>
-                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div  class="comparison-text text-danger" style="text-align: left;">Traditional Surgery</div></div>
-                   </li>
-                   <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimally Invasive</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                     </li>
-                     <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Local Anesthesia</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>1 Day Discharge</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/check.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Surgical Pain</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Minimal</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recovery</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Quick</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Slow</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>No Blood Loss</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-                  <li class="adv-row row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>Recurrence</span></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="{{asset('assets/frontend/images/cross.png')}}" width="20"></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><span>High Chances</span></div>
-                  </li>
-
-                  </ul>
-              </div>
-              </div></div></div>
  
-            
-       <div class="container show-desktop hide-mobile mt-50">
-                  <div class="row">
-                      <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
-                 
-                          </div>
-                  <div class="col-md-6 col-lg-6 text-center">
-                      <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-primary"><i data-feather="calendar"></i>Book Consultation </a>
-                         
-                     </div>
-                  </div></div>
-
-                  <div class="container hide-desktop show-mobile mt-50">
-                     
-                      <div class="col-md-6 col-lg-6 text-center">
-                          <a onclick="return gtag_report_conversion('tel:9711144230')" href="tel: 9711144230" id="callToAction" class="btn btn-lg btn-primary"><i data-feather="phone"></i>Call Piles Expert Now</a>
-                      
-                      </div>
-                      <div class="col-md-6 col-lg-6 text-center">
-                          <a href="#" data-toggle="modal" data-target=".bs-example-modal-new" class="btn btn-lg btn-primary"><i data-feather="calendar"></i>Book Consultation </a>
-                     
-                        </div>
-                  </div>
-    </section>
     <!-- Features panel -->
     <div id="stats2" class="space-stats">
             <div class="container">

@@ -1773,7 +1773,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_14.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/07/rendered-2.png), linear-gradient(90deg, #3fe7d7 0%, #1fc4e3 100%);
+	background-image: url('../images/rendered-2.png'), linear-gradient(90deg, #3fe7d7 0%, #1fc4e3 100%);
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1785,7 +1785,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_14.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url(https://glamyohealth.in/wp-content/uploads/2020/07/rendered-2.png);
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/rendered-2.png');
 	background-color: transparent;
 	flex: 4
 }
@@ -1884,7 +1884,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_20.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-192.png), linear-gradient(90deg, #1bb3ec 0%, #2b87da 100%);
+	background-image: url('../images/Group-193.png'), linear-gradient(90deg, #1bb3ec 0%, #2b87da 100%);
 	background-color: #1bb3ec;
 	height: 100%;
 	background-size: cover;
@@ -1897,14 +1897,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_20.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-192.png);
+	background-image: url('');
 	background-color: #1bb3ec;
 	flex: 4
 }
 .et_pb_blurb_27.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-194.jpg);
+	background-image: url('../images/Group-192.png');
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1916,7 +1916,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_21.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-194.jpg);
+	background-image: url('../images/Group-194.jpg');
 	height: 100%;
 	background-size: cover;
 	overflow-x: hidden;
@@ -1928,14 +1928,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_21.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-194.jpg);
+	background-image: linear-gradient(90deg, #055CCC 0%, rgba(41, 196, 169, 0) 100%), url('../images/Group-194.jpg');
 	background-color: transparent;
 	flex: 4
 }
 .et_pb_blurb_22.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-203.png), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
+	background-image: url('../images/Group-201.png'), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
 	background-color: #1bb3ec;
 	height: 100%;
 	background-size: cover;
@@ -1948,14 +1948,14 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_22.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-200.png);
+	background-image: url('../images/Group-200.png');
 	background-color: #1bb3ec;
 	flex: 4
 }
 .et_pb_blurb_23.et_pb_blurb {
 	color: rgba(0, 0, 0, 0)!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-201.png), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
+	background-image: url('../images/Group-203.png'), linear-gradient(135deg, #1bb3ec 0%, #2b87da 100%);
 	background-color: #1bb3ec;
 	height: 100%;
 	background-size: cover;
@@ -1968,7 +1968,7 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 .et_pb_blurb_23.et_pb_blurb:hover {
 	color: #ffffff!important;
 	background-position: center left;
-	background-image: url(https://glamyohealth.in/wp-content/uploads/2020/05/Group-202.png);
+	background-image: url('../images/Group-202.png');
 	background-color: #1bb3ec;
 	flex: 4
 }

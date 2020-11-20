@@ -26,6 +26,17 @@
     <link rel="stylesheet" href="{{asset('assets/frontend/css/landing.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/frontend/css/ilmosys-icon.css')}}">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+
+  <!-- Global site tag (gtag.js) - Google Ads: 674605734 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-674605734"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-674605734');
+</script>
+
     <style>
     #crmWebToEntityForm tr , #crmWebToEntityForm td { 
     padding:25px;
@@ -111,7 +122,7 @@
          owl.trigger('destroy.owl.carousel');
          owl.addClass('off');
       }
-    </script>
+    </script> 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLVPNS2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->

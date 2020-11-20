@@ -91,10 +91,10 @@
                                   
                                   <ul class="dropdown-menu">
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../care/hair-care/index.php">Hair Care</a>
+                                          <a class="dropdown-item" href="{{url('care/hair-care')}}">Hair Care</a>
                                       </li>
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../care/covid-19/index.php">Covid 19</a>
+                                          <a class="dropdown-item" href="{{url('care/covid-19')}}">Covid 19</a>
                                       </li>
                                       <li class="nav-item">
                                           <a class="dropdown-item" href="#">Masks & Sanitizers</a>
@@ -105,7 +105,7 @@
                           </li>
                             <li class="appointment-btn">
                                 <a href="tel:+91 97111 44 230" class="btn btn-primary"><i data-feather="phone" class="text-white"></i> +91 97111 44 230</a>
-                                <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="marker"> <i data-feather="map-pin" class="icon"></i></a>
+                                <!-- <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="marker"> <i data-feather="map-pin" class="icon"></i></a> -->
                             </li>
                           </ul>
                   </div>
