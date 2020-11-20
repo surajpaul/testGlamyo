@@ -50,7 +50,7 @@
                                                 
                                                 <ul class="dropdown-menu">
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="health/sports-orthopedic/index.php">Sports Orthopedic</a>
+                                                        <a class="dropdown-item" href="{{url('health/sports-orthopedic')}}">Sports Orthopedic</a>
                                                     </li>
                                                     <li class="dropdown">
                                                         <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
@@ -103,7 +103,7 @@
                                                 
                                                 <ul class="dropdown-menu">
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="{{url('beauty/gynaecomastia')}}">Gynecomastia</a>
+                                                        <a class="dropdown-item" href="{{url('beauty/gynecomastia')}}">Gynecomastia</a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="dropdown-item" href="">Hair Transplant</a>
@@ -126,7 +126,7 @@
                                                         <a class="dropdown-item" href="">Hair Care</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="">Covid 19</a>
+                                                        <a class="dropdown-item" href="{{url('care/covid-19')}}">Covid 19</a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="dropdown-item" href="">Masks & Sanitizers</a>
@@ -137,7 +137,7 @@
                                         </li>
                                             <li class="appointment-btn">
                                                 <a href="tel:+91 97111 44 230" class="btn btn-primary"><i data-feather="phone" class="text-white"></i> +91 97111 44 230</a>
-                                                <a href="#" data-toggle="modal" data-target="#location" class="marker"> <i data-feather="map-pin" class="icon"></i></a>
+                                                <!-- <a href="#" data-toggle="modal" data-target="#location" class="marker"> <i data-feather="map-pin" class="icon"></i></a> -->
                                             </li>
                                         </ul>
                                        
@@ -440,7 +440,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="tel:+919711144230">Sports Orthopedics</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://glamyohealth.in/health/sports-orthopedic">Sports Orthopedics</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Active lifestyle demands comprehensive care. Work-related niggle, sports injury, relieving pain. Our world-class doctors get you back to your active life.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Active lifestyle demands comprehensive care. Work-related niggle, sports injury, relieving pain. Our world-class doctors get you back to your active life.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -451,7 +451,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/piles/">Laser Piles Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/piles/">Laser Piles Treatment</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;At Glamyo care, our expert doctors will take care of piles in a painless one day laser procedure.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">At Glamyo care, our expert doctors will take care of piles in a painless one day laser procedure.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div> 
                 </div>
@@ -462,7 +462,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/hernia/">Hernia Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/hernia/">Hernia Treatment</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Minimally invasive painless surgery. No scars, no stitches. Recovery within a week&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Minimally invasive painless surgery. No scars, no stitches. Recovery within a week</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -473,7 +473,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/gall-bladder/">Gallstone Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/gallstone/">Gallstone Treatment</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Advanced Mediport Procedure. Painless 30 mins Procedure. No Stitches, No Scars. Within a Week Recovery&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Advanced Mediport Procedure. Painless 30 mins Procedure. No Stitches, No Scars. Within a Week Recovery</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -484,7 +484,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/varicose-veins/">Varicose Veins</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/varicose-veins/">Varicose Veins</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get Rid of the Pain of Varicose Veins. Painless and bloodless treatment. No cuts.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Get Rid of the Pain of Varicose Veins. Painless and bloodless treatment. No cuts.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -514,7 +514,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/piles/">Laser Piles Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/sports-orthopedic/">Laser Piles Treatment</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;">At Glamyo care, our expert doctors will take care of piles in a painless one day laser procedure.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -525,7 +525,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/hernia/">Hernia Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/hernia/">Hernia Treatment</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;">Minimally invasive painless surgery. No scars, no stitches. Recovery within a week.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -536,7 +536,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/gall-bladder/">Gall Stone Treatment</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/gallstone/">Gall Stone Treatment</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Advanced Mediport Procedure. Painless 30 mins Procedure. No Stitches, No Scars.\u00a0Within a Week Recovery.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Advanced Mediport Procedure. Painless 30 mins Procedure. No Stitches, No Scars. Within a Week Recovery.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Advanced Mediport Procedure. Painless 30 mins Procedure. No Stitches, No Scars. Within a Week Recovery.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -547,7 +547,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/varicose-veins/">Varicose Veins</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/health/varicose-veins/">Varicose Veins</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;">Get Rid of the Pain of Varicose Veins. Painless and bloodless treatment. No cuts.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -600,7 +600,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/liposuction-3/">Liposuction</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/liposuction/">Liposuction</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Get the right body contour by removing excess fat deposits.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -622,7 +622,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/cool-sculpting/">Cool Sculpting®</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/cool-sculpting/">Cool Sculpting®</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b918448478281/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -633,7 +633,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/peels/">Peels</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/peels/">Peels</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b918448478281/__TALK.html TO US&lt;\/a&gt;&lt;br \/&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -644,7 +644,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/gynaecomastia/">Gynecomastia</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/gynecomastia/">Gynecomastia</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Advanced technique to instantly reduce the size of male breasts.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Advanced technique to instantly reduce the size of male breasts.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b918448478281/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Advanced technique to instantly reduce the size of male breasts.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -663,7 +663,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="tel:+918448478281">Liposuction</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/liposuction/">Liposuction</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;phone&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-phone-hidden="true"><p style="padding-top: 6vw;">Get the right body contour by removing excess fat deposits.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -674,7 +674,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="tel:+919711144230">Hair Transplant</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/gynecomastia/">Hair Transplant</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Choose the Most Advanced &amp; Safe Hair Transplant Procedure&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Choose the Most Advanced &amp; Safe Hair Transplant Procedure&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Choose the Most Advanced &amp; Safe Hair Transplant Procedure</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -685,7 +685,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/cool-sculpting/">CoolSculpting®</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/cool-sculpting/">CoolSculpting®</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Freeze your extra fat using &lt;\/span&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;non-invasive &amp; non-surgical US FDA approved technology.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Freeze your extra fat using &lt;\/span&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;non-invasive &amp; non-surgical US FDA approved technology.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p><span style="font-weight: 400;">Freeze your extra fat using </span><span style="font-weight: 400;">non-invasive &amp; non-surgical US FDA approved technology.</span></p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -696,7 +696,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/peels/">Peels</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/peels/">Peels</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;">Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -707,7 +707,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/gynaecomastia/">Gynaecomastia</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/gynecomastia/">Gynaecomastia</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;"><span style="font-weight: 400;">Advanced technique to instantly reduce the size of male breasts.</span></p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -760,7 +760,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/covid-19/">Covid-19 Testing</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/care/covid-19/">Covid-19 Testing</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Stay assured with Glamyo&#8217;s Covid-19 tests.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Stay assured with Glamyo&#8217;s Covid-19 tests.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -782,7 +782,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="tel:+919711144230">Online Consultation</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Online Consultation</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;&lt;span&gt;Book an online consultation with our specialists from the comfort of your home.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;"><span>Book an online consultation with our specialists from the comfort of your home.</span></p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -812,7 +812,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/covid-19/">Covid-19 Tests</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/care/covid-19/">Covid-19 Tests</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Stay assured with Glamyo&#8217;s Covid-19 tests.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;phone&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Stay assured with Glamyo&#039;s Covid-19 tests.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true" data-et-multi-view-load-phone-hidden="true"><p style="padding-top: 6vw;">Stay assured with Glamyo&#8217;s Covid-19 tests.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -1155,7 +1155,7 @@
         <hr>
         <div class="row">
         <div class="col-md-12">
-        <a href="https://glamyohealth.in/request-call-back" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+        <a href="https://glamyohealth.in/request-call-back" class="btn btn-dark" tabindex="0">BOOK APPOINTMENT</a>
         </div>
         </div>
         </div>
@@ -1164,10 +1164,7 @@
         <h2>
         Contact Us
         </h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eius mod tempor
-        incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam
-        </p>
+        
         <div class="why-choose_list">
         <div class="choose-icon">
         <i class="fas fa-phone-volume"></i>
@@ -1421,7 +1418,7 @@
             <div class="col-md-12">
                 <div class="heading-style1">
                     <span>Testimonials</span>
-                    <h2>What Our Clients Say</h2>
+                    <h2>What Our Patients Say</h2>
                 </div>
                 <div class="testi-slider">
                     <div class="testimonial-wrap">
@@ -1458,7 +1455,7 @@ I loved it!
                         </div>
                     </div>
                     <div class="testimonial-wrap">
-                        <img src="{{asset('assets/frontend/images/testi-img1.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
+                        <img src="{{asset('assets/frontend/images/test-img.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -1468,15 +1465,14 @@ I loved it!
                         </ul>
                         <p>My uncle got his Hernia treatment done from Glamyo and had a smooth experience. The Doctor was highly experienced and surgery went well. All Insurance paperwork was done by Glamyo team and they provided free pick & drop service. I would totally recommend Glamyo for Hernia treatment.
                         </p>
-                        <span class="testi-name">Harshita Rana</span>
+                        <span class="testi-name">Hitesh Dawar</span>
                         <div class="testi-styled-bg">
                             <img src="{{asset('assets/frontend/images/testi-side-img_05.png')}}" class="img-fluid" alt="#" />
                         </div>
                     </div>
                     <div class="testimonial-wrap quaternary-br-color">
-                        <img src="{{asset('assets/frontend/images/testi-img2.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
+                        <img src="{{asset('assets/frontend/images/test_img8.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
                         <ul>
-                            <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -1485,7 +1481,7 @@ I loved it!
                         <p>I had a laser procedure for Piles at Glamyo, Dr. Kapil Aggarwal is simply a gem, my problem was resolved completely and procedure was Painless.
                             The support team of Glamyo is very supportive & helpful, they take care of everything right from home pickup and drop to Insurance formalities.
                         </p>
-                        <span class="testi-name">Rakesh Shukla</span>
+                        <span class="testi-name">Kapil Shukla</span>
                         <div class="testi-styled-bg">
                             <img src="{{asset('assets/frontend/images/testi-side-img_05.png')}}" class="img-fluid" alt="#" />
                         </div>
@@ -1651,7 +1647,7 @@ I loved it!
     
     
    <!--City Modal-->
-   <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
               <div class="modal-header">
@@ -1666,7 +1662,7 @@ I loved it!
                 
           </div>
         </div>
-      </div>
+      </div> -->
 
     <!--==================== Footer ====================-->
     <footer>
@@ -1764,7 +1760,7 @@ I loved it!
     </footer>
 
      <!-- location modal -->
-    <div id="location" class="modal fade" role="dialog" style="z-index: 9999;background-color: rgb(0, 0, 0, 0.2);">
+    <!-- <div id="location" class="modal fade" role="dialog" style="z-index: 9999;background-color: rgb(0, 0, 0, 0.2);">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
     <div class="modal-header" style="border-bottom:1px solid #fff;">
@@ -1823,7 +1819,7 @@ I loved it!
       </div>
     </div>
   </div>
-</div>
+</div> -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <!-- location popup modal -->

@@ -206,8 +206,7 @@
                           <div>
                              
                               <ul style="margin-top: 20px; margin-bottom: 20px; text-align: left; color: #fff" class="symptoms-list">
-                                  <li>Save Upto 50% On Surgery Cost</li>
-                                  <li> Save Upto Rs. 5000 On Pre-Surgery Diagnostics</li>
+                              
                                       <li>Interest-Free EMI Facility</li>
                                           <li>Free Followup Consultation</li>
                                           <li>Free Pickup & Drop For Surgery</li>

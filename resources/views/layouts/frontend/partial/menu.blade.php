@@ -105,7 +105,7 @@
                           </li>
                             <li class="appointment-btn">
                                 <a href="tel:+91 97111 44 230" class="btn btn-primary"><i data-feather="phone" class="text-white"></i> +91 97111 44 230</a>
-                                <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="marker"> <i data-feather="map-pin" class="icon"></i></a>
+                                <!-- <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="marker"> <i data-feather="map-pin" class="icon"></i></a> -->
                             </li>
                           </ul>
                   </div>
