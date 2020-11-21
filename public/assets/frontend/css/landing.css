@@ -321,7 +321,7 @@ padding-left: 100px;
 @media only screen and (max-width: 768px) {
 	.intro1 {
 		background-color: #ffffff;
-		height: 25vh;
+		height: 30vh;
 		background-size: cover;
 		overflow-x: hidden;
 	}
@@ -351,6 +351,10 @@ padding-left: 100px;
 	font-size: 16px;
 	color: #fff;
 }
+
+.img-responsive{
+	width: 500px;
+  }
 
 .intro-form {
 	padding: 30px 40px 40px;
@@ -1116,6 +1120,14 @@ padding-left: 100px;
 	margin: 0 auto;
 	position: relative;
 	left: 4%;
+	}
+	.img-responsive{
+		width: 300px;
+	  }
+	.features-list {
+		margin: 30px auto;
+		list-style: none;
+		padding-left: 25px;
 	}
 	#crmWebToEntityForm{
 		padding-top: 0;
@@ -3989,8 +4001,8 @@ footer .list-inline li {
 	color: #fff;
 	font-size: 16px;
 	margin-left: 0px;
-	text-align:left;
-	padding: 10px 0 0;
+    text-align: left;
+    padding: 10px 25px;
 }
 .parallax-content h4 {
 	color: #fff;
@@ -4590,6 +4602,7 @@ margin: 0 auto;
     border-radius: 5px;
 	padding: 0px;
 	margin-top: 10px;
+	height: auto;
 }
 .locate p{
 	font-size: 12px;
@@ -7251,8 +7264,10 @@ box-shadow: 3px 4px 12px #ebe4eb;
 
 	#stats1,
 #stats2 {
-		padding: 120px 0 80px;
+		padding: 30px 0 30px;
+		margin: 30px 
 	}
+	
 
 	.process-step small {
 		display: none;
@@ -7903,7 +7918,7 @@ h2.dad-text{
 			font-weight: 500;
 		}
 		#reviews{
-			padding: 0px 0 50px;
+			padding: 0px 20px 50px !important;
 		}
 		.footer-copy p{
 			font-size: 7px;
@@ -7927,7 +7942,7 @@ h2.dad-text{
 			.parallax-content h4 {
 				color: #fff;
 				margin-left: 0;
-				margin-bottom: 40px;
+				margin-bottom: 20px;
 				font-size: 28px;
 				line-height: 1.5;
 				font-weight: 700;

@@ -49,7 +49,7 @@
                                           <ul class="dropdown-menu dropdown-menu1">
                                               <li><a class="dropdown-item" href="{{url('health/phimosis')}}">Phimosis</a></li>
                                               <li><a class="dropdown-item" href="{{url('health/kidney-stone')}}">Kidney Stone</a></li>
-                                              <li><a class="dropdown-item" href="{{url('health/hydrocele')}}">Hydrocele</a></li>
+                                              <li><a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hydrocele</a></li>
                                           </ul>
                                       </li>
                                       <li class="dropdown">
@@ -58,7 +58,7 @@
                                                      <ul class="dropdown-menu dropdown-menu1">
                                                         <li><a class="dropdown-item" href="{{url('health/pilonidal-sinus')}}">Pilonidal Sinus</a></li>
                                                         <li><a class="dropdown-item" href="{{url('health/varicose-veins')}}">Varicose Veins</a></li>
-                                                        <li><a class="dropdown-item" href="{{url('health/varicocele')}}">Varicocele</a></li>
+                                                        <li><a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Varicocele</a></li>
                                                    </ul>
                                                </li>
                                       
@@ -74,10 +74,10 @@
                                           <a class="dropdown-item" href="{{url('beauty/gynecomastia')}}">Gynecomastia</a>
                                       </li>
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../beauty/hair-transplant/index.php">Hair Transplant</a>
+                                          <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hair Transplant</a>
                                       </li>
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="../../beauty/liposuction/index.php">Liposuction</a>
+                                          <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Liposuction</a>
                                       </li>
                                    
                                       
@@ -91,13 +91,13 @@
                                   
                                   <ul class="dropdown-menu">
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="{{url('care/hair-care')}}">Hair Care</a>
+                                          <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hair Care</a>
                                       </li>
                                       <li class="nav-item">
                                           <a class="dropdown-item" href="{{url('care/covid-19')}}">Covid 19</a>
                                       </li>
                                       <li class="nav-item">
-                                          <a class="dropdown-item" href="#">Masks & Sanitizers</a>
+                                          <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Masks & Sanitizers</a>
                                       </li>
                                    
                                       

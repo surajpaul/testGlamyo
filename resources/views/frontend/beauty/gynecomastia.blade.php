@@ -544,9 +544,9 @@ Male breast tissue swells due to reduced male hormones (testosterone) or increas
                             <p>Cardiologist Specialist</p>
                         </div>
                     </div>
-                    <div class="text-center">
+                    <!-- <div class="text-center">
                     <a href="#" class="btn btn-primary">View More</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -556,14 +556,14 @@ Male breast tissue swells due to reduced male hormones (testosterone) or increas
             <div class="row">
                 <div class="col-md-12 col-lg-6">
                     <div class="appointment-form_wrap">
-                        <img src="{{asset('assets/frontend/images/2-01.jpg')}}" class="img-responsive" width="500">
+                        <img src="{{asset('assets/frontend/images/5-01.png')}}" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="why-choose_block">
                         <div class="heading-style1 mb-0">
                             <h2>FAQs</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eius mod tempor inc ididuntut</p>
+                          
                             <hr>
                         </div>
                         <div class="faq" id="accordion">

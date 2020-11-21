@@ -1,3 +1,9 @@
+
+<div class="foot-block d-lg-none">
+    <a href="https://glamyohealth.in/request-call-back" class="btn-theme-blue"><i class="fa fa-calendar"></i> Book Now</a>
+    <a href="tel:+919711144230" class=" btn-theme-green">Call Us <i class="fa fa-phone"></i></a>
+</div>
+
 <footer>
     <div class="container container-custom">
         <div class="row">

@@ -41,7 +41,7 @@
     gtag('event', 'conversion', {'send_to': 'AW-674605734/O1JBCKXOl7oBEKbV1sEC'});
     </script>
 </head>
-<body>  
+<body>
     @include('layouts.frontend.partial.menu')
     <!-- Sub header -->
     <section class="space sub-header" style="margin-top: 10rem;">
@@ -49,8 +49,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="alt-header_content" style="text-align: center; color: #fff;">
-                       <h1>Thank You!</h1>
-                        <span style="font-size: 14px; color: #eee; position: relative;">We received your details and our team will get back to you shortly.</span>
+                       <h1>Our Treatments</h1>
                         <div class="sub-header_main" style="float: right">
                         <h2></h2>
                     </div>

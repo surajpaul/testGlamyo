@@ -108,18 +108,10 @@ URL: https://themeforest.net/user/surjithctly/
       display: inline-block;
     }
     
-    .btn-light {
-      background-color: #fdf2de;
-      color: #f69e03;
-      font-size: 14px;
-      padding: 14px 20px;
-      border-radius: 2px;
-    }
+
     .btn-light:hover {
-      background-color: #fdf2de;
-      color: #f69e03;
-      padding: 14px 20px;
-      border-radius: 2px;
+      background-color: #ffffff;
+      color: #0F74B2;
     }
     
     .btn-warning {
@@ -173,6 +165,35 @@ URL: https://themeforest.net/user/surjithctly/
       border: 1px solid #69BB45;
       padding: 9px 7px;
       color: #69BB45;
+    }
+    .d-lg-none{
+      display: none;
+    }
+
+    .foot-block{  
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 16px;
+      letter-spacing: 0.06em;
+      z-index: 99999999;
+    }
+    .foot-block a{
+      width: 50%;
+      text-align: center;
+      padding: 15px;
+    }
+    .foot-block a:hover{
+      color: #fff !important;
+      text-decoration: none;
+    } 
+    .btn-theme-blue{
+      background: #0F74B2;
+      color: #ffffff;
+    }
+    .btn-theme-green{
+      background: #69BB45;
+      color: #ffffff;
     }
     @media (min-width: 768px) {
       .btn-outline-success {
@@ -264,7 +285,7 @@ URL: https://themeforest.net/user/surjithctly/
       border: none;
       position: absolute;
       right: 0;
-      top: 0;
+      top: 20px;
       margin: -73px 0 0;
     }
     
@@ -352,6 +373,7 @@ URL: https://themeforest.net/user/surjithctly/
       .navbar-toggleable-md .navbar-nav {
         -webkit-box-align: center;
             -ms-flex-align: center;
+
                 align-items: center;
       }
     
@@ -558,10 +580,24 @@ URL: https://themeforest.net/user/surjithctly/
       padding-top: 0px;
       }
       .main-title {
-        padding: 60px 20px 0;
+        padding: 80px 20px 0;
       }
+      .section-margin {
+        margin: 50px auto;
+        }
+        .d-lg-none{
+          display: inline-flex;
+        }
+        .d-sm-none{
+          display: none !important; 
+        }
     }
-    
+    .d-sm-none{
+      display: block;
+    }
+    .d-lg-block{
+      display: block;
+    }
     .anim-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1015,6 +1051,8 @@ URL: https://themeforest.net/user/surjithctly/
         font-size: 40px;
       }
     }
+
+ 
     
     .slider-video {
       position: relative;
@@ -2295,6 +2333,7 @@ URL: https://themeforest.net/user/surjithctly/
     }
     .foot-contact-block img {
       margin: 0 0 25px;
+      width: 200px;
     }
     .foot-contact-block p {
       color: #dededebd;
