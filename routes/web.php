@@ -39,8 +39,11 @@ Route::get('/beauty/gynecomastia', function () { return view('frontend.beauty.gy
 Route::get('/our-doctors', function () { return view('frontend.doctors');});
 Route::get('/thank-you', function () { return view('frontend.thank-you');});
 Route::get('/health/varicose-veins', function () { return view('frontend.health.varicose-veins');});
-Route::get('/health/pilonidal-sinus', function () { return view('frontend.health.pilondal-sinus');});
+Route::get('/health/pilonidal-sinus', function () { return view('frontend.health.pilonidal-sinus');});
 Route::get('/care/covid-19', function () { return view('frontend.care.covid-19');});
+Route::get('/our-treatments', function () { return view('frontend.our-treatments');});
+Route::get('/privacy-policy', function () { return view('frontend.privacy-policy');});
+Route::get('/terms-conditions', function () { return view('frontend.terms-conditions');});
 
 
 

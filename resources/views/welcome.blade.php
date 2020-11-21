@@ -79,7 +79,7 @@
                                                         <ul class="dropdown-menu dropdown-menu1">
                                                             <li><a class="dropdown-item" href="{{url('health/phimosis')}}">Phimosis</a></li>
                                                             <li><a class="dropdown-item" href="{{url('health/kidney-stone')}}">Kidney Stone</a></li>
-                                                            <li><a class="dropdown-item" href="{{url('health/hydrocele')}}">Hydrocele</a></li>
+                                                            <li><a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hydrocele</a></li>
                                                         </ul>
                                                     </li>
 
@@ -89,7 +89,7 @@
                                                      <ul class="dropdown-menu dropdown-menu1">
                                                         <li><a class="dropdown-item" href="{{url('health/pilonidal-sinus')}}">Pilonidal Sinus</a></li>
                                                         <li><a class="dropdown-item" href="{{url('health/varicose-veins')}}">Varicose Veins</a></li>
-                                                        <li><a class="dropdown-item" href="{{url('health/varicocele')}}">Varicocele</a></li>
+                                                        <li><a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Varicocele</a></li>
                                                    </ul>
                                                </li>
 
@@ -106,10 +106,10 @@
                                                         <a class="dropdown-item" href="{{url('beauty/gynecomastia')}}">Gynecomastia</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="">Hair Transplant</a>
+                                                        <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hair Transplant</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="">Liposuction</a>
+                                                        <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Liposuction</a>
                                                     </li>
                                                  
                                                     
@@ -123,13 +123,13 @@
                                                 
                                                 <ul class="dropdown-menu">
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="">Hair Care</a>
+                                                        <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Hair Care</a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="dropdown-item" href="{{url('care/covid-19')}}">Covid 19</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="dropdown-item" href="">Masks & Sanitizers</a>
+                                                        <a class="dropdown-item" href="https://glamyohealth.in/request-call-back/">Masks & Sanitizers</a>
                                                     </li>
                                                  
                                                     
@@ -163,7 +163,7 @@
                                         Glamyo is a multi-specialty healthcare provider delivering a hassle-free experience for all elective surgeries & cosmetic procedures with personalized care.
                                     </p>
                                     <a href="https://glamyohealth.in/request-call-back" class="btn btn-primary">Book Appointment</a>
-                                    <a href="https://youtu.be/kqBvOMzeZUI"
+                                    <a href="https://youtube.com/kqBvOMzeZUI"
                                         class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
                                 </div>
                                 <!--//End Slider Title -->
@@ -253,16 +253,16 @@
             <option value='Covid'>Covid</option>
         </select>
                     <ul class="booking-form">
-                        <li><input type="text" class="form-control" id='Last_Name' name='Last Name' placeholder="Enter Your Full Name" /><i
+                        <li><input type="text" class="form-control" id='Last_Name' name='Last Name' placeholder="Enter Your Full Name" required /><i
                                 class="fas fa-user"></i></li>
                         <li><div class="input-group mb-3">
                      <div class="input-group-prepend">
                    <span class="input-group-text" id="basic-addon1">+91</span>
                         </div>
-                            <input type="text" class="form-control numeric" id='Mobile' name='Mobile' placeholder="Enter Contact Number" /><i
+                            <input type="text" class="form-control numeric" id='Mobile' name='Mobile' placeholder="Enter Contact Number"  required/><i
                                 class="fas fa-phone"></i></div></li>
                         <li>
-                            <select class="custom-select form-control" id='LEADCF1' name='LEADCF1'>
+                            <select class="custom-select form-control" id='LEADCF1' name='LEADCF1'  required>
                                 <option>Select a Treatment</option>
                                 <option value="Piles">Piles</option><option value="Hernia">Hernia</option><option value="Gallstone">Gallstone</option><option value="Gynaecomastia">Gynaecomastia</option><option value="Circumcision">Circumcision</option><option value="Hydrocele">Hydrocele</option><option value="Varicocele">Varicocele</option><option value="Prostate">Prostate</option><option value="Lasik">Lasik</option><option value="Botox">Botox</option><option value="Laser Hair Removal">Laser Hair Removal</option><option value="IVF">IVF</option><option value="Rhinoplasty">Rhinoplasty</option><option value="Abdominoplasty">Abdominoplasty</option><option value="Blephroplasty">Blephroplasty</option><option value="Kidney Stone">Kidney Stone</option><option value="Varicose Veins">Varicose Veins</option><option value="Fissure">Fissure</option><option value="Fistula">Fistula</option><option value="Pilonidal sinus">Pilonidal sinus</option><option value="Knee replacement">Knee replacement</option></select>
                         </li>
@@ -391,7 +391,7 @@
 
     
     <!-- Floating Button -->
-    <div class="fabs">
+    <div class="fabs d-sm-none d-lg-block">
   <a href="https://glamyohealth.in/request-call-back" target="_blank" class="fabz green" tooltip="Book Appointment"><i class="fa fa-notes-medical"></i></a>
 
   <a href="https://glamyohealth.in/consult-now" target="_blank" class="fabz light-blue" style="color: #0F74B2" tooltip="Consult Doctor"><i class="fa fa-user-md"></i></a>
@@ -600,7 +600,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/liposuction/">Liposuction</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Liposuction</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Get the right body contour by removing excess fat deposits.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -622,7 +622,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/cool-sculpting/">Cool Sculpting®</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Cool Sculpting®</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b918448478281/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Freeze your extra fat using non-invasive &amp; non-surgical US FDA approved technology.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -633,7 +633,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/peels/">Peels</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Peels</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b918448478281/__TALK.html TO US&lt;\/a&gt;&lt;br \/&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -663,7 +663,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/liposuction/">Liposuction</a></h4>
+                    <h4 class="et_pb_module_header"><a href="hhttps://www.glamyohealth.in/request-call-back">Liposuction</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;phone&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Get the right body contour by removing excess fat deposits.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-phone-hidden="true"><p style="padding-top: 6vw;">Get the right body contour by removing excess fat deposits.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -674,7 +674,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/gynecomastia/">Hair Transplant</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Hair Transplant</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Choose the Most Advanced &amp; Safe Hair Transplant Procedure&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;Choose the Most Advanced &amp; Safe Hair Transplant Procedure&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">Choose the Most Advanced &amp; Safe Hair Transplant Procedure</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -685,7 +685,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/cool-sculpting/">CoolSculpting®</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">CoolSculpting®</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Freeze your extra fat using &lt;\/span&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;non-invasive &amp; non-surgical US FDA approved technology.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&lt;p&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;Freeze your extra fat using &lt;\/span&gt;&lt;span style=\&quot;font-weight: 400;\&quot;&gt;non-invasive &amp; non-surgical US FDA approved technology.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p><span style="font-weight: 400;">Freeze your extra fat using </span><span style="font-weight: 400;">non-invasive &amp; non-surgical US FDA approved technology.</span></p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -696,7 +696,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/beauty/peels/">Peels</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Peels</a></h4>
                     <div class="et_pb_blurb_description"><p style="padding-top: 6vw;">Get smooth, acne free skin with non invasive skin glow treatments at Glamyo.</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -771,7 +771,7 @@
             <div class="et_pb_blurb_content">
                 
                 <div class="et_pb_blurb_container">
-                    <h4 class="et_pb_module_header"><a href="https://www.shop.glamyohealth.in/">Masks & Sanitizers</a></h4>
+                    <h4 class="et_pb_module_header"><a href="https://www.glamyohealth.in/request-call-back">Masks & Sanitizers</a></h4>
                     <div class="et_pb_blurb_description" data-et-multi-view="{&quot;schema&quot;:{&quot;content&quot;:{&quot;desktop&quot;:&quot;&lt;p style=\&quot;padding-top: 6vw;\&quot;&gt;We supply personal safety products like Masks, Sanitizers, Gloves, IR Thermometer etc. at your doorstep&lt;\/p&gt;\n&lt;p&gt;&lt;a class=\&quot;Talk-Btn\&quot; href=_tel_%2b919711144230/__TALK.html TO US&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;tablet&quot;:&quot;&quot;}},&quot;slug&quot;:&quot;et_pb_blurb&quot;}" data-et-multi-view-load-tablet-hidden="true"><p style="padding-top: 6vw;">We supply personal safety products like Masks, Sanitizers, Gloves, IR Thermometer etc. at your doorstep</p>
 <p><a class="Talk-Btn" href="tel:+919711144230">TALK TO US</a></p></div>
                 </div>
@@ -1309,8 +1309,8 @@
                             <p>General Surgeon</p>
                         </div>
                     </div>
-                    <div class="text-center mt-5">
-                    <a href="our-doctors.php" class="btn btn-primary">View More</a></div>
+                    <!-- <div class="text-center mt-5">
+                    <a href="our-doctors.php" class="btn btn-primary">View More</a></div> -->
                 </div>
             </div>
         </div>
@@ -1430,7 +1430,7 @@
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                         </ul>
-                        <p>I would like to recommend Glamyo for their excellence in pursuit of his Professional experience and the way they take care of their patients. Thank you so much for the immense support you gave us in times I needed the most. I would recommend them for their tremendous experience to diagnose and treat patients.
+                        <p>I would recommend Glamyo for their excellence in pursuit of professional experience and the way they take care of patients. Thank you for the immense support you gave us in times I needed most. I would recommend them for a tremendous experience to diagnose and treat patients.
                         </p>
                         <span class="testi-name">Imran Ladiwala</span>
                         <div class="testi-styled-bg">
@@ -1439,7 +1439,7 @@
                     </div>
                     <div class="testimonial-wrap quaternary-br-color">
                         <img src="{{asset('assets/frontend/images/11.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
-                        <ul>
+                        <ul>    
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -1455,7 +1455,7 @@ I loved it!
                         </div>
                     </div>
                     <div class="testimonial-wrap">
-                        <img src="{{asset('assets/frontend/images/test-img.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
+                        <img src="{{asset('assets/frontend/images/test_img.jpg')}}" class="img-fluid testi-img-icon" alt="#" />
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -1665,10 +1665,14 @@ I loved it!
       </div> -->
 
     <!--==================== Footer ====================-->
+    <div class="foot-block d-lg-none">
+    <a href="https://glamyohealth.in/request-call-back" target="_blank" class="btn-theme-blue"><i class="fa fa-calendar"></i> Book Now</a>
+    <a href="tel:+919711144230" class=" btn-theme-green"> Call Us <i class="fa fa-phone"></i> </a>
+    </div>
     <footer>
         <div class="container container-custom">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="foot-contact-block">
                         <img src="{{asset('assets/frontend/images/logo.png')}}" class="img-fluid" alt="#" />
                         <p>
@@ -1698,10 +1702,8 @@ I loved it!
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-2 ">
-                  
-                  </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
+             
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 offset-lg-1">
                     <div class="foot-link-box">
                         <h4>Quick Links</h4>
                         <ul>
@@ -1723,7 +1725,7 @@ I loved it!
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
                     <div class="foot-link-box">
                         <h4>Our Procedures</h4>
                         <ul>

@@ -36,7 +36,7 @@ $(function () {
   if ($magnificPopup.length && $.fn.magnificPopup) {
     $magnificPopup.magnificPopup({
       disableOn: 700,
-      type: "iframe",
+      type: "iframe", 
       mainClass: "mfp-fade",
       removalDelay: 160,
       preloader: false,
@@ -44,9 +44,9 @@ $(function () {
     });
   }
 
-  /* ================================================
+      /* ================================================
         Video play button effect
-        ================================================ */
+        ================================================ */   
   $("#play-video").on("click", function (e) {
     e.preventDefault();
     $("#video-overlay").addClass("open");

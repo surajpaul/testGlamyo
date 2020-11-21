@@ -566,50 +566,114 @@ Anal fissures are very common in young infants but can affect people of any age.
             <div class="row">
                 <div class="col-md-12">
                     <div class="doctors-slider">
-                        <div class="team-img_block blue">
+                        <div class="team-img_block yellow">
                             <div class="team-img-socila-block">
-                                <img src="{{asset('assets/frontend/images/nayan.png')}}" class="img-fluid" alt="#" />
-                              
+                                <img src="{{asset('assets/frontend/images/doc2.png')}}" class="img-fluid" alt="Dr. Gaurav Bansal" />
+                                <!-- <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul> -->
                             </div>
-                            <h4>Dr. Nayan</h4>
-                            <p>Cardiologist Specialist</p>
+                            <h4>Dr. Gaurav Bansal</h4>
+                            <p>Laproscopic Surgeon</p>
                         </div>
                         <div class="team-img_block green">
                             <div class="team-img-socila-block">
-                                <img src="{{asset('assets/frontend/images/doc2.png')}}" class="img-fluid" alt="#" />
-                                
+                                <img src="{{asset('assets/frontend/images/dr.kapil.png')}}" class="img-fluid" alt="Dr. Kapil Agarwal" />
+                                <!-- <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul> -->
                             </div>
-                            <h4>Thomas Jack</h4>
-                            <p>Neurology Specialist</p>
+                            <h4>Dr. Kapil Agarwal</h4>
+                            <p>General Surgeon</p>
                         </div>
                         <div class="team-img_block blue">
                             <div class="team-img-socila-block">
-                                <img src="{{asset('assets/frontend/images/doc8.png')}}" class="img-fluid" alt="#" />
-                               
+                                <img src="{{asset('assets/frontend/images/Nadia-Zakhir.png')}}" class="img-fluid" alt="Dr. Nadia Zakhir" />
+                                <!-- <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul> -->
                             </div>
-                            <h4>Dr. Mary Joe</h4>
-                            <p>Cardiologist Specialist</p>
+                            <h4>Dr. Nadia Zakhir</h4>
+                            <p>Cosmetic Surgeon</p>
                         </div>
-                        <div class="team-img_block green">
+                        <div class="team-img_block yellow">
                             <div class="team-img-socila-block">
-                                <img src="{{asset('assets/frontend/images/nayan.png')}}" class="img-fluid" alt="#" />
-                              
+                                <img src="{{asset('assets/frontend/images/doc7.png')}}" class="img-fluid" alt="Dr. Jotinder Khanna" />
+                                <!-- <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul> -->
                             </div>
-                            <h4>Dr. Hessy Hanna</h4>
-                            <p>Radiology Specialist</p>
+                            <h4>Dr. Jotinder Khanna</h4>
+                            <p>Laser Surgeon</p>
                         </div>
                         <div class="team-img_block blue">
                             <div class="team-img-socila-block">
-                                <img src="{{asset('assets/frontend/images/maruthesh.png')}}" class="img-fluid" alt="#" />
-                              
+                                <img src="{{asset('assets/frontend/images/dr.nikunj.png')}}" class="img-fluid" alt="Dr. Nishant Chajjer" />
+                                <!-- <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                </ul> -->
                             </div>
-                            <h4>Dr. Mary Joe</h4>
-                            <p>Cardiologist Specialist</p>
+                            <h4>Dr. Nikunj Bansal</h4>
+                            <p>General Surgeon</p>
                         </div>
                     </div>
-                    <div class="text-center">
-                    <a href="#" class="btn btn-primary">View More</a>
-                    </div>
+                    <!-- <div class="text-center mt-5">
+                    <a href="our-doctors.php" class="btn btn-primary">View More</a></div> -->
                 </div>
             </div>
         </div>
@@ -619,14 +683,14 @@ Anal fissures are very common in young infants but can affect people of any age.
             <div class="row">
                 <div class="col-md-12 col-lg-6">
                     <div class="appointment-form_wrap">
-                        <img src="{{asset('assets/frontend/images/2-01.jpg')}}" class="img-responsive" width="500">
+                        <img src="{{asset('assets/frontend/images/5-01.png')}}" class="img-responsive" width="500">
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="why-choose_block">
                         <div class="heading-style1 mb-0">
                             <h2>FAQs</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eius mod tempor inc ididuntut</p>
+                           
                             <hr>
                         </div>
                         <div class="faq" id="accordion">
