@@ -40,6 +40,9 @@ URL: https://themeforest.net/user/surjithctly/
       letter-spacing: 1px;
     }
     
+    .nav-item .dropdown .show {
+      
+    }
     .btn.btn-light {
       background: #ffffff;
     border: 2px solid #0F74B2;

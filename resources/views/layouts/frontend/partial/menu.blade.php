@@ -22,15 +22,17 @@
                                       <li class="nav-item">
                                           <a class="dropdown-item" href="{{url('health/sports-orthopedic')}}">Sports Orthopedic</a>
                                       </li>
-                                      <li class="dropdown">
+                                      <li class=" ">
                                           <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                               aria-haspopup="true" aria-expanded="false" href="#">Proctology <i class="fas fa-plus"></i></a>
-                                          <ul class="dropdown-menu dropdown-menu1">
-                                              <li><a class="dropdown-item" href="{{url('health/piles')}}">Piles
+                                          <ul class="dropdown dropdown-menu1">
+                                              <li class="nav-item dropdown"><a class="dropdown-item  dropdown-toggle" data-toggle="dropdown"
+                                              aria-haspopup="true" aria-expanded="false"  href="{{url('health/piles')}}">Piles
                                                       </a></li>
-                                              <li><a class="dropdown-item" href="{{url('health/fistula')}}">Fistula
+                                              <li  class="nav-item dropdown"><a class="dropdown-item  dropdown-toggle" data-toggle="dropdown" href="{{url('health/fistula')}}">Fistula
                                                      </a></li>
-                                              <li><a class="dropdown-item" href="{{url('health/fissure')}}">Fissure</a></li>
+                                              <li  class="nav-item dropdown"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
+                                              aria-haspopup="true" aria-expanded="false"  href="{{url('health/fissure')}}">Fissure</a></li>
                                                      
                                           </ul>
                                       </li>
