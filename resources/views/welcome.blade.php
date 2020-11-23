@@ -256,11 +256,14 @@
                         <li><input type="text" class="form-control" id='Last_Name' name='Last Name' placeholder="Enter Your Full Name" required /><i
                                 class="fas fa-user"></i></li>
                         <li><div class="input-group mb-3">
-                     <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon1">+91</span>
-                        </div>
+                     
                             <input type="text" class="form-control numeric" id='Mobile' name='Mobile' placeholder="Enter Contact Number"  required/><i
                                 class="fas fa-phone"></i></div></li>
+                                
+                                <li>
+                            <select class="custom-select form-control" id='LEADCF4' name='LEADCF4'  required>
+                                <option>Select City</option><option value="Delhi">Delhi</option><option value="Bangalore">Bangalore</option><option value="Mumbai">Mumbai</option><option value="Gurgaon">Gurgaon</option><option value="Noida">Noida</option><option value="Faridabad">Faridabad</option><option value="Ghaziabad">Ghaziabad</option><option value="Hyderabad">Hyderabad</option><option value="Others">Others</option></select>
+                        </li>
                         <li>
                             <select class="custom-select form-control" id='LEADCF1' name='LEADCF1'  required>
                                 <option>Select a Treatment</option>
@@ -1857,7 +1860,8 @@ I loved it!
     </script>
     <script>
       $(window).scroll(function(){
-    	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        $('navbar').css('background', 'white');
       });
         </script>
   </body>
