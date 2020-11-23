@@ -40,6 +40,9 @@ URL: https://themeforest.net/user/surjithctly/
       letter-spacing: 1px;
     }
     
+    .nav-item .dropdown .show {
+      
+    }
     .btn.btn-light {
       background: #ffffff;
     border: 2px solid #0F74B2;
@@ -313,7 +316,7 @@ URL: https://themeforest.net/user/surjithctly/
     
     .input-group > .custom-select:not(:last-child),
     .input-group > .form-control:not(:last-child) {
-      border-radius: 0;
+      border-radius: 8px;
       padding: 24px 12px;
     }
     
@@ -1118,7 +1121,7 @@ URL: https://themeforest.net/user/surjithctly/
     }
     @media (min-width: 992px) {
       .booking-form li {
-        width: 25%;
+        width: 19.5%;
       }
     }
     .booking-form li input {
@@ -1147,7 +1150,7 @@ URL: https://themeforest.net/user/surjithctly/
     }
     @media (min-width: 992px) {
       .form-btn {
-        width: 17% !important;
+        width: 12% !important;
         float: right;
       }
     }

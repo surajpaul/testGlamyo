@@ -441,6 +441,27 @@ $(function () {
       return false;
     });
   }
+
+  
+
+  // if ($(".dropdown-menu1 a.dropdown-toggle").length) {
+  //   $(".dropdown-menu1  a.dropdown-toggle").on("click", function (e) {
+  //     if (!$(this).closest(".sub-dropdown").hasClass("show")) {
+  //       $(this).closest(".sub-dropdown").first().find(".show").removeClass("show");
+  //     }
+  //     var $subMenu = $(this).closest(".sub-dropdown");
+  //     $subMenu.toggleClass("show");
+
+  //     $(this)
+  //       .parents("li.nav-item.sub-dropdown.show")
+  //       .on("hidden.bs.sub-dropdown", function (e) {
+  //         $(".sub-dropdown .show").removeClass("show");
+  //       });
+
+  //     return false;
+  //   });
+  // }
+  
   /* ================================================
       Before After Slider
       ================================================ */
